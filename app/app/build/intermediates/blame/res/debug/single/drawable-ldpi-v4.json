@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\bvp_action_play.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\libraryvideo\\build\\intermediates\\bundles\\default\\res\\drawable-ldpi-v4\\bvp_action_play.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\exomedia_ic_rewind_white.png",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\cd11084e635456252ea5bd57c5a519cebd786925\\output\\res\\drawable-ldpi-v4\\exomedia_ic_rewind_white.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\exomedia_ic_play_arrow_white.png",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\cd11084e635456252ea5bd57c5a519cebd786925\\output\\res\\drawable-ldpi-v4\\exomedia_ic_play_arrow_white.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\md_nav_back.png",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\516e4b6d4d1dd93f65600bfdd16d1263d1f80db9\\output\\res\\drawable-ldpi-v4\\md_nav_back.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\exomedia_ic_pause_white.png",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\cd11084e635456252ea5bd57c5a519cebd786925\\output\\res\\drawable-ldpi-v4\\exomedia_ic_pause_white.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\exomedia_ic_skip_previous_white.png",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\cd11084e635456252ea5bd57c5a519cebd786925\\output\\res\\drawable-ldpi-v4\\exomedia_ic_skip_previous_white.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\bvp_action_pause.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\libraryvideo\\build\\intermediates\\bundles\\default\\res\\drawable-ldpi-v4\\bvp_action_pause.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\bvp_action_restart.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\libraryvideo\\build\\intermediates\\bundles\\default\\res\\drawable-ldpi-v4\\bvp_action_restart.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\exomedia_ic_skip_next_white.png",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\cd11084e635456252ea5bd57c5a519cebd786925\\output\\res\\drawable-ldpi-v4\\exomedia_ic_skip_next_white.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\exomedia_ic_fast_forward_white.png",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\cd11084e635456252ea5bd57c5a519cebd786925\\output\\res\\drawable-ldpi-v4\\exomedia_ic_fast_forward_white.png"
+    }
+]

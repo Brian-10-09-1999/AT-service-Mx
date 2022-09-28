@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:id="@+id/nav_menu_id_ly_separador_1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/nav_menu_id_separador_1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+        <TextView
+            android:id="@+id/nav_menu_id_tv_tittle_separador_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/menu_principal"
+            android:textColor="@android:color/darker_gray"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:textStyle="normal|italic" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/nav_menu_id_ly_menu_cambia_estatus"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/est_activo"
+            android:id="@+id/nav_menu_id_img_cambia_estatus"
+            android:layout_weight="0.20" />
+
+        <TextView
+            android:id="@+id/nav_menu_id_tv_opc_cambia_estatus"
+            android:text="@string/cambiar_estatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nav_menu_id_ly_separador_2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/nav_menu_id_separador_2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+        <TextView
+            android:id="@+id/nav_menu_id_tv_tittle_separador_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/configuraciones"
+            android:textColor="@android:color/darker_gray"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:textStyle="normal|italic" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/nav_menu_id_ly_menu_sincroniza_tablas"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_sincroniza"
+            android:id="@+id/nav_menu_id_img_opc_sincroniza_tablas"
+            android:layout_weight="0.20
+            " />
+
+        <TextView
+            android:id="@+id/nav_menu_id_tv_opc_sincroniza_tablas"
+            android:text="@string/sincronizacion_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nav_menu_id_ly_separador_3"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/nav_menu_id_separador_3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+        <TextView
+            android:id="@+id/nav_menu_id_tv_tittle_separador_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ayuda"
+            android:textColor="@android:color/darker_gray"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:textStyle="normal|italic" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/nav_menu_id_ly_menu_aydua"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_help"
+            android:id="@+id/nav_menu_id_opc_img_aydua"
+            android:layout_weight="0.16" />
+
+        <TextView
+            android:id="@+id/nav_menu_id_tv_opc_ayuda"
+            android:text="@string/ayuda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:autofit="http://schemas.android.com/tools"
+    android:id="@+id/parentView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/black"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+        </android.support.v7.widget.Toolbar>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/activity_image_select"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@color/dark" />
+
+            <!--<View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/actionbar_shadow" />-->
+        </LinearLayout>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/card_margin"
+            android:elevation="10dp"
+            android:visibility="visible"
+            app:cardBackgroundColor="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:id="@+id/acp_ll_region"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/common_10_dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".3"
+                        android:text="Region"
+                        android:textColor="@color/dark" />
+
+                    <com.jaredrummler.materialspinner.MaterialSpinner
+                        android:id="@+id/acf_ms_region"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".7"
+                        app:ms_arrow_tint="@color/accentColor"
+                        app:ms_background_color="@color/gray_light"
+                        app:ms_dropdown_height="wrap_content"
+                        app:ms_dropdown_max_height="350dp"
+                        app:ms_text_color="@color/accentColor" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/acp_ll_sala"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/common_10_dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".3"
+                        android:text="Sala"
+                        android:textColor="@color/dark" />
+
+                    <com.jaredrummler.materialspinner.MaterialSpinner
+                        android:id="@+id/acf_ms_sala"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".7"
+                        app:ms_arrow_tint="@color/accentColor"
+                        app:ms_background_color="@color/gray_light"
+                        app:ms_dropdown_height="wrap_content"
+                        app:ms_dropdown_max_height="350dp"
+                        app:ms_text_color="@color/accentColor" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/common_10_dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".3"
+                        android:lines="1"
+                        android:text="Maquina"
+                        android:textColor="@color/dark" />
+
+                    <com.example.devolucionmaterial.customview.AutoscaleEditText
+                        android:id="@+id/acp_ae_maquina"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight=".5"
+                        android:hint=""
+                        android:inputType="textNoSuggestions|textMultiLine"
+                        android:textColor="@color/dark"
+                        android:textColorHint="@color/accentColor"
+                        android:textSize="15sp"
+                        app:ms_background_color="@color/gray_light" />
+
+                    <ImageButton
+                        android:id="@+id/acp_ib_qr_maquina"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".2"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_qr_icon"
+                        android:tint="@color/accentColor" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/common_40_dp"
+                    android:layout_marginTop="@dimen/common_10_dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <me.grantland.widget.AutofitTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="@dimen/common_4_dp"
+                        android:layout_weight=".3"
+                        android:maxLines="1"
+                        android:text="Componente"
+                        android:textColor="@color/dark"
+                        autofit:minTextSize="10sp" />
+
+                    <com.example.devolucionmaterial.customview.AutoscaleEditText
+                        android:id="@+id/acp_ae_componente"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight=".5"
+                        android:hint=""
+                        android:inputType="textNoSuggestions|textMultiLine"
+                        android:textColor="@color/dark"
+                        android:textColorHint="@color/accentColor"
+                        android:textSize="15sp"
+                        app:ms_background_color="@color/gray_light" />
+
+                    <ImageButton
+                        android:id="@+id/acp_ib_qr_componentes"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".2"
+                        android:background="@android:color/transparent"
+                        android:src="@drawable/ic_qr_icon"
+                        android:tint="@color/accentColor" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <!--  <android.support.design.widget.FloatingActionButton
+              android:id="@+id/fab_send"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentRight="true"
+              android:layout_below="@+id/card"
+              android:layout_margin="16dp"
+
+              android:src="@drawable/ic_action_send" />-->
+
+        <ImageButton
+            android:id="@+id/btn_send"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_alignRight="@+id/card"
+            android:layout_below="@+id/card"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="-48dp"
+            android:background="@drawable/borde_redondo"
+            android:elevation="5dp"
+            android:scaleType="center"
+            android:src="@drawable/ic_action_send" />
+    </RelativeLayout>
+
+
+</LinearLayout>

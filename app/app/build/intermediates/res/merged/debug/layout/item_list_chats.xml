@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ilc_root"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/itemlist_height"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="@drawable/main_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="19dp"
+                android:layout_marginStart="19dp"
+                android:layout_toEndOf="@+id/chat_photo"
+                android:layout_toRightOf="@+id/chat_photo"
+                android:gravity="left"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/chat_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    android:text="title"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/chat_desc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lines="1"
+                    android:text="description"
+                    android:textSize="10sp" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/chat_photo"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true" />
+
+
+        </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/itc_iv_bloque"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/ilc_rv_acount_chat"
+            android:layout_toStartOf="@+id/ilc_rv_acount_chat"
+            android:background="@drawable/ic_action_lock_outline"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/ilc_rv_acount_chat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:layout_toLeftOf="@+id/ilc_tv_time"
+            android:layout_toStartOf="@+id/ilc_tv_time"
+            android:visibility="gone">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/circle_decorator_list_chat" />
+
+            <TextView
+                android:id="@+id/ilc_tv_acount_chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="1"
+                android:textColor="@color/progress_text" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/ilc_tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="1dp"
+            android:scaleType="center"
+            android:textColor="@color/text_color_act"
+            android:textSize="10dp" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>
+
+

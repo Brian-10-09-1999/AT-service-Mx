@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.devolucionmaterial.activitys.CrearFolioActivity">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/dark"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="123dp"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@color/colorAccent" />
+
+            <!--<View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@drawable/actionbar_shadow" />-->
+        </LinearLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_datos_solicitud"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/card_margin"
+                    android:elevation="10dp"
+                    android:visibility="visible"
+                    app:cardBackgroundColor="@color/white">
+
+                    <LinearLayout
+                        android:id="@+id/linear"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Datos de la solicitud"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="@color/dark" />
+
+                        <LinearLayout
+                            android:id="@+id/ll_ds_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_10_dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".5"
+                                android:text="Origen  llamada"
+                                android:textColor="@color/dark" />
+
+                            <com.jaredrummler.materialspinner.MaterialSpinner
+                                android:id="@+id/acf_ms_origen_llamada"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".5"
+                                app:ms_arrow_tint="@color/accentColor"
+                                app:ms_background_color="@color/gray_light"
+                                app:ms_dropdown_height="wrap_content"
+                                app:ms_dropdown_max_height="350dp"
+                                app:ms_text_color="@color/accentColor" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/ll_ds_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_10_dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".5"
+                                android:text="Medio de contacto"
+                                android:textColor="@color/dark" />
+
+
+                            <com.jaredrummler.materialspinner.MaterialSpinner
+                                android:id="@+id/acf_ms_medio_contacto"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".5"
+                                app:ms_arrow_tint="@color/accentColor"
+                                app:ms_background_color="@color/gray_light"
+                                app:ms_dropdown_height="wrap_content"
+                                app:ms_dropdown_max_height="350dp"
+                                app:ms_text_color="@color/accentColor" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_ds_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_10_dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".3"
+                                android:text="Motivo"
+                                android:textColor="@color/dark" />
+
+                            <com.jaredrummler.materialspinner.MaterialSpinner
+                                android:id="@+id/acf_ms_motivo"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".7"
+                                app:ms_arrow_tint="@color/accentColor"
+                                app:ms_background_color="@color/gray_light"
+                                app:ms_dropdown_height="wrap_content"
+                                app:ms_dropdown_max_height="350dp"
+                                app:ms_text_color="@color/accentColor" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_ds_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_10_dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView10"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".3"
+                                android:text="Region"
+                                android:textColor="@color/dark" />
+
+                            <com.jaredrummler.materialspinner.MaterialSpinner
+                                android:id="@+id/acf_ms_region"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".7"
+                                app:ms_arrow_tint="@color/accentColor"
+                                app:ms_background_color="@color/gray_light"
+                                app:ms_dropdown_height="wrap_content"
+                                app:ms_dropdown_max_height="350dp"
+                                app:ms_text_color="@color/accentColor" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_ds_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_10_dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".3"
+                                android:text="Sala"
+                                android:textColor="@color/dark" />
+
+                            <com.jaredrummler.materialspinner.MaterialSpinner
+                                android:id="@+id/acf_ms_sala"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".7"
+                                app:ms_arrow_tint="@color/accentColor"
+                                app:ms_background_color="@color/gray_light"
+                                app:ms_dropdown_height="wrap_content"
+                                app:ms_dropdown_max_height="350dp"
+                                app:ms_text_color="@color/accentColor" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_datos_maquina"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/card_datos_solicitud"
+                    android:layout_margin="@dimen/card_margin"
+                    android:elevation="10dp"
+                    android:visibility="visible"
+                    app:cardBackgroundColor="@color/white">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Datos de la maquina"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="@color/dark" />
+
+                        <LinearLayout
+                            android:id="@+id/ll_dm_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_10_dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".3"
+                                android:text="Licencia"
+                                android:textColor="@color/dark" />
+
+                            <com.jaredrummler.materialspinner.MaterialSpinner
+                                android:id="@+id/acf_ms_licencia"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".7"
+                                app:ms_arrow_tint="@color/accentColor"
+                                app:ms_background_color="@color/gray_light"
+                                app:ms_dropdown_height="wrap_content"
+                                app:ms_dropdown_max_height="350dp"
+                                app:ms_text_color="@color/accentColor" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_dm_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_10_dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/textView11"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".3"
+                                android:text="Ip"
+                                android:textColor="@color/dark" />
+
+                            <com.example.devolucionmaterial.customview.AutoscaleEditText
+                                android:id="@+id/acf_ed_ip"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_weight=".7"
+                                android:inputType="textNoSuggestions|textMultiLine"
+                                android:textColor="@color/dark"
+                                android:textColorHint="@color/accentColor"
+                                android:textSize="20sp"
+                                app:ms_background_color="@color/gray_light" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_dm_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_10_dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".3"
+                                android:text="Juego"
+                                android:textColor="@color/dark" />
+
+
+                            <com.example.devolucionmaterial.customview.AutoscaleEditText
+                                android:id="@+id/acf_ed_juego"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_weight=".7"
+                                android:inputType="textNoSuggestions|textMultiLine"
+                                android:textColor="@color/dark"
+                                android:textColorHint="@color/accentColor"
+                                android:textSize="20sp"
+                                app:ms_background_color="@color/gray_light" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/ll_dm_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_10_dp"
+                            android:orientation="horizontal">
+
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".3"
+                                android:text="Version"
+                                android:textColor="@color/dark" />
+
+                            <com.example.devolucionmaterial.customview.AutoscaleEditText
+                                android:id="@+id/acf_ed_version"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_weight=".7"
+                                android:inputType="textNoSuggestions|textMultiLine"
+                                android:textColor="@color/dark"
+                                android:textColorHint="@color/accentColor"
+                                android:textSize="20sp"
+                                app:ms_background_color="@color/gray_light" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_dm_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_10_dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".3"
+                                android:text="Serie"
+                                android:textColor="@color/dark" />
+
+                            <com.example.devolucionmaterial.customview.AutoscaleEditText
+                                android:id="@+id/acf_ed_serie"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_weight=".7"
+                                android:inputType="textNoSuggestions|textMultiLine"
+                                android:textColor="@color/dark"
+                                android:textColorHint="@color/accentColor"
+                                android:textSize="20sp"
+                                app:ms_background_color="@color/gray_light" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_dm_6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_10_dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".3"
+                                android:text="Gabinete"
+                                android:textColor="@color/dark" />
+
+                            <com.example.devolucionmaterial.customview.AutoscaleEditText
+                                android:id="@+id/acf_ed_gabinete"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_weight=".7"
+                                android:inputType="textNoSuggestions|textMultiLine"
+                                android:textColor="@color/dark"
+                                android:textColorHint="@color/accentColor"
+                                android:textSize="20sp"
+                                app:ms_background_color="@color/gray_light" />
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:id="@+id/ll_dm_7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_10_dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".3"
+                                android:text="Modelo"
+                                android:textColor="@color/dark" />
+
+                            <com.example.devolucionmaterial.customview.AutoscaleEditText
+                                android:id="@+id/acf_ed_modelo"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_weight=".7"
+                                android:inputType="textNoSuggestions|textMultiLine"
+                                android:textColor="@color/dark"
+                                android:textColorHint="@color/accentColor"
+                                android:textSize="20sp"
+                                app:ms_background_color="@color/gray_light" />
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_datos_incidencia"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/card_datos_maquina"
+                    android:layout_margin="@dimen/card_margin"
+                    android:elevation="10dp"
+                    app:cardBackgroundColor="@color/white">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Datos de la incidencia"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="@color/dark" />
+
+                        <LinearLayout
+                            android:id="@+id/ll_di_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_10_dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".3"
+                                android:text="Falla"
+                                android:textColor="@color/dark" />
+
+                            <com.jaredrummler.materialspinner.MaterialSpinner
+                                android:id="@+id/acf_ms_fallas"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".7"
+                                app:ms_arrow_tint="@color/accentColor"
+                                app:ms_background_color="@color/gray_light"
+                                app:ms_dropdown_height="wrap_content"
+                                app:ms_dropdown_max_height="350dp"
+                                app:ms_text_color="@color/accentColor" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_di_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_10_dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".3"
+                                android:text="SubFalla"
+                                android:textColor="@color/dark" />
+
+                            <com.jaredrummler.materialspinner.MaterialSpinner
+                                android:id="@+id/acf_ms_subfalla"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".7"
+                                app:ms_arrow_tint="@color/accentColor"
+                                app:ms_background_color="@color/gray_light"
+                                app:ms_dropdown_height="wrap_content"
+                                app:ms_dropdown_max_height="350dp"
+                                app:ms_text_color="@color/accentColor" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_di_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_10_dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".3"
+                                android:text="No. Maquinas"
+                                android:textColor="@color/dark" />
+
+                            <com.example.devolucionmaterial.customview.AutoscaleEditText
+                                android:id="@+id/acf_ed_nom_maquina"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_weight=".7"
+                                android:inputType="number|textMultiLine"
+                                android:textColor="@color/dark"
+                                android:textColorHint="@color/accentColor"
+                                android:textSize="20sp"
+                                app:ms_background_color="@color/gray_light" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_di_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_10_dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="left"
+                                android:text="Monto:"
+                                android:textColor="@color/dark" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight=".3"
+                                    android:text="Reclamado"
+                                    android:textColor="@color/dark" />
+
+                                <com.example.devolucionmaterial.customview.AutoscaleEditText
+                                    android:id="@+id/acf_ed_reclamado"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight=".7"
+                                    android:hint="$"
+                                    android:inputType="number|textMultiLine"
+                                    android:textColor="@color/dark"
+                                    android:textColorHint="@color/accentColor"
+                                    android:textSize="20sp"
+                                    app:ms_background_color="@color/gray_light" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight=".3"
+                                    android:text="Validado"
+                                    android:textColor="@color/dark" />
+
+                                <com.example.devolucionmaterial.customview.AutoscaleEditText
+                                    android:id="@+id/acf_ed_validado"
+                                    android:layout_width="0dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight=".7"
+                                    android:hint="$"
+                                    android:inputType="number|textMultiLine"
+                                    android:textColor="@color/dark"
+                                    android:textColorHint="@color/accentColor"
+                                    android:textSize="20sp"
+                                    app:ms_background_color="@color/gray_light" />
+
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ll_di_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/common_10_dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".5"
+                                android:text="Maquina inoperativa"
+                                android:textColor="@color/dark" />
+
+                            <CheckBox
+                                android:id="@+id/acf_ck_no_maquina"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight=".5"
+                                android:shadowColor="@color/background"
+                                android:textColorHighlight="@color/background"
+                                android:theme="@style/MyCheckBox" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView
+                    android:id="@+id/card_comenatario"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/card_datos_incidencia"
+                    android:layout_margin="@dimen/card_margin"
+                    android:elevation="10dp"
+                    app:cardBackgroundColor="@color/white">
+
+                    <LinearLayout
+                        android:id="@+id/ll_di"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/common_10_dp"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Escribe tus comentarios"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+                            android:textColor="@color/dark" />
+
+                        <com.example.devolucionmaterial.customview.AutoscaleEditText
+                            android:id="@+id/acf_ae_comentarios"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:hint="Escribe un comentario"
+                            android:inputType="textNoSuggestions|textMultiLine"
+                            android:textColor="@color/dark"
+                            android:textColorHint="@color/accentColor"
+                            android:textSize="20sp"
+                            app:ms_background_color="@color/gray_light" />
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+                <Button
+                    android:id="@+id/acf_btn_create"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/card_comenatario"
+                    android:background="@color/red"
+                    android:text="Crear folio" />
+            </RelativeLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

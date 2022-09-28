@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_lateral"
+        android:icon="@drawable/ic_action_attach_file"
+        android:orderInCategory="100"
+        android:title="menu"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/clear_char"
+        android:orderInCategory="100"
+        android:title="@string/limpiar_chat"
+        app:showAsAction="never" />
+
+
+</menu>

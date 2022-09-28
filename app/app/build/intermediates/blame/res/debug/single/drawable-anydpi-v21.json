@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\bvp_action_pause.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\libraryvideo\\build\\intermediates\\bundles\\default\\res\\drawable-anydpi-v21\\bvp_action_pause.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exomedia_ic_pause_white.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\cd11084e635456252ea5bd57c5a519cebd786925\\output\\res\\drawable-anydpi-v21\\exomedia_ic_pause_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1b81a2180dc542eae057e41cc4783a15abd7bca8\\output\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\bvp_action_restart.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\libraryvideo\\build\\intermediates\\bundles\\default\\res\\drawable-anydpi-v21\\bvp_action_restart.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\md_nav_back.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\516e4b6d4d1dd93f65600bfdd16d1263d1f80db9\\output\\res\\drawable-anydpi-v21\\md_nav_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exomedia_ic_skip_previous_white.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\cd11084e635456252ea5bd57c5a519cebd786925\\output\\res\\drawable-anydpi-v21\\exomedia_ic_skip_previous_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exomedia_ic_fast_forward_white.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\cd11084e635456252ea5bd57c5a519cebd786925\\output\\res\\drawable-anydpi-v21\\exomedia_ic_fast_forward_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exomedia_ic_skip_next_white.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\cd11084e635456252ea5bd57c5a519cebd786925\\output\\res\\drawable-anydpi-v21\\exomedia_ic_skip_next_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\bvp_action_play.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\libraryvideo\\build\\intermediates\\bundles\\default\\res\\drawable-anydpi-v21\\bvp_action_play.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exomedia_ic_play_arrow_white.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\cd11084e635456252ea5bd57c5a519cebd786925\\output\\res\\drawable-anydpi-v21\\exomedia_ic_play_arrow_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\exomedia_ic_rewind_white.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\cd11084e635456252ea5bd57c5a519cebd786925\\output\\res\\drawable-anydpi-v21\\exomedia_ic_rewind_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1b81a2180dc542eae057e41cc4783a15abd7bca8\\output\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
+    }
+]

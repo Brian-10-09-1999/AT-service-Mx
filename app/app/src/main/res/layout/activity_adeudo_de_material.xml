@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+    
+        <LinearLayout
+        android:id="@+id/llEncabezado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/logozitro" />
+
+            <TextView
+                android:id="@+id/tvUsuarioAdeudo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="Hola"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </LinearLayout>
+    
+    <LinearLayout 
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:layout_below="@+id/llEncabezado"
+    android:layout_above="@+id/frag_foot_id_ly_menu_opc"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/lvAdeudoMaterial"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        style="@style/EditTextStyleRojo" 
+        android:layout_marginBottom="5dp"
+        android:divider="#DC143C"
+        android:dividerHeight="2dp"
+        android:layout_weight="8">
+    </ListView>    
+   </LinearLayout>
+   
+        <LinearLayout
+        android:id="@+id/frag_foot_id_ly_menu_opc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:background="#999999"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imgCorreoam"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/email1" />
+
+        <ImageView
+            android:id="@+id/imgLlamaram"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/cc" />
+
+        <ImageView
+            android:id="@+id/imgInfoam"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/info" />
+
+    </LinearLayout>
+
+            <View
+                android:id="@+id/view1"
+                style="@style/SeparatorLayout"
+                android:layout_above="@+id/frag_foot_id_ly_menu_opc"
+                android:layout_alignParentLeft="true"
+                android:paddingRight="10dp" />
+
+</RelativeLayout>

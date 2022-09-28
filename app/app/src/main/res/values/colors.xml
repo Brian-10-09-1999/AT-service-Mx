@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="progress_bg">#00727072</color>
+    <color name="progress_text">#ededed</color>
+
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#030001</color>
+    <color name="window_color_act">#ffffff</color>
+    <color name="text_color_act">#030001</color>
+
+    <!--chat color theme-->
+    <color name="primaryColorChat">#ffffff</color>
+    <color name="primaryColorDarkChat">#BDBDBD</color>
+
+
+
+    <color name="dark">#030001</color>
+    <color name="background">#333232</color>
+
+    <color name="darkPrimaryColor">#D32F2F</color>
+    <color name="primaryColor">#F44336</color>
+    <color name="accentColor">#448AFF</color>
+
+    <color name="red">#ffff4444</color>
+    <color name="white">#ffffff</color>
+
+    <color name="sinch_purple">#ff63029d</color>
+    <color name="off_white">#fffafafa</color>
+    <color name="dark_gray">#ffb3b3b3</color>
+    <color name="very_dark_gray">#636363</color>
+
+    <color name="background_chat">#e9e3dd</color>
+
+    <color name="color_1">#DB4437</color>
+    <color name="color_2">#E91E63</color>
+    <color name="color_3">#FF5722</color>
+    <color name="color_4">#EF6C00</color>
+    <color name="color_5">#689F38</color>
+    <color name="color_6">#0097A7</color>
+    <color name="color_7">#4285F4</color>
+    <color name="color_8">#039BE5</color>
+    <color name="color_9">#3F51B5</color>
+    <color name="color_10">#673AB7</color>
+    <color name="color_11">#757575</color>
+
+
+</resources>

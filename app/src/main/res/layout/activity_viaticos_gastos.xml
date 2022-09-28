@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context="com.example.devolucionmaterial.activitys.viaticos.Activity_Gastos">
+
+    <TabHost
+        android:id="@+id/tabhost1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00eabb"
+
+                />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                >
+
+                <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/ScrollView01"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="10dp"
+                    android:orientation="vertical"
+
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right"
+                        android:paddingBottom="5dp"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:id="@+id/imv_edit_anticipo"
+                            android:layout_width="35dp"
+                            android:layout_marginLeft="0dp"
+                            android:layout_height="30dp"
+                            android:layout_weight="0"
+                            android:onClick="ShowEditAnticipo"
+                            app:srcCompat="@drawable/custom_but_anticipo" />
+
+                        <TextView
+                            android:id="@+id/tv_anticipo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:layout_weight="0"
+                            android:textColor="#33b5e5"
+                            android:text="$" />
+
+
+                        <Space
+                            android:layout_width="1dp"
+                            android:layout_height="30dp"
+
+                            android:layout_weight="1"/>
+
+
+                        <TextView
+                            android:id="@+id/tv_saldo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"
+                            android:textColor="#33b5e5"
+                            android:layout_weight="1"
+
+                            android:text="$" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="center_horizontal"
+                        android:paddingBottom="10dp"
+
+
+                        >
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center_horizontal"
+                            >
+                            <TextView
+                                android:id="@+id/tv_elige_fecha"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:textColor="@color/toast_background_blue"
+                                android:text="Fecha de Consumo    "
+                                android:textSize="18sp"/>
+
+                            <TextView
+                                android:id="@+id/tv_muestra_fecha"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:textColor="@color/text_secundario"
+                                android:text="..."
+                                android:textSize="18sp"/>
+
+                        </LinearLayout>
+
+
+                        <ImageView
+                            android:id="@+id/imageView8"
+                            android:layout_width="60dp"
+                            android:layout_marginLeft="15dp"
+                            android:layout_height="60dp"
+                            android:layout_weight="0"
+                            android:onClick="ShowCalendar"
+                            app:srcCompat="@drawable/custom_but_date" />
+
+
+                    </LinearLayout>
+
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.8dp"
+                        android:layout_gravity="center"
+                        android:background="#00e6b8" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingTop="15dp"
+                        android:gravity="center_vertical"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView15"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Concepto        "
+
+                                android:textColor="@color/toast_background_blue"
+                                android:paddingBottom="6dp"
+                                android:textSize="18sp"/>
+
+                            <Spinner
+                                android:id="@+id/sp_concepto"
+                                android:textSize="10sp"
+                                android:layout_marginRight="10dp"
+
+                                android:layout_width="160dp"
+                                android:layout_height="50dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/ly_especifica_monto"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/tv_especificar"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Especificar"
+                                android:paddingBottom="6dp"
+                                android:textColor="@color/toast_background_blue"
+                                android:textSize="18sp" />
+
+                            <EditText
+                                android:id="@+id/et_especificacion"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:background="@drawable/custom_fondo_field_viaticos"
+                                android:ems="10"
+                                android:inputType="textPersonName"
+                                android:paddingLeft="6dp" />
+
+
+
+                        </LinearLayout>
+                        <CheckBox
+                            android:layout_marginTop="13dp"
+                            android:id="@+id/cb_unir"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="18sp"
+                            android:textColor="@color/toast_background_blue"
+                            android:text="unir" />
+
+                    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+                <LinearLayout
+                    android:id="@+id/layout_radiobutton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv_descontar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Descontar de:"
+                        android:paddingBottom="6dp"
+                        android:paddingTop="6dp"
+                        android:textColor="@color/toast_background_blue"
+                        android:textSize="18sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioGroup
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:id="@+id/rdGroup"
+                             >
+
+                        <RadioButton
+                            android:id="@+id/rb_desayuno"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@color/secondary_textq"
+                            android:onClick="onRadioButtonClicked"
+                            android:text="desayuno" />
+
+                        <RadioButton
+                            android:id="@+id/rb_comida"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textColor="@color/secondary_textq"
+                            android:onClick="onRadioButtonClicked"
+                            android:text="comida" />
+
+                        <RadioButton
+                            android:id="@+id/rb_cena"
+                            android:textColor="@color/secondary_textq"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:onClick="onRadioButtonClicked"
+                            android:layout_weight="1"
+                            android:text="cena" />
+                        </RadioGroup>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+                    <LinearLayout
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="fill_horizontal"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="25dp"
+
+
+                        >
+
+                        <TextView
+                            android:id="@+id/textView14"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Monto"
+                            android:textColor="@color/toast_background_blue"
+                            android:layout_weight="1"
+                            android:textSize="18sp"
+                            />
+
+                        <EditText
+                            android:id="@+id/et_monto"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:ems="10"
+                            android:paddingLeft="6dp"
+                            android:hint="$"
+                            android:background="@drawable/custom_fondo_field_viaticos"
+                            android:inputType="numberDecimal"
+                            android:layout_weight="1"/>
+
+                        <CheckBox
+                            android:id="@+id/cb_propina"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:textSize="18sp"
+                            android:textColor="@color/toast_background_blue"
+                            android:text="Propina" />
+
+                        <EditText
+                            android:id="@+id/et_propina"
+                            android:layout_width="50dp"
+                            android:layout_height="40dp"
+                            android:layout_weight="1"
+
+                            android:background="@drawable/custom_fondo_field_viaticos"
+                            android:ems="10"
+                            android:hint="$"
+                            android:inputType="numberDecimal"
+                            android:paddingLeft="6dp" />
+
+
+                    </LinearLayout>
+
+
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.8dp"
+                        android:layout_gravity="center"
+                        android:background="#00e6b8" />
+
+
+
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:paddingTop="10dp"
+                       >
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="5dp"
+                            >
+                            <Button
+                                android:id="@+id/but_imagen"
+                                android:layout_width="30dp"
+                                android:layout_height="40dp"
+                                android:layout_marginRight="20dp"
+                                android:textSize="15sp"
+                                android:background="@drawable/ico_image2"
+                                android:text="" />
+                            <Button
+                                android:id="@+id/but_delete_image"
+                                android:layout_width="30dp"
+                                android:layout_height="40dp"
+                                android:layout_marginRight="20dp"
+                                android:textSize="15sp"
+                                android:background="@drawable/custom_buton_deletefile"
+                                android:text="" />
+                            <TextView
+                                android:id="@+id/tv_muestra_namefile"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:textColor="@color/secondary_textq"
+                                android:text="Imagen" />
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="5dp"
+                            >
+                            <Button
+                                android:id="@+id/but_pdf"
+                                android:layout_width="30dp"
+                                android:layout_height="40dp"
+                                android:layout_marginRight="20dp"
+                                android:textSize="15sp"
+                                android:background="@drawable/ico_pdf2"
+                                android:text="" />
+                            <Button
+                                android:id="@+id/but_delete_pdf"
+                                android:layout_width="30dp"
+                                android:layout_height="40dp"
+                                android:layout_marginRight="20dp"
+                                android:textSize="15sp"
+                                android:background="@drawable/custom_buton_deletefile"
+                                android:text="" />
+                            <TextView
+                                android:id="@+id/tv_name_pdf"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:textColor="@color/secondary_textq"
+                                android:text="Pdf" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingTop="5dp"
+                            >
+                            <Button
+                                android:id="@+id/but_xml"
+                                android:layout_width="30dp"
+                                android:layout_height="40dp"
+                                android:layout_marginRight="20dp"
+                                android:textSize="15sp"
+                                android:background="@drawable/ico_xml2"
+                                android:text="" />
+                            <Button
+                                android:id="@+id/but_delete_xml"
+                                android:layout_width="30dp"
+                                android:layout_height="40dp"
+                                android:layout_marginRight="20dp"
+                                android:textSize="15sp"
+                                android:background="@drawable/custom_buton_deletefile"
+
+                                android:text="" />
+                            <TextView
+                                android:id="@+id/tv_name_xml"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:textColor="@color/secondary_textq"
+                                android:text="Xml" />
+
+                        </LinearLayout>
+
+
+
+
+                    </LinearLayout>
+
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp" />
+                    <EditText
+                        android:id="@+id/et_comentario"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:ems="10"
+                        android:hint="Comentario"
+                        android:paddingLeft="6dp"
+                        android:background="@drawable/custom_fondo_field_viaticos"
+                        android:inputType="textMultiLine" />
+
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="30dp" />
+
+                    <Button
+                        android:id="@+id/but_nuevo"
+                        android:layout_width="match_parent"
+                        android:layout_height="85dp"
+                        android:text="Agregar Nuevo Gasto"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp"
+
+                        android:background="@drawable/custom_btn_nuevogasto"
+
+                        />
+
+
+                </LinearLayout>
+
+
+
+
+
+                </ScrollView>
+
+
+                <!-- ///////////////////////// TAB 2 //////////////////////////////////////////// -->
+
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+
+                    >
+
+                    <ListView
+                        android:id="@+id/ls_resume"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:dividerHeight="15sp"
+                        android:divider="#FFF"
+                        />
+                </LinearLayout>
+
+
+                <!-- ///////////////////////// TAB 3 //////////////////////////////////////////// -->
+
+
+                <LinearLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center_vertical"
+                    >
+
+                    <TextView
+                        android:layout_marginTop="20dp"
+                        android:id="@+id/tv_mensaje_finaliza"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="#33b5e5"
+                        android:text="" />
+
+                    <Button
+                        android:id="@+id/but_terminar"
+                        android:layout_width="match_parent"
+                        android:layout_height="85dp"
+                        android:background="@drawable/custom_btn_terminarviaje"
+                        android:text="Terminar"
+
+                        android:layout_marginTop="50dp"
+                        android:paddingLeft="10dp"
+                        />
+
+
+
+                </LinearLayout>
+
+
+
+
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/frag_body_id_sv_btns"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:id="@+id/frag_body_id_ly_cont_btns"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/frag_body_id_btn_folios_pendientes"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="25dp"
+
+
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button_menu"
+                    android:drawableLeft="@drawable/foliopend"
+                    android:text="@string/foliosPendientes"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/frag_body_id_btn_materiales"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button_menu"
+
+
+                    android:drawableLeft="@drawable/devmaterial"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="35dp"
+                    android:text="@string/materiales"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/frag_body_id_btn_pedidos"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+
+
+                    android:background="@drawable/custom_button_menu"
+                    android:drawableLeft="@drawable/pedido"
+                    android:paddingLeft="6dp"
+                    android:text="@string/pedidos"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/frag_body_id_btn_os_asignadas"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+
+
+                    android:background="@drawable/custom_button_menu"
+                    android:drawableLeft="@drawable/reportedev"
+                    android:paddingLeft="5dp"
+                    android:text="@string/osAsignadas"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+
+                    android:id="@+id/frag_body_codigo_info__qr"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button_menu"
+                    android:drawableLeft="@drawable/ic_qrn_icon"
+                    android:paddingLeft="5dp"
+                    android:text="@string/Buttonqr"
+
+
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+                <Button
+
+                    android:id="@+id/frag_body_viaticos"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button_menu"
+                    android:drawableLeft="@drawable/ico_viaticos2"
+                    android:paddingLeft="7dp"
+                    android:text="Viáticos"
+
+
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/frag_body_rack"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button_menu"
+                    android:drawableLeft="@drawable/icon_button_rack"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:text="@string/ButtonRack"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/frag_body_rack2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button_menu"
+                    android:editable="true"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/frag_body_remplazo_componente"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/custom_button_menu"
+                    android:drawableLeft="@drawable/ico_scanqr"
+                    android:paddingLeft="5dp"
+                    android:text="Remplazo Componente"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/frag_body_graficos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button_menu"
+                android:drawableLeft="@drawable/ic_graficos"
+                android:text="Graficos"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+            <Button
+                android:id="@+id/frag_body_id_btn_devolver_memorias"
+                style="@style/ButtonStyleGris"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/reportedev"
+                android:text="@string/DevolverMemorias"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/frag_body_qr"
+                style="@style/ButtonStyleGris"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_qr_icon"
+                android:text="Asociación QR"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <Button
+                android:id="@+id/frag_body_create_folio"
+                style="@style/ButtonStyleGris"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/foliopend"
+                android:text="Crear folio"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+            <Button
+                android:id="@+id/frag_body_id_btn_chat"
+                style="@style/ButtonStyleGris"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:drawableLeft="@android:drawable/sym_action_chat"
+                android:text="Chat"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

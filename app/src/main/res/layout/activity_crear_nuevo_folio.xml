@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.devolucionmaterial.activitys.foliosPendientesSeccion.CrearNuevoFolio">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#dc000000"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:paddingTop="1dp"
+        android:background="#1bffffff"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="left"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/logozitro2" />
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/tv_name_tecnico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:text="Tecnico" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/tab1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Sala:        "/>
+
+        <Spinner
+            android:id="@+id/sp_creafolio_sala"
+            android:textSize="10sp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/fondo_spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Falla:       " />
+
+        <Spinner
+            android:id="@+id/sp_creafolio_falla"
+            android:textSize="10sp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/fondo_spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Subfalla: " />
+
+        <Spinner
+            android:id="@+id/sp_creafolio_subfalla"
+            android:textSize="10sp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/fondo_spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Licencia: " />
+
+        <Spinner
+            android:id="@+id/sp_creafolio_licencia"
+            android:textSize="10sp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/fondo_spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:paddingBottom="25dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="Juego:     " />
+        <TextView
+            android:id="@+id/tv_name_game"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Juego     " />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:layout_marginRight="20dp"
+        >
+
+
+    <EditText
+        android:id="@+id/et_comentariosx"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:hint="Comentario"
+        android:inputType="textMultiLine"
+        android:lines="18"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="25dp"
+    />
+
+        <TextView
+            android:id="@+id/tv_folio_creado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+           android:textColor="@color/red"
+            android:textSize="18sp"
+            android:text="" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="25dp"
+
+        android:gravity="right"
+        android:layout_height="wrap_content">
+
+
+
+        <Button
+        android:id="@+id/but_crea_folio"
+        android:layout_width= "wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button_menu"
+        android:text="Crear Folio"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="15dp"
+        />
+
+        <Button
+            android:id="@+id/but_ira_folio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_button_menu"
+            android:text="Ir a Folio"
+            android:paddingLeft="10dp"
+            android:paddingRight="0dp"
+            android:layout_marginLeft="55dp"
+
+
+            />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

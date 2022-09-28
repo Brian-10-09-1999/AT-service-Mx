@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:id="@+id/titulo_fragment_subsala"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textSize="18sp"
+            android:paddingBottom="3dp"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:text="name subsala" />
+
+        <View style="@style/SeparatorLayout"  />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            >
+
+            <TextView
+                android:id="@+id/ee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:textSize="15sp"
+                android:paddingBottom="10dp"
+                android:paddingTop="15dp"
+                android:text="Componente:   " />
+
+            <Spinner
+                android:id="@+id/sp_rack_subsala_comp"
+                android:textSize="10sp"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/fondo_spinner2"
+                android:layout_width="match_parent"
+                android:layout_height="29dp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/e"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:textSize="15sp"
+                android:paddingBottom="10dp"
+                android:paddingTop="1dp"
+                android:text="Modelo: " />
+
+            <Spinner
+                android:id="@+id/sp_rack_subsala_model"
+                android:textSize="10sp"
+                android:layout_weight="0"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/fondo_spinner2"
+                android:layout_width="100dp"
+                android:layout_height="29dp" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textSize="15sp"
+            android:paddingBottom="2dp"
+            android:paddingTop="10dp"
+            android:textStyle="bold"
+            android:text="¿El componente cuenta con número de serie? " />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/rdGroup"
+                >
+
+                <RadioButton
+                    android:id="@+id/rb_rack_subsala_serie_si"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textColor="@color/secondary_textq"
+                    android:text="si" />
+
+                <RadioButton
+                    android:id="@+id/rb_rack_subsala_serie_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textColor="@color/secondary_textq"
+
+                    android:text="no" />
+
+                />
+            </RadioGroup> />
+
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="13sp"
+                android:hint="Ingresa Numero de Serie"
+                />
+
+            <Button
+                android:id="@+id/but_rack_subsala_qr1"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:paddingLeft="7dp"
+                android:text="qr"
+                android:enabled="true"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/but_rack_sub_subsala_numserie"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+
+            android:layout_weight="0"
+            android:paddingLeft="7dp"
+            android:text="foto no. serie"
+            android:enabled="true"
+
+            android:textColor="@color/black"
+            android:visibility="visible"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"
+            android:paddingTop="25dp"
+            android:textStyle="bold"
+            android:text="¿El componente cuenta con QR? " />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/rdGroup2"
+                >
+
+                <RadioButton
+                    android:id="@+id/rb_rack_subsala_qr_si"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textColor="@color/secondary_textq"
+
+                    android:text="si" />
+
+                <RadioButton
+                    android:id="@+id/rb_rack__subsala_qr_no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:textColor="@color/secondary_textq"
+
+                    android:text="no" />
+
+                />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="13sp"
+                android:hint="Ingresa Numero de Serie"
+                />
+
+            <Button
+                android:id="@+id/but_rack_subsala_qr2"
+                android:layout_width="90dp"
+                android:layout_height="50dp"
+
+                android:layout_weight="1"
+                android:paddingLeft="7dp"
+                android:text="qr"
+                android:enabled="true"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:visibility="visible"/>
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/but_rack_subsala_foto_qr"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_weight="0"
+            android:paddingLeft="7dp"
+            android:text="foro de Qr"
+            android:enabled="true"
+            android:textColor="@color/black"
+            android:visibility="visible"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textSize="15sp"
+            android:paddingBottom="10dp"
+            android:paddingTop="25dp"
+            android:textColor="@color/red"
+            android:textStyle="bold"
+            android:text="Las fotos adjuntas deben ser legibles" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/but_rack_guardar"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_weight="0"
+                android:paddingLeft="7dp"
+                android:text="Guardar"
+                android:enabled="true"
+                android:textColor="@color/black"
+                android:visibility="visible"/>
+
+            <Button
+                android:id="@+id/but_rack_enviar"
+                android:layout_width="wrap_content"
+                android:layout_height="55dp"
+                android:layout_weight="0"
+                android:paddingLeft="7dp"
+                android:text="Enviar"
+                android:enabled="true"
+                android:textColor="@color/black"
+                android:visibility="visible"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

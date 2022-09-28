@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-path
+        name="external"
+        path="ZITRO" />
+    <external-files-path
+        name="external_files"
+        path="ZITRO" />
+    <cache-path
+        name="cache"
+        path="ZITRO" />
+    <external-cache-path
+        name="external_cache"
+        path="ZITRO" />
+    <files-path
+        name="files"
+        path="ZITRO" />
+</paths>

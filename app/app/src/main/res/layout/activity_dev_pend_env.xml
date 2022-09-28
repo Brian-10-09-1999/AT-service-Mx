@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        style="@style/EditTextStyleRojo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ListView
+            android:id="@+id/lvRepPendEnv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="#DC143C"
+            android:dividerHeight="2dp">
+
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

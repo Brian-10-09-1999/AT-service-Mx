@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.devolucionmaterial.activitys.RemplazoComponente.ScanRemplazaComponente">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <Button
+        android:id="@+id/btn_scan_remplazo"
+        android:layout_width="237dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="17dp"
+        android:text="Scan con Camara"
+        android:nextFocusDown="@+id/btn_scan_remplazo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/et_read_code"
+        android:layout_width="233dp"
+        android:layout_height="87dp"
+        android:nextFocusDown="@+id/et_read_code"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="190dp" />
+
+    <TextView
+        android:paddingTop="50dp"
+        android:id="@+id/tv_show_codes"
+        android:layout_width="460dp"
+        android:layout_height="216dp"
+        android:layout_marginStart="76dp"
+        android:textColor="#03c200"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="261dp" />
+
+    <Button
+        android:id="@+id/btn_new_scan"
+        android:layout_width="220dp"
+        android:layout_height="58dp"
+        android:text="Nuevo Escaneo"
+        tools:layout_editor_absoluteX="77dp"
+        tools:layout_editor_absoluteY="368dp" />
+
+</LinearLayout>

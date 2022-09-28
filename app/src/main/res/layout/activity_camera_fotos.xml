@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contraint_layout_camera"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/black"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:id="@+id/title_os_fotos_salas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="5dp">
+
+            <ImageView
+                android:id="@+id/imageView0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/logozitro" />
+            <TextView
+                android:id="@+id/tvUsuarioAdeudo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="Agrega fotos"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/llComentarios"
+            android:layout_below="@+id/title_os_fotos_salas"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            android:padding="5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+                    <ImageView
+                        android:id="@+id/imageView0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/logozitro" />
+                </LinearLayout>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="4dp"/>
+                <TextView
+                    android:id="@+id/tvUsuarioAdeudo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/mq_maquinas_documentacion"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+                <LinearLayout
+                style="@style/EditTextStyleRojo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+                    <TextView
+                        android:id="@+id/lblF"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/mq_vista_frontal"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/check_maquina_frontal"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/delivery_ok" />
+
+                    <Button
+                        android:id="@+id/btn_maquina_frontal"
+                        style="@style/ButtonStyleGris"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.25"
+                        android:text="@string/addcoment" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view1"
+                    style="@style/SeparatorLayout" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+                    <TextView
+                        android:id="@+id/lblF"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/mq_vista_lateral"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/check_maquina_lateral"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/delivery_ok" />
+
+                    <Button
+                        android:id="@+id/btn_maquina_lateral"
+                        style="@style/ButtonStyleGris"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.25"
+                        android:text="@string/addcoment" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view1"
+                    style="@style/SeparatorLayout" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+                    <TextView
+                        android:id="@+id/lblF"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/mq_alineacion_posapies"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/check_maquina_reposapies"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/delivery_ok" />
+
+                    <Button
+                        android:id="@+id/btn_maquina_alineacion_posapies"
+                        style="@style/ButtonStyleGris"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.25"
+                        android:text="@string/addcoment" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view1"
+                    style="@style/SeparatorLayout" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+                    <TextView
+                        android:id="@+id/lblF"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/mq_espacio_entre_maquinas"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/check_espacio_maquinas"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/delivery_ok" />
+
+                    <Button
+                        android:id="@+id/btn_maquina_espacio_maquinas"
+                        style="@style/ButtonStyleGris"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.25"
+                        android:text="@string/addcoment" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view1"
+                    style="@style/SeparatorLayout" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+                    <TextView
+                        android:id="@+id/lblF"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/mq_peinado_general_isla"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/check_maquina_peinado_general_isla"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/delivery_ok" />
+
+                    <Button
+                        android:id="@+id/btn_maquina_peinado_general"
+                        style="@style/ButtonStyleGris"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.25"
+                        android:text="@string/addcoment" />
+                </LinearLayout>
+            </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+                <TextView
+                    android:id="@+id/tvUsuarioAdeudo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/mq_finales_isla"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+            <LinearLayout
+                android:id="@+id/ll_fotos_Comentarios"
+                style="@style/EditTextStyleRojo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+                    <TextView
+                        android:id="@+id/lblF"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/mq_vista_frontal_d_i"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/check_maquina_frontal_isla_d_i"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/delivery_ok" />
+
+                    <Button
+                        android:id="@+id/btn_finales_isla_vista_frontal"
+                        style="@style/ButtonStyleGris"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.25"
+                        android:text="@string/addcoment" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view1"
+                    style="@style/SeparatorLayout" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+                    <TextView
+                        android:id="@+id/lblF"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/mq_vista_lateral_d_i"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/check_maquina_lateral_isla_d_i"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/delivery_ok" />
+
+                    <Button
+                        android:id="@+id/btn_finales_isla_vista_lateral"
+                        style="@style/ButtonStyleGris"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.25"
+                        android:text="@string/addcoment" />
+                </LinearLayout>
+            </LinearLayout>
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+                <TextView
+                    android:id="@+id/tvUsuarioAdeudo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/mq_sign"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+            <LinearLayout
+                android:id="@+id/ll_fotos_Comentarios"
+                style="@style/EditTextStyleRojo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:orientation="vertical"
+                android:padding="5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+                    <TextView
+                        android:id="@+id/lblF"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/mq_sign_alineacion"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/check_maquina_sing_alineacion"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/delivery_ok" />
+
+                    <Button
+                        android:id="@+id/btn_sing_alineacion"
+                        style="@style/ButtonStyleGris"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.25"
+                        android:text="@string/addcoment" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view1"
+                    style="@style/SeparatorLayout" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+                    <TextView
+                        android:id="@+id/lblF"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/mq_sign_pantallas"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/check_maquina_sing_pantallas"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/delivery_ok" />
+
+                    <Button
+                        android:id="@+id/btn_sing_pantallas"
+                        style="@style/ButtonStyleGris"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.25"
+                        android:text="@string/addcoment" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view1"
+                    style="@style/SeparatorLayout" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+                    <TextView
+                        android:id="@+id/lblF"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/mq_estabilizadoes"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/check_maquina_sing_estabilizadores"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/delivery_ok" />
+
+                    <Button
+                        android:id="@+id/btn_sing_estabilizadores"
+                        style="@style/ButtonStyleGris"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.25"
+                        android:text="@string/addcoment" />
+                </LinearLayout>
+
+            </LinearLayout>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+                <TextView
+                    android:id="@+id/tvUsuarioAdeudo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:text="@string/mq_site"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+
+            <LinearLayout
+                android:id="@+id/ll_fotos_Comentarios"
+                style="@style/EditTextStyleRojo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:orientation="vertical"
+                android:padding="5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+                    <TextView
+                        android:id="@+id/lblF"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/mq_peinado_rack"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:id="@+id/check_maquina_peinado_rack"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/delivery_ok" />
+
+                    <Button
+                        android:id="@+id/btn_peinado_rack"
+                        style="@style/ButtonStyleGris"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.25"
+                        android:text="@string/addcoment" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view1"
+                    style="@style/SeparatorLayout" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp">
+                    <TextView
+                        android:id="@+id/lblF"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="@string/mq_operacion_APC"
+                        android:textStyle="bold" />
+                    <ImageView
+                        android:id="@+id/check_maquina_operacion_APC"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentTop="true"
+                        android:src="@drawable/delivery_ok" />
+
+                    <Button
+                        android:id="@+id/btn_operacion_APC"
+                        style="@style/ButtonStyleGris"
+                        android:layout_width="20dp"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:layout_weight="0.25"
+                        android:text="@string/addcoment" />
+                </LinearLayout>
+            </LinearLayout>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"/>
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

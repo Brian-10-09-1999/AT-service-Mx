@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:layout_marginTop="15sp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/frag_menu_devoluc_id_tv_Titulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="17sp"
+            android:text="@string/crearListaDev" />
+
+        <View style="@style/SeparatorLayout"/>
+
+        <TextView
+            android:id="@+id/frag_menu_devoluc_id_tv_region"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:visibility="gone"
+            android:text="@string/region" />
+
+        <Spinner
+            android:id="@+id/frag_menu_devoluc_id_spn_region"
+            style="@style/ButtonStyleGris"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/frag_menu_devoluc_id_tv_sala"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="@string/sala" />
+
+        <Spinner
+            android:id="@+id/frag_menu_devoluc_id_spn_sala"
+            style="@style/ButtonStyleGris"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/frag_menu_devoluc_id_tv_opciones"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tipoDeDev" />
+
+        <Spinner
+            android:id="@+id/frag_menu_devoluc_id_spn_opciones"
+            style="@style/ButtonStyleGris"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/frag_menu_devoluc_id_btn_crear"
+            style="@style/ButtonStyleGris"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/crear" />
+    </LinearLayout>
+</RelativeLayout>

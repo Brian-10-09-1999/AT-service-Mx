@@ -1,0 +1,25 @@
+<set android:shareInterpolator="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <set android:interpolator="@android:anim/decelerate_interpolator">
+        <scale
+            android:fromXScale="0.2"
+            android:toXScale="1.1"
+            android:fromYScale="0.0"
+            android:toYScale="0.6"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:startOffset="30"
+            android:duration="200"
+            android:fillBefore="false" />
+        <rotate
+            android:fromDegrees="200"
+            android:toDegrees="0"
+            android:toYScale="0.0"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:startOffset="30"
+            android:duration="200" />
+    </set>
+
+</set>

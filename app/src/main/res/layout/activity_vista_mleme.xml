@@ -1,0 +1,155 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coordinatorLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/black"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <ImageView
+            android:id="@+id/imageView0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="2dp"
+            android:src="@drawable/logozitro" />
+
+        <LinearLayout
+            android:id="@+id/frag_body_id_ly_cont_btns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <ViewFlipper
+                android:id="@+id/vfZitro"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+
+                <!-- <ImageView
+                     android:id="@+id/img1"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:src="@drawable/worldofbingo" />-->
+
+                <!--  <ImageView
+                      android:id="@+id/img2"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/zitroletra" />-->
+
+                <ImageView
+                    android:id="@+id/img3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/zitropowermania" />
+            </ViewFlipper>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvInstrucciones"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/instr" />
+
+                <Spinner
+                    android:id="@+id/spnTecnico"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/frag_foot_id_ly_menu_opc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="#999999"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:id="@+id/imgCorreovml"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/email1" />
+
+            <ImageView
+                android:id="@+id/imgLlamarvml"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/cc" />
+
+            <ImageView
+                android:id="@+id/imgInfovml"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/info" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="33dp"
+                android:id="@+id/scrolls"
+                android:layout_weight="1"
+                android:src="@drawable/dragon"/>
+
+
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view1"
+            style="@style/SeparatorLayout"
+            android:layout_above="@+id/frag_foot_id_ly_menu_opc"
+            android:layout_alignParentLeft="true"
+            android:paddingRight="10dp" />
+
+        <TextView
+            android:id="@+id/tvUsuarioSup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/imageView0"
+            android:layout_marginRight="15dp"
+            android:text="!Bienvenido!"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/info_qr_color_primary"
+    tools:context="com.example.devolucionmaterial.activitys.codigoqr.infoCodigoQrSings">
+
+
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    </android.support.design.widget.AppBarLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fff"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="2dp"
+                        android:text="Sala:"
+                        android:textColor="#222"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_sala_sign"
+                        android:maxLines="3"
+                        android:padding="2dp"
+                        android:textColor="#222"
+                        android:textSize="12dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="2dp"
+                        android:text="QR Principal:"
+                        android:textColor="#222"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_qr_sign"
+                        android:maxLines="3"
+                        android:padding="2dp"
+                        android:text=""
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="2dp"
+                        android:paddingStart="10dp"
+                        android:text="Serie:"
+                        android:textColor="#222"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_no_serie"
+                        android:maxLines="3"
+                        android:padding="2dp"
+                        android:text=""
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxLines="3"
+                        android:padding="2dp"
+                        android:text="Descripción:"
+                        android:textColor="#222"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_descripcion"
+                        android:maxLines="3"
+                        android:padding="2dp"
+                        android:text=""
+                        android:textColor="#666"
+                        android:textSize="14dp" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            >
+
+            <Button
+                android:id="@+id/btn_reiniciar_cam_sings"
+                android:layout_width="60dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/custom_btncamara_reload"
+                />
+
+            <Button
+                android:id="@+id/btn_hide_sings"
+                android:layout_width="60dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/icon_camara_hide"
+                />
+
+
+            <LinearLayout
+                android:id="@+id/ly_qrvir"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/marco_verde"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="2dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Obtener Qr Principal Virtual"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="12sp"
+                    android:textColor="#00ff22"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="desde Sisco"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="12sp"
+                        android:layout_weight="1"
+                        android:textColor="#00ff22" />
+                    <Switch
+                        android:id="@+id/sw_qr_virtual"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:showText="true"
+
+                        android:switchTextAppearance="@style/switchTextAppearance"
+                        android:textOff="No"
+                        android:textOn="Si" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00ffffff"
+        android:paddingBottom="5dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/radio_sings_lista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:checked="true"
+            app:buttonTint="#ff0000"
+            android:textColor="#fff"
+            android:text="QR Info." />
+
+        <RadioButton
+            android:id="@+id/radio_sings_aso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            app:buttonTint="#ff0000"
+            android:onClick="onRadioButtonClicked"
+            android:text="Asociar" />
+
+        <RadioButton
+            android:id="@+id/radio_sings_act"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:textColor="#fff"
+            app:buttonTint="#ff0000"
+            android:text="Activar" />
+
+        <RadioButton
+            android:id="@+id/radio_sings_remp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onRadioButtonClicked"
+            android:textColor="#fff"
+            app:buttonTint="#ff0000"
+            android:text="Reemplazo" />
+    </RadioGroup>
+
+
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/ly_hide_camara_signs"
+        android:layout_width="match_parent"
+        android:layout_height="285dp">
+
+
+        <Button
+            android:id="@+id/btn_lamparita"
+            android:layout_width="25dp"
+            android:layout_height="34dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ico_lampara1"
+            android:onClick="btnOnOffLampara"
+            />
+
+
+        <me.dm7.barcodescanner.zxing.ZXingScannerView
+            android:id="@+id/ZXingScannerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    </RelativeLayout>
+
+
+
+
+
+    <View
+        android:id="@+id/view_toolbar_shadow_pre_lollipop"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_shadow"
+        android:background="@drawable/background_toolbar_shadow"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <TextView
+            android:id="@+id/aicqtv_title_list_sings"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:maxLines="3"
+            android:padding="5dp"
+            android:background="@drawable/fondo_division"
+            android:gravity="center"
+            android:text="Lista de Componentes"
+            android:textColor="#ffffff"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/aicq_tv_no_hay_elementos_signs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:text="No hay elementos"
+            android:textSize="22dp"
+            android:visibility="gone" />
+        <ListView
+            android:id="@+id/list_componentes_signs"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/aicqtv_title_list_sings"
+            />
+        <!--
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/aicq_rv_piezas"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/aicqtv_title_list" />
+
+                    -->
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>

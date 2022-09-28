@@ -1,0 +1,83 @@
+[
+    {
+        "outputFile": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 41,
+                    "endOffset": 92
+                },
+                "from": {
+                    "file": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\516e4b6d4d1dd93f65600bfdd16d1263d1f80db9\\output\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 41,
+                        "endOffset": 92
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 97,
+                    "endColumn": 51,
+                    "endOffset": 144
+                },
+                "from": {
+                    "file": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\516e4b6d4d1dd93f65600bfdd16d1263d1f80db9\\output\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 97,
+                        "endColumn": 51,
+                        "endOffset": 144
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 149,
+                    "endColumn": 68,
+                    "endOffset": 213
+                },
+                "from": {
+                    "file": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\d3a2fc9cea2a9b3653e5b1576978b81ddbad9a4b\\output\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 68,
+                        "endOffset": 119
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 218,
+                    "endColumn": 68,
+                    "endOffset": 282
+                },
+                "from": {
+                    "file": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\d3a2fc9cea2a9b3653e5b1576978b81ddbad9a4b\\output\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 124,
+                        "endColumn": 68,
+                        "endOffset": 188
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/titulo_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:textSize="18sp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textStyle="bold"
+        android:text="Crear lista de hardware en Rack" />
+
+    <View style="@style/SeparatorLayout"  />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="20dp">
+        <TextView
+            android:id="@+id/titulo_fragment2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:paddingRight="15dp"
+            android:text="Sala:" />
+        <Spinner
+            android:id="@+id/sp_rack_sala"
+            android:textSize="10sp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/fondo_spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="32dp" />
+    </LinearLayout>
+
+
+
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/edit_rojo"
+       android:layout_weight="1"
+       android:orientation="vertical"
+       >
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           >
+           <TextView
+               android:id="@+id/tv_rack"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textSize="17sp"
+               android:textStyle="bold"
+               android:paddingRight="15dp"
+               android:text="Rack" />
+           <Spinner
+               android:id="@+id/sp_rack"
+               android:textSize="10sp"
+               android:layout_marginRight="10dp"
+               android:layout_width="wrap_content"
+               android:layout_height="32dp" />
+       </LinearLayout>
+
+
+       <android.support.v7.widget.RecyclerView
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/recyclerView_rack1"
+          />
+   </LinearLayout>
+
+
+
+
+
+   <Button
+       android:id="@+id/btn_rack_siguiente"
+       android:layout_width="200dp"
+       android:layout_height="wrap_content"
+       android:text="Siguiente"
+       />
+
+
+
+
+
+</LinearLayout>

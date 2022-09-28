@@ -1,0 +1,8 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <item android:drawable="@drawable/icon_time2"
+        android:state_pressed="true"/>
+    <item android:drawable="@drawable/icon_time2"
+        android:state_focused="true"/>
+    <item android:drawable="@drawable/icon_time1"/>
+</selector>

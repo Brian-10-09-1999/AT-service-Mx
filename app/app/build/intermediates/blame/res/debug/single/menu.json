@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_contact_chat.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\menu\\menu_contact_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_item_chat_group.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\menu\\menu_item_chat_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_chat_details.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\menu\\menu_chat_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\menu\\lista__devolucion.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\menu\\lista__devolucion.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\menu\\registro.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\menu\\registro.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\menu\\base.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\libraryvideo\\build\\intermediates\\bundles\\default\\res\\menu\\base.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_reporte_folios_pendientes.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\menu\\menu_reporte_folios_pendientes.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_dizi.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\menu\\menu_dizi.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_chat_list.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\menu\\menu_chat_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\menu\\menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_new_group.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\menu\\menu_new_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_item_chat.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\menu\\menu_item_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_chat_main.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\menu\\menu_chat_main.xml"
+    }
+]

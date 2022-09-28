@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llItemListaComent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    
+<LinearLayout 
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/llComentarioOS"
+    android:orientation="horizontal">
+    <TextView
+        android:id="@+id/tvHoraComOS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:textStyle="bold"
+        android:text="13:34" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvComOS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:textStyle="bold|italic"
+            android:text="Se añaden elementos a la sala para el servidor de prueba en el entorno grafico de Zitro " />
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="100dp"
+            android:id="@+id/imgComOS" />
+    </LinearLayout>
+
+</LinearLayout>
+    
+<RelativeLayout 
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_below="@+id/llComentarioOS"
+    android:orientation="horizontal"
+    android:id="@+id/rlComentariosOS1">
+    
+        <TextView
+        android:id="@+id/tvEntregado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingRight="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/entregado" />
+
+        <ImageView
+            android:id="@+id/imgOk"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tvEntregado"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/delivery_ok" />
+        
+        <TextView
+        android:id="@+id/tvFallaEntregado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:paddingRight="5dp"
+        android:text="@string/error_entrega" />
+
+        <ImageView
+            android:id="@+id/imgError"
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/tvFallaEntregado"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/delyvery_error" />
+    
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rlComentariosOS2"
+        android:layout_below="@+id/rlComentariosOS1"
+        android:visibility="gone">
+
+        <Button
+            style="@style/ButtonStyleGris"
+            android:id="@+id/btnrlComentariosOS"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/VerGaleria"
+            android:layout_weight="0.5"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+
+</RelativeLayout>

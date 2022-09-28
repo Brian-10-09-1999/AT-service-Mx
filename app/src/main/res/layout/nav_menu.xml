@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/nav_menu_id_ly_separador_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/nav_menu_id_separador_1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:visibility="gone"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/nav_menu_id_tv_tittle_separador_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/menu_principal"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="12sp"
+            android:textStyle="normal|italic" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/nav_menu_id_ly_menu_cambia_estatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/nav_menu_id_img_cambia_estatus"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.20"
+            android:src="@drawable/est_activo" />
+
+        <TextView
+            android:id="@+id/nav_menu_id_tv_opc_cambia_estatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cambiar_estatus"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/nav_menu_id_ly_separador_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/nav_menu_id_separador_2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/nav_menu_id_tv_tittle_separador_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/configuraciones"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="12sp"
+            android:textStyle="normal|italic" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/nav_menu_id_ly_menu_sincroniza_tablas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/nav_menu_id_img_opc_sincroniza_tablas"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.20
+            "
+            android:src="@drawable/ic_sincroniza" />
+
+        <TextView
+            android:id="@+id/nav_menu_id_tv_opc_sincroniza_tablas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/sincronizacion_tab"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/nav_menu_id_ly_separador_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/nav_menu_id_separador_3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray" />
+
+        <TextView
+            android:id="@+id/nav_menu_id_tv_tittle_separador_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/ayuda"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="12sp"
+            android:textStyle="normal|italic" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/nav_menu_id_ly_menu_aydua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/nav_menu_id_opc_img_aydua"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.16"
+            android:src="@drawable/icon_mejoras3" />
+
+        <TextView
+            android:id="@+id/nav_menu_id_tv_opc_ayuda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Mejoras De Versión"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nav_menu_id_ly_menu_manualviaticos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/nav_menu_id_opc_img_manual"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_weight="0.16"
+            android:src="@drawable/manual_icon" />
+
+        <TextView
+            android:id="@+id/nav_menu_id_tv_opc_manual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Manual Viáticos"
+            android:textStyle="normal|bold" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

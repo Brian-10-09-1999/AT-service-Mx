@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1b81a2180dc542eae057e41cc4783a15abd7bca8\\output\\res\\drawable-v21\\avd_hide_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\main_background.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable-v21\\main_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\exomedia_leanback_ripple_selector.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\cd11084e635456252ea5bd57c5a519cebd786925\\output\\res\\drawable-v21\\exomedia_leanback_ripple_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\md_btn_selector_ripple.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\516e4b6d4d1dd93f65600bfdd16d1263d1f80db9\\output\\res\\drawable-v21\\md_btn_selector_ripple.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\md_btn_selector_ripple_dark.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\516e4b6d4d1dd93f65600bfdd16d1263d1f80db9\\output\\res\\drawable-v21\\md_btn_selector_ripple_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\md_btn_shape.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\516e4b6d4d1dd93f65600bfdd16d1263d1f80db9\\output\\res\\drawable-v21\\md_btn_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1b81a2180dc542eae057e41cc4783a15abd7bca8\\output\\res\\drawable-v21\\design_password_eye.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\leanback_progress_horizontal.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\cd11084e635456252ea5bd57c5a519cebd786925\\output\\res\\drawable-v21\\leanback_progress_horizontal.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1b81a2180dc542eae057e41cc4783a15abd7bca8\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1b81a2180dc542eae057e41cc4783a15abd7bca8\\output\\res\\drawable-v21\\avd_show_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    }
+]

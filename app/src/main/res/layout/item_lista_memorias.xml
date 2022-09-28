@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvTipoMem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:padding="5dp"
+            android:text="Tipo" />
+
+        <TextView
+            android:id="@+id/tvfolioMem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+			android:padding="5dp"
+			android:gravity="center_horizontal"
+            android:text="Folio" />
+
+        <TextView
+            android:id="@+id/tvOSMem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+			android:padding="5dp"
+			android:gravity="center_horizontal"
+            android:text="OS" />
+
+        <TextView
+            android:id="@+id/tvCantidadMem"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+			android:padding="5dp"
+			android:gravity="center_horizontal"
+            android:text="Cantidad" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

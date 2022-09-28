@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="instr"><i><b>Selecciona un técnico de la lista para poder iniciar la sesión con su perfil</b></i></string>
+
+    <string name="app_name">AT Services</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu">Menu</string>
+    <string name="title_activity_registro">Registro de Devolución</string>
+    <string name="title_activity_menu__devolucion">Menú de Devolucion</string>
+    <string name="title_activity_lista__devolucion">Lista de Devoluciones</string>
+    <string name="title_reporte_devoluciones">Menú de Reportes</string>
+    <string name="title_registro_memorias">Registro de Memorias</string>
+    <string name="title_devolucion_memorias">Reporte de Memorias</string>
+    <string name="error_field_required">El mensaje esta vacio </string>
+    <string name="error_permission_requred">Se necesitan permisos</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Strings Globales (Se usan varias veces en la app) -->
+    <string name="ingresar">Ingresar</string>
+    <string name="hintBusqueda"><i>Ingresa una palabra de búsqueda</i></string>
+    <string name="infoDialogoBusqueda"><b><i>Ingresa una palabra de búsqueda, y oprime el boton buscar (lupa)
+        , y a continuación elige el técnico que corresponda a tu búsqueda.</i></b></string>
+
+    <!-- Strings activity_menu_inicial -->
+    <string name="generarDevolucion">Devolución de Material</string>
+    <string name="reporteDevoluciones">Reporte de Devoluciones</string>
+    <string name="menuInicial">Selecciona una opción</string>
+    <string name="devolucionMemorias">Devolución de Memorias</string>
+    <string name="pedidos">Pedidos</string>
+    <string name="foliosPendientes">Folios Pendientes</string>
+    <string name="adeudoMaterial">Adeudo de Material</string>
+    <string name="osAsignadas">OS Asignadas</string>
+    <string name="DevolverMemorias">Devolucion de Memorias</string>
+    <string name="materiales">Materiales</string>
+
+    <!-- Strings activity_lista_devolucion -->
+    <string name="salida">SALIDA</string>
+    <string name="enviar">Enviar</string>
+    <string name="infoEditar"><i>Toca un elemento de la lista para editarlo si así lo requieres.
+        En No. Guía, toca el taxi o mensaje si no dispones de tal número</i></string>
+
+    <!-- Strings activity_main -->
+    <string name="usuario">Usuario</string>
+    <string name="usuarioDots">Usuario:</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="contrasenaDots">Contraseña:</string>
+
+    <!-- Strings activity_menu_devolucion -->
+    <string name="crearListaDev">CREAR LISTA DE DEVOLUCIÓN</string>
+    <string name="sala">Sala:</string>
+    <string name="crear">Crear</string>
+    <string name="region">Región</string>
+    <string name="tipoDeDev">Tipo de devolución</string>
+
+    <!-- Strings activity_registro -->
+    <string name="salidaNO">Salida NO.</string>
+    <string name="codigo">Código:</string>
+    <string name="cantidad">Cantidad:</string>
+    <string name="serie">Serie:</string>
+    <string name="verLista">Ver Lista</string>
+    <string name="descripcion">Descripción</string>
+    <string name="escaner">Escáner</string>
+    <string name="tvDescripcion"><i>Esperando descripción de la pieza...</i></string>
+    <string name="hintSeisDigitos"><i>Ingresa 6 dígitos</i></string>
+    <string name="hintPedido"><i>Ingresa Pedido u Os</i></string>
+    <string name="hintNoGuia"><i>Ingresa el No. de guía</i></string>
+    <string name="pedido">Pedid</string>
+    <string name="noGuia">No. Guía:</string>
+    <string name="verificarPedido">Verificar</string>
+
+    <!-- Strings reporte_devoluciones -->
+    <string name="reporteDeDevoluciones">Reportes de Devoluciones</string>
+    <string name="seleccionaSala">Selecciona una sala</string>
+    <string name="seleccionaSalida">Selecciona un número de salida</string>
+    <string name="devolucionesReporte">Devoluciones con los datos seleccionados</string>
+    <string name="CODIGO">CODIGO</string>
+    <string name="DESCRIPCION">DESCRIPCIÓN</string>
+    <string name="CANTIDAD">CANTIDAD</string>
+    <string name="SERIE">SERIE</string>
+    <string name="title_lista_de_devoluciones">Lista de Devoluciones</string>
+
+    <!-- Strings activity_dev_pend_env -->
+    <string name="mostrarMas">Mostrar Más</string>
+
+    <!-- Strings reporte_devolucion_memorias -->
+    <string name="TIPO">TIPO</string>
+    <string name="FOLIO">FOLIO</string>
+    <string name="OS">OS</string>
+
+    <!--Strings dialogo_edicion_piezas_mat -->
+    <string name="editar">Editar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="accept">Aceptar</string>
+
+    <!-- Conjunto de Strings para combo de Registro de Memorias -->
+    <string-array name="Memorias">
+        <item>USB</item>
+        <item>Compact Juegos</item>
+        <item>Key Pack</item>
+        <item>Lector</item>
+        <item>Compact</item>
+    </string-array>
+
+    <!-- Conjunto de Strings para combo de Registro de Memorias -->
+    <string-array name="Tecnicos">
+        <item>SELECCIONA UN TÉCNICO...</item>
+        <item>Gervacio Cerón     - PUEBLA/VERACRUZ</item>
+        <item>Miguel Campos      - MONTERREY</item>
+        <item>Nayeli Malagón     - PENINSULA</item>
+        <item>Herli Castañeda    - DFZ1</item>
+        <item>Guillermo López    - CENTRO</item>
+        <item>Brenda Patricia Martell - GUADALAJARA</item>
+        <item>Juan Luis Vera     - DFZ2</item>
+        <item>Juan Mancilla      - PACIFICO</item>
+        <item>Alfonso Vargas     - TIJUANA</item>
+    </string-array>
+
+    <string-array name="Opciones">
+        <item>ORDINARIA</item>
+        <item>BAJA</item>
+    </string-array>
+
+    <!-- Strings activity_folios_pendientes -->
+    <string name="title_Folios_Pendientes">Folios Pendientes</string>
+    <string name="afp_hintIngresaFolio"><i>No. Folio</i></string>
+    <string name="afp_Asignar">Asignar</string>
+    <string name="afp_FoliosPorSala">Folios Por Sala</string>
+    <string name="afp_info"><i><b>En No. Folio, sólo ingresa el número existente entre los guiones del
+         número de incidencia</b></i></string>
+
+    <!-- Strings activity_reporte_folio_pendiente -->
+    <string name="title_reporte_folio_pendiente">Reporte Folio Pendiente</string>
+    <string name="rfp_AceptarFolio">Aceptar Folio</string>
+    <string name="rfp_RechazarFolio">No Aceptar Folio</string>
+    <string name="rfp_Folio">Folio</string>
+    <string name="rfp_Sala">Sala</string>
+    <string name="rfp_Falla">Falla</string>
+    <string name="rfp_SubFalla">Subfalla</string>
+    <string name="rfp_Licencia">Licencia</string>
+    <string name="rfp_Juego">Juego</string>
+    <string name="rfp_Opciones">Actividades</string>
+    <string name="rfp_Traslado">Traslado a Sala</string>
+    <string name="rfp_Acceso">Acceso a Sala</string>
+    <string name="rfp_Atiende">Atiende Incidencia</string>
+    <string name="rfp_Estatus">Estatus Incidencia</string>
+    <string name="rfp_Repara">Repara Incidencia</string>
+
+    <!--Strings Documentacion Fotografica Sala-->
+    <string name="mq_maquinas_documentacion">Maquinas</string>
+    <string name="mq_vista_frontal">Alineación de isla vista frontal</string>
+    <string name="mq_vista_lateral">Alineación de isla vista lateral</string>
+    <string name="mq_alineacion_posapies">Alineación de reposapiés</string>
+    <string name="mq_espacio_entre_maquinas">Espacio entre máquinas</string>
+    <string name="mq_peinado_general_isla">Peinado general de isla</string>
+    <string name="mq_finales_isla">Finales de isla</string>
+    <string name="mq_vista_frontal_d_i">Vista frontal (derecha e/o izquierda)</string>
+    <string name="mq_vista_lateral_d_i">Vista lateral (derecha e/o izquierda)</string>
+    <string name="mq_sign">Sign</string>
+    <string name="mq_sign_alineacion">Alineación del sign con respecto a la isla</string>
+    <string name="mq_sign_pantallas">Alineación de pantallas</string>
+    <string name="mq_estabilizadoes">Estabilizadores</string>
+    <string name="mq_site">Site</string>
+    <string name="mq_peinado_rack">Peinado de rack</string>
+    <string name="mq_operacion_APC">Operación de APC</string>
+
+    <!-- Strings activity_estatus_incidencia -->
+    <string name="title_estatus_incidencia">Estatus de Incidencia</string>
+    <string name="aei_refaccion">Refacción</string>
+    <string name="aei_codigosDeError">Códigos de Error</string>
+    <string name="aei_CodigosdeActivacion">Códigos De Activación</string>
+    <string name="aei_SistemadeCaja">Sistema de Caja</string>
+    <string name="aei_SolucionDeSala">Solución de Sala</string>
+
+    <!-- Strings activity_item_lista_piezas_pedido -->
+    <string name="ePendiente">Pendiente</string>
+    <string name="eCancelado">Cancelado</string>
+    <string name="eParcial">Parcial</string>
+    <string name="eSinExistencia">Sin Existencia</string>
+    <string name="eCompleto">Completo</string>
+
+    <!-- Strings activity_info_actividad_os -->
+    <string name="addcoment">Añadir</string>
+    <string name="hintComent"><i><b>Escribe Comentarios</b></i></string>
+    <string name="finalizarActividad">Finalizar Actividad</string>
+    <string name="aios_act">Actividad</string>
+    <string name="aios_fecInic">Inicio</string>
+    <string name="aios_finAct">Fin</string>
+    <string name="error_entrega"><b><i>Toca para guardar comentario en servidor</i></b></string>
+    <string name="entregado"><b><i>Entregado</i></b></string>
+
+    <!-- Strings activity_estatus_tecnico -->
+    <string name="aet_Estatus">Estatus</string>
+    <string name="aet_Tiempo">Tiem. Act.</string>
+
+    <!-- Strings Excepciones varias en Actividades -->
+    <string name="e_mailIncorrecto">No tienes tu e-mail asociado al sistema\nIngresa con tu usuario y contraseña que se asigno...</string>
+    <string name="usuarioIncorrecto">Nombre de usuario o password incorrectos</string>
+    <string name="titClientProtExc">Client Protocol Exception</string>
+    <string name="titJsonException">Error de conexión con servidor remoto</string>
+    <string name="cuerpoJsonException">Error de conexión con servidor remoto</string>
+    <string name="cuerpoIOexception">No hay conexión eficiente a Internet\nPrueba reiniciando el WiFi o Datos Móviles del celular; o inclusive reiniciando el equipo</string>
+    <string name="titIOexception">Sin conexión de Red</string>
+    <string name="titIllegalArgExcep">Illegal Argument Exception</string>
+    <string name="cuerpoIllegalArgExcep">El nombre de usuario o contraseña contiene caractéres no válidos</string>
+    <string name="conectando">Conectando con servidor...\nEspera por favor</string>
+    <string name="sinInternet">El equipo no tiene acceso internet</string>
+    <string name="titActDisp">Nueva Actualización Disponible</string>
+    <string name="cuerpoActDisp">Hay una nueva actualización disponible de Devolución de Material. La versión de la que dispones ahora es posible que sea obsoleta y no funcione adecuadamente.</string>
+    <string name="descargar">Descargar</string>
+    <string name="notCall">No se pudo realizar la llamada.</string>
+    <string name="pedidosPorSala">Pedidos Por sala</string>
+    <string name="pedidosPorIncidencia">Pedidos Por Incidencia</string>
+    <string name="crear_pedido">Crear Pedido</string>
+    <string name="solicitud_de_material">Solicitud De Material</string>
+    <string name="seleccionaOpcion">Selecciona Una Opción</string>
+    <string name="devMat">Devolución De Material</string>
+    <string name="adMat">Adeudo de Material</string>
+    <string name="repdev">Reporte de Devoluciones</string>
+    <string name="bienvenido">¡Bienvenido\u0020</string>
+    <string name="sinRegistros">Sin Registros</string>
+    <string name="sinIncidencias">No Hay Incidencias Pendientes Registradas</string>
+    <string name="campoVacio">El Campo Está Vacío...</string>
+    <string name="infoAsigFol">Se asigna el folio, pero tiene actividades registradas</string>
+    <string name="infoAsignado">Se ha asignado el folio\u0020</string>
+    <string name="infoFolioInex">El número de folio no existe</string>o
+    <string name="incidencia">La incidencia\u0020</string>
+    <string name="atendida">\u0020ya ha sido atendida</string>
+    <string name="estActualizado">Estatus Actualizado Correctamente</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="actRegistrada">La actividad ha sido registrada</string>
+    <string name="actRegAnt">Ésta actividad ya ha sido registrada anteriormente</string>
+    <string name="regBaja">Se han registrado los datos del técnico para la baja</string>
+    <string name="notRegBaja">No se ha podido obtener los datos del técnico. Inténtalo de nuevo</string>
+    <string name="infoEstEnSer">Te muestra disponible para que te asignen actividades</string>
+    <string name="infoEstPorInc">Te muestra en estatus Por Incidencia</string>
+    <string name="infoEstDiaDesc">Muestra que no estas laborando ya que estas en tu día de descanso</string>
+    <string name="infoEstMix">Muestra que realizas actividades diversas en sala</string>
+    <string name="infoEstVacaciones">Te muestra que estas tomando tu periodo vacacional</string>
+    <string name="infoEstIncap">Te muestra no disponible por cuestiones referentes a una molestia o enfermedad</string>
+    <string name="titEstFuera">Fuera de Servicio</string>
+    <string name="infoEstFuera">Te muestra como No disponible, ya que has concluido con tu jornada laboral</string>
+    <string name="infoTraslado">Te muestra que estas en proceso de traslado a sala</string>
+    <string name="titHoraComida">Hora de Comida</string>
+    <string name="infoHoraComida">Te muestra que estas tomando tu hora para ingerir alimentos</string>
+    <string name="titFinDiaDesc">Fin de Día de Descanso</string>
+    <string name="infoFinDiaDesc">Ha concluido tu día de descanso</string>
+    <string name="titFinMix">Fin de Mix</string>
+    <string name="titTraslado">Traslado a Sala</string>
+
+    <string name="infoFinMix">Acabaste con las actividades relacionadas con el Mix</string>
+    <string name="titFinVacaciones">Fin de Vacaciones</string>
+    <string name="infoFinVacaciones">Has concluido con tu temporada de vacaciones</string>
+    <string name="titFinIncap">Fin de Incapacidad</string>
+    <string name="infoFinIncap">Ha concluido tu incapacidad</string>
+    <string name="titFinInc">Fin de S. por Incidencia</string>
+    <string name="infoFinInc">Has concluido con la incidencia que tenías pendiente</string>
+    <string name="titFinTras">Has llegado a Sala</string>
+    <string name="infoFinTras">Ya has llegado a la sala solicitada</string>
+    <string name="titFinAsig">Fin de asignado</string>
+    <string name="infoFinAsig">Fin de la asignación</string>
+    <string name="titFinHcom">Fin de Hora de Comida</string>
+    <string name="infoFinHcom">Ha finalizado tu hora de comida</string>
+    <string name="titEstEnSer">EN SERVICIO</string>
+    <string name="titEstPorInc">POR INCIDENCIA</string>
+    <string name="titEstDiaD">DÍA DE DESCANSO</string>
+    <string name="titEstMix">MIX</string>
+    <string name="titEstVac">VACACIONES</string>
+    <string name="titEstInc">INCAPACIDAD</string>
+    <string name="sinSalaInic">No elegiste alguna sala inicial...</string>
+    <string name="sinSalaFinalDialog">No elegiste alguna sala final...</string>
+    <string name="noPedido">NO. DE PEDIDO U OS.</string>
+    <string name="noPedidoIncorrecto">El número de pedido u OS es incorrecto</string>
+    <string name="probelmas_con_el_conexion">Ocurrio un problemas de conexión</string>
+    <string name="salidaNo">SALIDA:\u0020</string>
+    <string name="camposVacios">Hay campos vacíos</string>
+    <string name="notCanCero">La cantidad no puede ser 0</string>
+    <string name="notCienPie">No puedes pedir 100 piezas o más</string>
+    <string name="serieBad">El número de serie es incorrecto</string>
+    <string name="notCant">Falta la cantidad</string>
+    <string name="errorPie">Error en la pieza solicitada</string>
+    <string name="infoErrPie1">La refaccion solicitada con clave\u0020</string>
+    <string name="infoErrPie2">\u0020no existe o no se encuentra disponible</string>
+    <string name="seisDig">Ingresa 6 dígitos</string>
+    <string name="ingresaSerie">Ingresa no. Serie</string>
+    <string name="campoCompleto">Campo Completo</string>
+    <string name="infoRef1">La refacción\u002</string>
+    <string name="infoRef2">\u002esta descontinuada, pero tiene una sustituta con clave\u002</string>
+    <string name="infoRef3">¿Deseas esta pieza sustituta?</string>
+    <string name="refSusUb">Refacción sustituta ubicada</string>
+    <string name="errorPieDes">No puedes llenar el formulario con la pieza descontinuada</string>
+    <string name="pieDesc">La refacción está descontinuada, pero puedes continuar con la devolucion</string>
+    <string name="datIngresados">Se han ingresado los datos</string>
+    <string name="informacion">Información</string>
+    <string name="salirRegistro">¿Deseas salir del Registro?</string>
+    <string name="si">Sí</string>
+    <string name="notNoGuia">No has insertado número de guía</string>
+    <string name="guiaIncom">El número de guía está incompleto</string>
+    <string name="mensajeria">Mensajería</string>
+    <string name="taxi">Taxi</string>
+    <string name="notDev">No has ingresado al menos una devolución</string>
+    <string name="datCorrect">Datos enviados correctamente</string>
+    <string name="errSal">Error al Enviar Datos al Servidor</string>
+    <string name="titIllegalState">Illegal State Exception</string>
+    <string name="titArrayBound">ArrayIndexOutOfBoundException</string>
+    <string name="editRegMat">Editar Registro de Material</string>
+    <string name="infoEdRegMat1">¿Deseas editar el registro con clave\u002</string>
+    <string name="infoEdRegMat2">y cantidad\u002</string>
+    <string name="notMatPen">No tienes material pendiente por devolver</string>
+    <string name="mosMasDev">Mostrar Más Devoluciones</string>
+    <string name="salMem">Salida de Memoria</string>
+    <string name="notInfo">No hay información que mostrar</string>
+    <string name="devInfo">Aún no hay reportes de devoluciones enviadas o pendientes</string>
+    <string name="titDevMat">Devolución de Material</string>
+    <string name="titDevMem">Devolución de Memorias</string>
+    <string name="mosCincoDev">Mostrar las siguientes 5 devoluciones</string>
+    <string name="terminarSalInfo">Toca para terminar la salida</string>
+    <string name="salaYreg">Elige sala y región</string>
+    <string name="notPedReg">No hay pedidos registrados para esta Sala</string>
+    <string name="preventivo">Preventivo</string>
+    <string name="titOS">OS :\u002</string>
+    <string name="titFolio">Folio :\u002</string>
+    <string name="notRef">No hay refacciones para este pedido. Es posible que haya sido cancelado.</string>
+    <string name="notPedInc">No hay pedidos asociados a incidencias registradas.</string>
+    <string name="notOSAs">No tienes OS asignadas</string>
+    <string name="titInicAct">Inicio De Actividad</string>
+    <string name="infoInicAct">¿Deseas iniciar la Actividad para la OS:\u002</string>
+    <string name="infoNotSalas">No hay salas registradas para la region a la que perteneces.
+        Puede haber cambios en la app, verifica con el área de programación</string>
+    <string name="infoNotFoliosDeSala">No hay folios pendientes registrados para la sala seleccionada</string>
+    <string name="infoCambiaEstatus">Cambia tu estatus a disponible antes por favor...</string>
+    <string name="vuelve_a_intertarlo">Algo Fallo Vuelve a Intentarlo</string>
+
+    <!-- Strings Nombre de Activities (Títulos) -->
+    <string name="title_activity_anuncio_del_dia">Anuncio del día</string>
+    <string name="title_SalasPorRegion">Salas</string>
+    <string name="title_folios_por_sala">Folios de Sala</string>
+    <string name="title_folios_Por_sala_pend">Reporte de Folios</string>
+    <string name="title_pedidos_por_incidencia">Incidencias</string>
+    <string name="title_pedidos_de_incidencia">Pedidos</string>
+    <string name="title_lista_De_Salas_Pedidos">Región y Sala</string>
+    <string name="title_os_asignadas">OS Asignadas</string>
+    <string name="title_os_fotos_salas">Documentacion Fotografica</string>
+    <string name="title_incidencias_de_sala">Incidencias de Sala</string>
+    <string name="title_pedidos_de_sala">Pedidos de Sala</string>
+    <string name="title_lista_de_piezas_pedido">Piezas del Pedido</string>
+    <string name="title_vista_leme">Menú de Supervisor</string>
+    <string name="title_adeudo_de_material">Material en Adeudo</string>
+    <string name="title_reporte_os">Reporte de OS</string>
+    <string name="title_estatus_tecnico">Estatus</string>
+    <string name="title_Opciones_est_en_serv">Opciones Est. en Servicio</string>
+    <string name="title_viaticos">Viaticos</string>
+
+
+    <string name="revisaConexion">Revisa que la conexión a Internet sea buena</string>
+    <string name="connectException">El servidor esta en mantenimiento o fuera de servicio por algunos minutos. Intenta de nuevo en unos más tarde</string>
+    <string name="servidorND">Servidro No Disponible</string>
+    <string name="conexionTimedOut">Tiempo de Conexión excedido</string>
+    <string name="title_menuInicial_com">Menu De Comercial</string>
+    <string name="requiereWifioDatos">Se requiere internet, activa tu Wi-Fi o Datos</string>
+    <string name="OK">Ok!!!</string>
+    <string name="Conectando_con_servidor_remoto">Conectando...</string>
+    <string name="SubiendoArchivoAServidorRemoto">Subiendo archivo a servidor remoto...</string>
+    <string name="mensaje_tabla_refaciones_actualizada">La tabla refaciones ha sido actualizada</string>
+    <string name="VerGaleria">Ver galeria</string>
+    <string name="estNoActualizado">Estatus NO Actualizado</string>
+    <string name="aet_Sala_Inicial">Sala Act.</string>
+    <string name="sinSalaFinal">Sala Fin.</string>
+    <string name="title_activity_menu_inicial">Menu Inicial</string>
+    <string name="title_dialogo_edicion_de_registro_material">Edicion de Registro</string>
+    <string name="title_dialogo_busqueda_tecnico">Buscar Técnico</string>
+    <string name="ESTATUS">ESTATUS</string>
+    <string name="title_menuInicial">Menu inicial</string>
+    <string name="title_estatus">Estatus</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="configuraciones">Configuraciones</string>
+    <string name="menu_principal">Menu</string>
+    <string name="sincronizacion_tab">Sincronizar tablas</string>
+    <string name="cambiar_estatus">Cambia estatus</string>
+    <string name="action_search">Buscar</string>
+
+    <!-- Strings Dialogos solicitud de material-->
+
+    <string name="titulo_dialog">Confirmación</string>
+    <string name="desc_dialog_aceptar">¿Estas seguro de aceptar este pedido?</string>
+    <string name="desc_dialog_rechazar">¿Estas seguro de rechazar este pedido?</string>
+    <string name="datos_button">Contacto en sala</string>
+    <string name="comentarios_button">Comentarios</string>
+    <string name="login_chat">Entrar al chat</string>
+    <string name="error_de_conexi_n">Error de conexión</string>
+    <string name="limpiar_chat">Limpiar chat</string>
+    <string name="participantes">Participantes</string>
+    <string name="terminar_grupo">Terminar grupo</string>
+    <string name="a_adir_participante">Añadir participante</string>
+    <string name="crear_grupo">Crear Grupo</string>
+    <string name="agregar_al_grupo">Agregar al grupo</string>
+    <string name="nuevo_chat">Nuevo Chat</string>
+    <string name="nuevo_grupo">Nuevo grupo</string>
+    <!--qr-->
+    <string name="intro_text">Apunte la vista de la cámara a un código QR para leer la información</string>
+    <string name="restart_activity">Reiniciar actividad</string>
+    <string name="stop_start_qreader">Detener QREader</string>
+    <string name="escribe_un_mensaje_aqu">Escribe aquí</string>
+
+    <!--chat-->
+
+    <string name="string_choose_image">Seleccionar imagen para enviar</string>
+    <string name="string_message_to_attach_file">Primero adjuntar archivo para cargarlo</string>
+    <string name="string_unable_to_pick_image">No se puede seleccionar la imagen</string>
+    <string name="string_unable_to_load_image">No se puede cargar la imagen</string>
+    <string name="string_reselect">Haga clic en Imagen para volver a seleccionar</string>
+
+    <!--dialog material-->
+    <string name="error_conect">Error al Conectar</string>
+    <string name="error_codigo">Error de Código</string>
+    <string name="codigo_incorrecto">Código incorrecto</string>
+    <string name="ocurrio_un_error">Ocurrio un error</string>
+    <string name="seguro_determinar_grupo">¿Seguro de terminar grupo?</string>
+    <string name="finish_group">¿Terminar grupo?</string>
+    <string name="lista_pedidos">Lista pedidos</string>
+    <string name="adjuntar">Adjuntar</string>
+    <string name="Buttonqr">"Componentes</string>
+
+    <!-- string button rack menu principal-->
+    <string name="ButtonRack">Rack</string>
+
+
+</resources>

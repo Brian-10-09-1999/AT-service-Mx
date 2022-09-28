@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="5dp"
+    android:paddingBottom="15dp"
+    android:paddingStart="7dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_cis_codigo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+
+        android:text="Codigo Qr"
+        android:textColor="#222"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tv_cis_refaccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+
+        android:text="refaccion"
+        android:textSize="13sp"
+        />
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+
+            android:text="Codigo de Almacen:"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/tv_cis_clave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+            android:text="cod almacen"
+            android:textSize="13sp"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+            android:paddingLeft="15dp"
+            android:text="Serie:"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            />
+
+
+        <TextView
+            android:id="@+id/tv_cis_serie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="3"
+
+            android:text="Serie"
+            android:textSize="13sp"
+            />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

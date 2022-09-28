@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\place_autocomplete_fragment.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\bbc91d4f48247062ad3fa6d9b3a502968eb904c1\\output\\res\\layout-v21\\place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\exomedia_default_controls_leanback.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\cd11084e635456252ea5bd57c5a519cebd786925\\output\\res\\layout-v21\\exomedia_default_controls_leanback.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    }
+]

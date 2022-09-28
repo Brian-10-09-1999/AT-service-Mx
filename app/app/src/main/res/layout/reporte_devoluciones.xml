@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C0C0C0"
+    android:orientation="vertical" >
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C0C0C0"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:text="@string/reporteDeDevoluciones" />
+
+    <View
+        android:id="@+id/line1"
+        style="@style/SeparatorLayout"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="5dp" 
+        android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textColor="#3385F0"
+        android:textStyle="bold" 
+        android:text="@string/seleccionaSala" />
+        <View
+        android:id="@+id/line2"
+        style="@style/SeparatorLayout"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp" 
+        android:layout_marginRight="5dp"/>
+
+    <Spinner
+        android:id="@+id/spnSala"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textColor="#3385F0"
+        android:textStyle="bold" 
+        android:text="@string/seleccionaSalida" />
+    
+            <View
+        android:id="@+id/line3"
+        style="@style/SeparatorLayout"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp" 
+        android:layout_marginRight="5dp"/>
+
+            <Spinner
+                android:id="@+id/spnSalida"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" 
+                android:paddingLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+        		android:textColor="#3385F0"
+        		android:textStyle="bold" 
+                android:text="@string/devolucionesReporte" />
+            
+                 <View
+        android:id="@+id/line4"
+        style="@style/SeparatorLayout"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp" 
+        android:layout_marginRight="5dp"/>
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content" >
+
+                     <TextView
+                         android:id="@+id/textView5"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:textStyle="bold"
+                         android:gravity="center_horizontal"
+                         android:text="@string/CODIGO" />
+
+                     <TextView
+                         android:id="@+id/textView6"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1.5"
+                         android:textStyle="bold"
+                         android:gravity="center_horizontal"
+                         android:text="@string/DESCRIPCION" />
+
+                     <TextView
+                         android:id="@+id/textView7"
+                         android:layout_width="0dp"
+                         android:layout_height="wrap_content"
+                         android:layout_weight="1"
+                         android:textStyle="bold"
+                         android:gravity="center_horizontal"
+                         android:text="@string/CANTIDAD" />
+
+                     <TextView
+                         android:id="@+id/textView8"
+                         android:layout_width="0dp"
+                         android:layout_weight="1"
+                         android:layout_height="wrap_content"
+                         android:textStyle="bold"
+                         android:gravity="center_horizontal"
+                         android:text="@string/SERIE" />
+
+                 </LinearLayout>
+                 </LinearLayout>
+       </ScrollView>
+                 <ListView
+                     android:id="@+id/lvReporte"
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent" >
+                 </ListView>
+
+</LinearLayout>
+

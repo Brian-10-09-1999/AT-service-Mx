@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:diagonal="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/Blanco"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <com.github.florent37.diagonallayout.DiagonalLayout
+        android:id="@+id/diagonalLayout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        diagonal:diagonal_angle="15"
+        diagonal:diagonal_position="bottom">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/fondo_nav_head" />
+
+
+    </com.github.florent37.diagonallayout.DiagonalLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_height="wrap_content">
+        <!-- Nombre de Usuario -->
+        <TextView
+            android:id="@+id/id_nav_head_tv_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre usuario"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/dark"
+            android:textStyle="bold" />
+
+        <!-- Correo de la cuenta -->
+        <TextView
+            android:id="@+id/id_nav_head_tv_email"
+            style="@style/Widget.AppCompat.Spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="correo@gmail.com"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/dark" />
+
+    </LinearLayout>
+
+
+
+    <!-- Imagen de perfil -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/id_nav_head_img_circle_image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="20dp"
+        android:elevation="15dp"
+        android:layout_alignParentRight="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_user_material" />
+
+
+
+</RelativeLayout>

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffff"
+    tools:context="com.example.devolucionmaterial.activitys.foliosPendientesSeccion.formatoPantAzul">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#dc000000"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/tab1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="horizontal"
+        android:paddingBottom="7dp"
+        android:paddingTop="7dp"
+        >
+
+        <EditText
+            android:id="@+id/et_quien_reporta"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="17dp"
+            android:hint="Nombre de quién reporta" />
+
+
+
+    </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:id="@+id/ly_juegos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingBottom="0dp"
+                android:paddingTop="7dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Juego:  "
+                    android:textColor="@color/black"
+                    android:textSize="16dp"
+                    android:layout_marginTop="8dp"
+                    />
+                <TextView
+                    android:id="@+id/tv_juego"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:visibility="gone"
+                    android:layout_marginTop="8dp"
+                    android:textSize="17dp"
+                    />
+                <Spinner
+                    android:id="@+id/sp_juegos"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/fondo_spinner2"
+                    android:layout_width="200dp"
+                    android:layout_height="25dp"
+
+                    />
+
+
+            </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/ly_procedencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:paddingTop="7dp">
+
+        <EditText
+            android:id="@+id/et_sistema_de_caja"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:textSize="17dp"
+            android:hint="Sistema de caja" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:orientation="horizontal"
+            >
+
+
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:onClick="datePicker"
+                android:background="@drawable/custom_but_date"
+                android:layout_marginRight="30dp"
+
+                />
+
+            <Button
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+
+                android:onClick="timePickerClick"
+                android:background="@drawable/custom_but_time"
+                android:layout_marginRight="30dp"
+                />
+
+            <TextView
+                android:id="@+id/et_horayfecha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:hint="hora y fecha del evento" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="horizontal"
+        android:paddingBottom="15dp"
+        android:paddingTop="7dp"
+        >
+
+
+
+        <EditText
+            android:id="@+id/et_creditos_reclamados"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:inputType="numberDecimal"
+            android:textSize="17dp"
+            android:hint="Creditos Reclamados" />
+
+    </LinearLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical"
+
+        android:background="#cccccc"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fotografías obligatorias"
+            android:textSize="19dp"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="Pantalla Azul "/>
+        <CheckBox
+            android:id="@+id/cb_pantalla_azul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:text="Pantalla de Contabilidad "/>
+        <CheckBox
+            android:id="@+id/cb_pantalla_contabilidad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="vertical"
+
+        android:background="#cccccc"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Problemática  reportada en sala "
+            android:textSize="19dp"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_quien_como"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:ems="10"
+        android:hint="Quién/ Cuándo/ Cómo "
+        android:inputType="textMultiLine" />
+
+
+    <!-- //////////////////////////////////////   Enviar Revision   ////////////////////////////////////////////////// -->
+
+    <Button
+        android:id="@+id/btn_enviar_rev"
+        android:layout_width="260dp"
+        android:layout_height="70dp"
+        android:text="Enviar Formato"
+        android:onClick="clickButonEnviarFormato"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/custom_button_menu"
+
+        />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

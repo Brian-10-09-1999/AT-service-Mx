@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1047209360015",
+    "firebase_url": "https://at-service-34c2a.firebaseio.com",
+    "project_id": "at-service-34c2a",
+    "storage_bucket": "at-service-34c2a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047209360015:android:f7e07fbecb4c41c8",
+        "android_client_info": {
+          "package_name": "com.example.devolucionmaterial"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047209360015-3ickjf2p5ijnf8ugjagclfe2et9fpo4p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.devolucionmaterial",
+            "certificate_hash": "18F10663AC70B70C94A84407FED3F9415F434955"
+          }
+        },
+        {
+          "client_id": "1047209360015-gkioump1bjoip5tft2lv0gd4o1ne2dmn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPRWWqnrHqU5TffSM7bSdD6yrIgdavL3o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047209360015-gkioump1bjoip5tft2lv0gd4o1ne2dmn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

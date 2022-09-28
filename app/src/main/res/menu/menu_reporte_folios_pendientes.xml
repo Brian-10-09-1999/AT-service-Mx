@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_medios"
+        android:icon="@drawable/ic_action_attach_file"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:title="@string/adjuntar" />
+
+<!--   android:id="@+id/action_close_folio" -->
+
+    <item
+        android:id="@+id/action_formatos"
+        android:icon="@drawable/icon_rev_juegos"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:title="@string/action_settings" />
+
+
+    <item
+        android:id="@+id/action_est_tec"
+        android:icon="@drawable/est_vacaciones"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom"
+        android:title="Status Tecnico" />
+
+
+
+    <item
+
+        android:id="@+id/action_list"
+        android:icon="@drawable/ic_action_list"
+        android:orderInCategory="1"
+        android:title="@string/lista_pedidos"
+        android:iconTint="@color/red"
+        app:showAsAction="ifRoom" />
+
+</menu>

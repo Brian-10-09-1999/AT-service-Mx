@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#ffffff"
+    tools:context=".activitys.materialesSeccion.Lista_Devolucion" >
+
+    <TextView
+        android:id="@+id/tvSalida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="@string/salida" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/textView1"
+        style="@style/EditTextStyleRojo" 
+        android:layout_marginBottom="5dp"
+        android:dividerHeight="2dp"
+        android:divider="#DC143C"
+        android:layout_below="@+id/btnEnviar" >
+
+</ListView>
+
+        <View
+            android:id="@+id/view1"
+            style="@style/Separator"
+            android:layout_alignLeft="@+id/tvSalida"
+            android:layout_below="@+id/tvSalida" />
+        
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:text="@string/infoEditar" />
+
+        <LinearLayout
+            android:id="@+id/llNoGuia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/btnEnviar"
+            android:layout_below="@+id/view1"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/etNoGuia"
+                style="@style/EditTextStyleRojo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="4.5"
+                android:ems="3"
+                android:hint="@string/hintNoGuia"
+                android:inputType="text"
+                android:layout_marginTop="15dp"
+                android:padding="5dp"
+                android:maxLength="10"
+                android:singleLine="true">
+
+                <requestFocus />
+            </EditText>
+
+            <ImageView
+                android:id="@+id/imgTaxi"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:background="@drawable/taxi"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            
+            <ImageView
+                android:id="@+id/imgMensajeria"
+                android:layout_weight="1"
+                android:background="@drawable/mensajeria"
+                android:layout_width="0dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/view1"
+            android:layout_below="@+id/llNoGuia"
+            style="@style/ButtonStyleGris"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/enviar" />
+
+        <TextView
+            android:id="@+id/tvUsuariold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvSalida"
+            android:layout_alignBottom="@+id/tvSalida"
+            android:layout_alignRight="@+id/view1"
+            android:text="TextView"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+</RelativeLayout>

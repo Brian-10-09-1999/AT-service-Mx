@@ -1,0 +1,922 @@
+[
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bvp_topbar_background.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\libraryvideo\\build\\intermediates\\bundles\\default\\res\\drawable\\bvp_topbar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_skip_prev.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_mini_controller_skip_prev.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_cont_failed.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\calendar\\build\\intermediates\\bundles\\default\\res\\drawable\\ic_cont_failed.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logletra.jpeg",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\logletra.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rectangle_azul.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\rectangle_azul.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\est_incapacidad.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\est_incapacidad.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_gris.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\edit_gris.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\waiting_date.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\waiting_date.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_skip_ad_label_border.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_skip_ad_label_border.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\layout_rectangle.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\layout_rectangle.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_dark.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\d3a2fc9cea2a9b3653e5b1576978b81ddbad9a4b\\output\\res\\drawable\\mr_ic_media_route_mono_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_close_dark.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\d3a2fc9cea2a9b3653e5b1576978b81ddbad9a4b\\output\\res\\drawable\\mr_ic_close_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_selector_dark.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\516e4b6d4d1dd93f65600bfdd16d1263d1f80db9\\output\\res\\drawable\\md_selector_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1b81a2180dc542eae057e41cc4783a15abd7bca8\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_decorator_white.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\calendar\\build\\intermediates\\bundles\\default\\res\\drawable\\circle_decorator_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_rojo.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\edit_rojo.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_shape_selected.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\calendar\\build\\intermediates\\bundles\\default\\res\\drawable\\circle_shape_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\exomedia_default_controls_text_background.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\cd11084e635456252ea5bd57c5a519cebd786925\\output\\res\\drawable\\exomedia_default_controls_text_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_emoji_symbols.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\62e3970f4a45d689a0731fb0a4ac3c4339036428\\output\\res\\drawable\\selector_emoji_symbols.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_play.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_notification_play.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\est_vacaciones.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\est_vacaciones.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_emoji_people.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\62e3970f4a45d689a0731fb0a4ac3c4339036428\\output\\res\\drawable\\selector_emoji_people.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\inventario.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\inventario.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind30.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_notification_rewind30.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\start_video_record_button.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\annca\\build\\intermediates\\bundles\\default\\res\\drawable\\start_video_record_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1b81a2180dc542eae057e41cc4783a15abd7bca8\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cc.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\cc.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_pause.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_expanded_controller_pause.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_actionbar_bg_gradient_light.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_expanded_controller_actionbar_bg_gradient_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_style.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\spinner_style.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_seekbar_thumb.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_expanded_controller_seekbar_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\reportedev.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\reportedev.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\en_proceso.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\en_proceso.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_stop_live_stream.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_notification_stop_live_stream.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_mini_controller_progress_drawable.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_mini_controller_progress_drawable.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\est_activo.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\est_activo.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_mute.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_mini_controller_mute.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_light.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\d3a2fc9cea2a9b3653e5b1576978b81ddbad9a4b\\output\\res\\drawable\\mr_ic_cast_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_forward30.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_expanded_controller_forward30.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\info.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\info.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward30.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_notification_forward30.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\switch_camera_mode_selector.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\annca\\build\\intermediates\\bundles\\default\\res\\drawable\\switch_camera_mode_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\search.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\taxi.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\taxi.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\toast_background_blue.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\toast_background_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rectangle_blue.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\rectangle_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_skip_next.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_notification_skip_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\play.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\play.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_skip_prev.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_notification_skip_prev.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_on_dark.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\d3a2fc9cea2a9b3653e5b1576978b81ddbad9a4b\\output\\res\\drawable\\mr_ic_media_route_on_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\stop_button_background.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\annca\\build\\intermediates\\bundles\\default\\res\\drawable\\stop_button_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_btn_selected_dark.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\516e4b6d4d1dd93f65600bfdd16d1263d1f80db9\\output\\res\\drawable\\md_btn_selected_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_light.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\d3a2fc9cea2a9b3653e5b1576978b81ddbad9a4b\\output\\res\\drawable\\mr_ic_pause_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_emoji_activity.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\62e3970f4a45d689a0731fb0a4ac3c4339036428\\output\\res\\drawable\\selector_emoji_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_skip_next.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_expanded_controller_skip_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\ec4d5913137e6760d21bf97d0670685da578f10a\\output\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\exomedia_default_controls_interactive_background.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\cd11084e635456252ea5bd57c5a519cebd786925\\output\\res\\drawable\\exomedia_default_controls_interactive_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ret.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\ret.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_notification_forward.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_rewind30.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_mini_controller_rewind30.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dev.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\dev.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_dark.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\d3a2fc9cea2a9b3653e5b1576978b81ddbad9a4b\\output\\res\\drawable\\mr_ic_media_route_connecting_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\worldofbingo.jpg",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\worldofbingo.jpg"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_seekbar_track.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_expanded_controller_seekbar_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edit_cafe.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\edit_cafe.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_emoji_food.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\62e3970f4a45d689a0731fb0a4ac3c4339036428\\output\\res\\drawable\\selector_emoji_food.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_rewind30.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_expanded_controller_rewind30.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_forward10.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_notification_forward10.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_stop.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_expanded_controller_stop.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rectangle_rojo.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\rectangle_rojo.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\delyvery_error.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\delyvery_error.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\siscopequenio.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\siscopequenio.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\est_en_servicio.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\est_en_servicio.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_frame_background_dark.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\annca\\build\\intermediates\\bundles\\default\\res\\drawable\\circle_frame_background_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\toast_background_red.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\toast_background_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_pause.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_mini_controller_pause.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_row.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\selector_row.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_emoji_recent.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\62e3970f4a45d689a0731fb0a4ac3c4339036428\\output\\res\\drawable\\selector_emoji_recent.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_dialog_material_background_light.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\d3a2fc9cea2a9b3653e5b1576978b81ddbad9a4b\\output\\res\\drawable\\mr_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\d3a2fc9cea2a9b3653e5b1576978b81ddbad9a4b\\output\\res\\drawable\\mr_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_btn_selector_dark.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\516e4b6d4d1dd93f65600bfdd16d1263d1f80db9\\output\\res\\drawable\\md_btn_selector_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind10.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_notification_rewind10.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_mono_light.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\d3a2fc9cea2a9b3653e5b1576978b81ddbad9a4b\\output\\res\\drawable\\mr_ic_media_route_mono_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\ec4d5913137e6760d21bf97d0670685da578f10a\\output\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\ec4d5913137e6760d21bf97d0670685da578f10a\\output\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_expanded_controller_bg_gradient_light.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_expanded_controller_bg_gradient_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_play.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_mini_controller_play.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\ec4d5913137e6760d21bf97d0670685da578f10a\\output\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_rewind.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_notification_rewind.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_small_icon.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_notification_small_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\ec4d5913137e6760d21bf97d0670685da578f10a\\output\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_transparent.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\516e4b6d4d1dd93f65600bfdd16d1263d1f80db9\\output\\res\\drawable\\md_transparent.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\devolucion.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\devolucion.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_chat_list.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\ic_chat_list.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_closed_caption.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_mini_controller_closed_caption.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_pause_dark.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\d3a2fc9cea2a9b3653e5b1576978b81ddbad9a4b\\output\\res\\drawable\\mr_ic_pause_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rectangle.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\rectangle.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_emoji_travel.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\62e3970f4a45d689a0731fb0a4ac3c4339036428\\output\\res\\drawable\\selector_emoji_travel.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_mute.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_expanded_controller_mute.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_shape.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\calendar\\build\\intermediates\\bundles\\default\\res\\drawable\\circle_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progressdialog.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\progressdialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_expand.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\d3a2fc9cea2a9b3653e5b1576978b81ddbad9a4b\\output\\res\\drawable\\ic_expand.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rectangle_cafe_sbordes.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\rectangle_cafe_sbordes.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\ec4d5913137e6760d21bf97d0670685da578f10a\\output\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\email1.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\email1.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_qr_icon.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\ic_qr_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\est_incidencia.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\est_incidencia.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\ec4d5913137e6760d21bf97d0670685da578f10a\\output\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_item_selected_dark.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\516e4b6d4d1dd93f65600bfdd16d1263d1f80db9\\output\\res\\drawable\\md_item_selected_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_skip_previous.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_expanded_controller_skip_previous.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\main_background.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\main_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\os_ok.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\os_ok.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_decorator_list_chat.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\circle_decorator_list_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rectangle_yellow.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\rectangle_yellow.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\ec4d5913137e6760d21bf97d0670685da578f10a\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1b81a2180dc542eae057e41cc4783a15abd7bca8\\output\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rectangle_transp_black.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\rectangle_transp_black.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\est_traslado_sala.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\est_traslado_sala.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mensajeria.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\mensajeria.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\ec4d5913137e6760d21bf97d0670685da578f10a\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\errorinternet.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\errorinternet.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\play_green.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\play_green.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\zitropowermania.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\zitropowermania.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\devmaterial.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\devmaterial.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_selector.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\516e4b6d4d1dd93f65600bfdd16d1263d1f80db9\\output\\res\\drawable\\md_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\list_item_background.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\calendar\\build\\intermediates\\bundles\\default\\res\\drawable\\list_item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_frame_background.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\annca\\build\\intermediates\\bundles\\default\\res\\drawable\\circle_frame_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_btn_selector.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\516e4b6d4d1dd93f65600bfdd16d1263d1f80db9\\output\\res\\drawable\\md_btn_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\question.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\question.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\toast_background_yellow.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\toast_background_yellow.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_item_selected.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\516e4b6d4d1dd93f65600bfdd16d1263d1f80db9\\output\\res\\drawable\\md_item_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\est_en_comida.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\est_en_comida.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_pause_large.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_mini_controller_pause_large.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logozitro.jpg",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\logozitro.jpg"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\est_mix.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\est_mix.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\md_btn_selected.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\516e4b6d4d1dd93f65600bfdd16d1263d1f80db9\\output\\res\\drawable\\md_btn_selected.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\user_icn.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\user_icn.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mix_peq.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\mix_peq.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\text_selector.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\text_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_stop_large.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_mini_controller_stop_large.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_cast_dark.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\d3a2fc9cea2a9b3653e5b1576978b81ddbad9a4b\\output\\res\\drawable\\mr_ic_cast_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_stop.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_mini_controller_stop.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selected_state.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\selected_state.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rectangle_atardecer.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\rectangle_atardecer.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_emoji_nature.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\62e3970f4a45d689a0731fb0a4ac3c4339036428\\output\\res\\drawable\\selector_emoji_nature.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\ec4d5913137e6760d21bf97d0670685da578f10a\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\est_asignado.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\est_asignado.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_close_light.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\d3a2fc9cea2a9b3653e5b1576978b81ddbad9a4b\\output\\res\\drawable\\mr_ic_close_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_play_large.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_mini_controller_play_large.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\ec4d5913137e6760d21bf97d0670685da578f10a\\output\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_connecting.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\3747f87acec4676bdaa4632e6f9388d2437fabd8\\output\\res\\drawable\\cast_ic_notification_connecting.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1b81a2180dc542eae057e41cc4783a15abd7bca8\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back_chat.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\back_chat.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_skip_next.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_mini_controller_skip_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\zitroletra.jpeg",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\zitroletra.jpeg"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\ec4d5913137e6760d21bf97d0670685da578f10a\\output\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\ec4d5913137e6760d21bf97d0670685da578f10a\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\foliopend.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\foliopend.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_collapse.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\d3a2fc9cea2a9b3653e5b1576978b81ddbad9a4b\\output\\res\\drawable\\ic_collapse.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\est_dia_descanso.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\est_dia_descanso.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bvp_controls_background.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\libraryvideo\\build\\intermediates\\bundles\\default\\res\\drawable\\bvp_controls_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rectangle_gris.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\rectangle_gris.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_mini_controller_gradient_light.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_mini_controller_gradient_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\take_photo_button.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\annca\\build\\intermediates\\bundles\\default\\res\\drawable\\take_photo_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_closed_caption.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_expanded_controller_closed_caption.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_expanded_controller_play.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_expanded_controller_play.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_decorator.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\calendar\\build\\intermediates\\bundles\\default\\res\\drawable\\circle_decorator.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar_vertical.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\progressbar_vertical.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_audiotrack_light.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\d3a2fc9cea2a9b3653e5b1576978b81ddbad9a4b\\output\\res\\drawable\\mr_ic_audiotrack_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_connecting_light.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\d3a2fc9cea2a9b3653e5b1576978b81ddbad9a4b\\output\\res\\drawable\\mr_ic_media_route_connecting_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_light.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\d3a2fc9cea2a9b3653e5b1576978b81ddbad9a4b\\output\\res\\drawable\\mr_ic_play_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_mini_controller_forward30.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_mini_controller_forward30.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_emoji_objects.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\62e3970f4a45d689a0731fb0a4ac3c4339036428\\output\\res\\drawable\\selector_emoji_objects.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_media_route_on_light.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\d3a2fc9cea2a9b3653e5b1576978b81ddbad9a4b\\output\\res\\drawable\\mr_ic_media_route_on_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\fondo_bar.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\fondo_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rectangle_bronce.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\rectangle_bronce.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_play_circle_outline_black_48dp.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\ic_play_circle_outline_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_help.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\ic_help.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\delivery_ok.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\delivery_ok.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_question.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\ic_question.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\borde_redondo.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\borde_redondo.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\est_inactivo.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\est_inactivo.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_pause.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_notification_pause.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pedido.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\pedido.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mr_ic_play_dark.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\d3a2fc9cea2a9b3653e5b1576978b81ddbad9a4b\\output\\res\\drawable\\mr_ic_play_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_button_send_message.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\bg_button_send_message.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rectangle_marron.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\rectangle_marron.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_rounded_corners.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\edittext_rounded_corners.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cast_ic_notification_disconnect.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1e56177350d53b4948982f8a5e43b802b102b8c1\\output\\res\\drawable\\cast_ic_notification_disconnect.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\ec4d5913137e6760d21bf97d0670685da578f10a\\output\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\almacen.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\src\\main\\res\\drawable\\almacen.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1b81a2180dc542eae057e41cc4783a15abd7bca8\\output\\res\\drawable\\design_snackbar_background.xml"
+    }
+]

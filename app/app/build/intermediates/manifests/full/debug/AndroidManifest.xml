@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.devolucionmaterial"
+    android:versionCode="12"
+    android:versionName="2.2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <protected-broadcast android:name="android.intent.action.MEDIA_MOUNTED" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <!-- Optional permission for Analytics to run. -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Permissions required for GCM -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" /> <!-- for android -->
+    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+    <!-- for Samsung -->
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" /> <!-- for apex -->
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera.front"
+        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.screen.landscape"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <permission
+        android:name="com.example.devolucionmaterial.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.devolucionmaterial.permission.C2D_MESSAGE" />
+
+    <application
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/devolucion"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.devolucionmaterial.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.devolucionmaterial.activitys.AnuncioDelDia"
+            android:label="@string/title_activity_anuncio_del_dia"
+            android:screenOrientation="portrait"
+            android:theme="@style/Invisible" />
+        <activity
+            android:name=".activitys.materialesSeccion.Registro"
+            android:label="@string/title_activity_registro"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.materialesSeccion.Menu_Devolucion"
+            android:label="@string/title_activity_menu__devolucion"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.devolucionmaterial.activitys.MenuInicial"
+            android:label="@string/title_menuInicial"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.devolucionmaterial.MenuInicialComercial"
+            android:label="@string/title_menuInicial_com"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.materialesSeccion.Lista_Devolucion"
+            android:label="@string/title_activity_lista__devolucion"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.devolucionmaterial.MenuInicialTecnico"
+            android:label="@string/title_activity_menu_inicial"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.materialesSeccion.ReporteDeDevoluciones1"
+            android:label="@string/title_lista_de_devoluciones"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.materialesSeccion.DevolucionesEnviadas"
+            android:label="@string/title_reporte_devoluciones"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.devolucionmaterial.RegistroDeMemorias"
+            android:label="@string/title_registro_memorias"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.devolucionmaterial.activitys.VistaMLeme"
+            android:label="@string/title_vista_leme"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.materialesSeccion.DevolucionesMemorias"
+            android:label="@string/title_devolucion_memorias"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.foliosPendientesSeccion.ReporteFolioPendiente"
+            android:label="@string/title_reporte_folio_pendiente"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.devolucionmaterial.EstatusIncidencia"
+            android:label="@string/title_estatus_incidencia"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.foliosPendientesSeccion.SalasPorRegion"
+            android:label="@string/title_SalasPorRegion"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.foliosPendientesSeccion.FoliosPorSala"
+            android:label="@string/title_folios_por_sala"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.foliosPendientesSeccion.FoliosPendientes"
+            android:label="@string/title_Folios_Pendientes"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.devolucionmaterial.ReporteFolioPendienteSala"
+            android:label="@string/title_folios_Por_sala_pend"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.pedidosSeccion.PedidosPorIncidencia"
+            android:label="@string/title_pedidos_por_incidencia"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.devolucionmaterial.PedidosDeIncidencia"
+            android:label="@string/title_pedidos_de_incidencia"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.pedidosSeccion.ListaDeSalasPedidos"
+            android:label="@string/title_lista_De_Salas_Pedidos"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.devolucionmaterial.IncidenciasDeSala"
+            android:label="@string/title_incidencias_de_sala"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.devolucionmaterial.PedidosDeSala"
+            android:label="@string/title_pedidos_de_sala"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.pedidosSeccion.ListaDePiezasDePedido"
+            android:label="@string/title_lista_de_piezas_pedido"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.devolucionmaterial.AdeudoDeMaterial"
+            android:label="@string/title_adeudo_de_material"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.osSeccion.ListaOSAsignadas"
+            android:label="@string/title_os_asignadas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.osSeccion.ReporteActividadOS"
+            android:label="@string/title_reporte_os"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.devolucionmaterial.EdicionRegistroMaterial"
+            android:label="@string/title_dialogo_edicion_de_registro_material"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="com.example.devolucionmaterial.dialogs.DialogoBusquedaTecnicoBaja"
+            android:label="@string/title_dialogo_busqueda_tecnico"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="com.example.devolucionmaterial.dialogs.Estatus"
+            android:label="@string/title_estatus"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="com.example.devolucionmaterial.dialogs.DialogoOpcionesEstEnServ"
+            android:label="@string/title_Opciones_est_en_serv"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+
+        <service
+            android:name="com.example.devolucionmaterial.services.FolioAsignadoService"
+            android:enabled="true"
+            android:exported="true"
+            android:permission=""
+            android:persistent="true" >
+            <intent-filter>
+                <action android:name="com.example.devolucionmaterial.FolioAsignadoService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.example.devolucionmaterial.data_base.ControlTotalLocalxRemoto"
+            android:exported="false" />
+        <service
+            android:name="com.example.devolucionmaterial.data_base.ActualizaBDcrefacciones"
+            android:exported="false" />
+        <service
+            android:name="com.example.devolucionmaterial.data_base.ActualizaBDcsala"
+            android:exported="false" />
+        <service
+            android:name="com.example.devolucionmaterial.data_base.ActualizaBDcestatus"
+            android:exported="false" />
+
+        <activity
+            android:name="com.example.devolucionmaterial.MuestraSoloImagen"
+            android:screenOrientation="portrait"
+            android:theme="@style/CasiInvisible" />
+        <activity
+            android:name="com.example.devolucionmaterial.activitys.osSeccion.VerGaleriaOS"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.example.devolucionmaterial.data_base.ActualizaBDestatusDevMaterial"
+            android:exported="false" />
+        <!-- service android:name="com.example.devolucionmaterial.download.AppDownload" android:exported="false"/ -->
+
+        <receiver
+            android:name="com.example.devolucionmaterial.services.ServiceBoot"
+            android:enabled="true"
+            android:exported="true"
+            android:persistent="true" >
+            <intent-filter android:priority="1000" >
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name="com.example.devolucionmaterial.internet.MuestraAyuda" />
+        <activity
+            android:name="com.example.devolucionmaterial.activitys.SolicitudMaterialActivity"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.example.devolucionmaterial.firebase.MyFirebaseMessagingService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.example.devolucionmaterial.firebase.MyFirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.example.devolucionmaterial.firebase.SolicitudMaterialDetallesNotificacion"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name="com.example.devolucionmaterial.firebase.RastreoService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.example.devolucionmaterial.firebase.RastreoService" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.example.devolucionmaterial.chat.activitys.LoginChatActity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:hardwareAccelerated="true"
+            android:theme="@style/ChatNoActionbar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.example.devolucionmaterial.chat.activitys.MenuChatActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:hardwareAccelerated="true"
+            android:theme="@style/ChatNoActionbar"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="INTENT_UPDATE_LIST_CHAT" />
+            </intent-filter>
+        </activity>
+
+        <!-- en esta actividad se agrega el filter y el nombre  para que pueda cachar la radiofusion -->
+        <activity
+            android:name="com.example.devolucionmaterial.chat.activitys.ChatActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:hardwareAccelerated="true"
+            android:theme="@style/ChatNoActionbar"
+            android:windowSoftInputMode="stateAlwaysHidden" >
+            <intent-filter>
+                <action android:name="INTENT_FILTER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="INTENT_FINISH_GROUP_CHAT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="INTENT_DELETE_MEMBER_GROUP_CHAT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.devolucionmaterial.activitys.CalendarActivity"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name="com.example.devolucionmaterial.chat.activitys.NewGroupActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:hardwareAccelerated="true"
+            android:theme="@style/ChatNoActionbar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.example.devolucionmaterial.chat.activitys.ChatDetailsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:theme="@style/ChatNoActionbar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.example.devolucionmaterial.chat.activitys.UpdateGroupActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:theme="@style/ChatNoActionbar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.example.devolucionmaterial.chat.activitys.NewChatActivity"
+            android:theme="@style/ChatNoActionbar" />
+        <activity
+            android:name="com.example.devolucionmaterial.qreader.activities.QReaderActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.example.devolucionmaterial.qreader.activities.QrDetailsActivity"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name="com.example.devolucionmaterial.chat.activitys.ImageSelectActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:theme="@style/ChatNoActionbar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.example.devolucionmaterial.chat.activitys.ImageFullActivity"
+            android:theme="@style/ChatNoActionbar" />
+
+        <!-- activiades de camara -->
+
+        <activity
+            android:name="com.example.annca.internal.ui.camera.Camera1Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeFullscreen" />
+        <activity
+            android:name="com.example.annca.internal.ui.camera2.Camera2Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeFullscreen" />
+        <activity
+            android:name="com.example.annca.internal.ui.preview.PreviewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeFullscreen" />
+        <activity
+            android:name="com.example.annca.internal.ui.BaseAnncaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeFullscreen" />
+        <activity
+            android:name="com.example.devolucionmaterial.activitys.CrearFolioActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".activitys.foliosPendientesSeccion.mediosfolios.SelectMediaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".activitys.foliosPendientesSeccion.mediosfolios.ListMediosFolios"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".activitys.foliosPendientesSeccion.mediosfolios.MediosActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+
+        <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name="com.google.android.gms.ads.purchase.InAppPurchaseActivity"
+            android:theme="@style/Theme.IAPTheme" />
+        <activity
+            android:name="com.google.android.gms.appinvite.PreviewActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppInvite.Preview" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
+
+        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
+        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />
+        <service
+            android:name="com.google.android.gms.tagmanager.TagManagerService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
+            <intent-filter>
+                <data android:scheme="tagmanager.c.com.example.devolucionmaterial" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:clearTaskOnLaunch="true"
+            android:screenOrientation="sensorLandscape"
+            android:stateNotNeeded="true"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+ FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.example.devolucionmaterial" />
+            </intent-filter>
+        </receiver>
+        <!--
+ Internal (not exported) receiver used by the app to start its own exported services
+             without risk of being spoofed.
+        -->
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+            android:exported="false" />
+        <!--
+ FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.devolucionmaterial.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

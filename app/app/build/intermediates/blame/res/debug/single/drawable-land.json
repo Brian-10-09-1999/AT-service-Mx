@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land\\circle_decorator.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\calendar\\build\\intermediates\\bundles\\default\\res\\drawable-land\\circle_decorator.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land\\list_item_background.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\calendar\\build\\intermediates\\bundles\\default\\res\\drawable-land\\list_item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land\\circle_decorator_white.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\calendar\\build\\intermediates\\bundles\\default\\res\\drawable-land\\circle_decorator_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land\\ic_cont_failed.png",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\calendar\\build\\intermediates\\bundles\\default\\res\\drawable-land\\ic_cont_failed.png"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land\\circle_shape.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\calendar\\build\\intermediates\\bundles\\default\\res\\drawable-land\\circle_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\drawable-land\\circle_shape_selected.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\calendar\\build\\intermediates\\bundles\\default\\res\\drawable-land\\circle_shape_selected.xml"
+    }
+]

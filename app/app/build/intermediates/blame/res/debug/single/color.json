@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\color\\switch_thumb_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\wallet_secondary_text_holo_dark.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\3f05ce64a81b8cb5e9169c019d619cbddce30d0f\\output\\res\\color\\wallet_secondary_text_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\ec4d5913137e6760d21bf97d0670685da578f10a\\output\\res\\color\\common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1b81a2180dc542eae057e41cc4783a15abd7bca8\\output\\res\\color\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\1b81a2180dc542eae057e41cc4783a15abd7bca8\\output\\res\\color\\design_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\color\\abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\dsb_progress_color_list.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\e0693712935af1a103ac120a10c1e1daec5c0fb1\\output\\res\\color\\dsb_progress_color_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\color\\abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\color\\abc_search_url_text.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\wallet_primary_text_holo_light.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\3f05ce64a81b8cb5e9169c019d619cbddce30d0f\\output\\res\\color\\wallet_primary_text_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\ec4d5913137e6760d21bf97d0670685da578f10a\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\color\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\color\\abc_secondary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\ec4d5913137e6760d21bf97d0670685da578f10a\\output\\res\\color\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\color\\abc_tint_spinner.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\color\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\color\\abc_primary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\color\\abc_tint_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\dsb_ripple_color_list.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\e0693712935af1a103ac120a10c1e1daec5c0fb1\\output\\res\\color\\dsb_ripple_color_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\color\\abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\color\\abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\exomedia_default_controls_button_selector.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\cd11084e635456252ea5bd57c5a519cebd786925\\output\\res\\color\\exomedia_default_controls_button_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\dsb_track_color_list.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\e0693712935af1a103ac120a10c1e1daec5c0fb1\\output\\res\\color\\dsb_track_color_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\EDGAR ARANA\\Documents\\AT-service\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
+        "source": "C:\\Users\\EDGAR ARANA\\.android\\build-cache\\312e53711bf7c9e77a3fabdf5222f9228e63f0db\\output\\res\\color\\abc_tint_btn_checkable.xml"
+    }
+]

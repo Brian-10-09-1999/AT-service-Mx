@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.devolucionmaterial.activitys.graficos.GrafciosActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/dark"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                card_view:cardCornerRadius="6dp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="3dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="KPI: octubre(2017) -> septiembre(2018)" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="10dp"
+                            android:padding="@dimen/common_4_dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Operador :" />
+
+
+                            <Spinner
+                                android:id="@+id/ag_sp_cliente"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/accentColor" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/common_4_dp">
+
+                            <TextView
+                                android:id="@+id/textView12"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Casinos :" />
+
+                            <TextView
+                                android:id="@+id/ag_tv_casinos"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="@dimen/common_4_dp"
+                                android:text="0"
+                                android:textColor="@color/accentColor" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="@dimen/common_4_dp"
+                                android:maxLines="1"
+                                android:text="Máquinas :" />
+
+                            <me.grantland.widget.AutofitTextView
+                                android:id="@+id/ag_tv_maquinas"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="@dimen/common_4_dp"
+                                android:maxLines="1"
+                                android:text="0"
+                                android:textColor="@color/accentColor"
+                                autofit:minTextSize="15sp" />
+
+
+                        </LinearLayout>
+
+                        <HorizontalScrollView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:padding="@dimen/common_4_dp"
+                                android:weightSum="10">
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="@dimen/common_4_dp"
+                                    android:layout_weight="1"
+                                    android:maxLines="1"
+                                    android:text="B:" />
+
+                                <me.grantland.widget.AutofitTextView
+                                    android:id="@+id/ag_tv_b"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="@dimen/common_4_dp"
+                                    android:layout_weight="1"
+                                    android:maxLines="1"
+                                    android:text="0"
+                                    android:textColor="@color/accentColor"
+                                    autofit:minTextSize="15sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="@dimen/common_4_dp"
+                                    android:layout_weight="1"
+                                    android:maxLines="1"
+                                    android:text="BW:" />
+
+                                <me.grantland.widget.AutofitTextView
+                                    android:id="@+id/ag_tv_bw"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="@dimen/common_4_dp"
+                                    android:layout_weight="1"
+                                    android:maxLines="1"
+                                    android:text="0"
+                                    android:textColor="@color/accentColor"
+                                    autofit:minTextSize="15sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="@dimen/common_4_dp"
+                                    android:layout_weight="1"
+                                    android:maxLines="1"
+                                    android:text="BWP:" />
+
+                                <me.grantland.widget.AutofitTextView
+                                    android:id="@+id/ag_tv_bwp"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="27dp"
+                                    android:layout_marginRight="@dimen/common_4_dp"
+                                    android:layout_weight="1"
+                                    android:maxLines="1"
+                                    android:text="0"
+                                    android:textColor="@color/accentColor"
+                                    autofit:minTextSize="15sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="@dimen/common_4_dp"
+                                    android:layout_weight="1"
+                                    android:maxLines="1"
+                                    android:text="BK:" />
+
+                                <me.grantland.widget.AutofitTextView
+                                    android:id="@+id/ag_tv_bk"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="@dimen/common_4_dp"
+                                    android:layout_weight="1"
+                                    android:maxLines="1"
+                                    android:text="0"
+                                    android:textColor="@color/accentColor"
+                                    autofit:minTextSize="15sp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="@dimen/common_4_dp"
+                                    android:layout_weight="1"
+                                    android:maxLines="1"
+                                    android:text="F:" />
+
+                                <me.grantland.widget.AutofitTextView
+                                    android:id="@+id/ag_tv_f"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="@dimen/common_4_dp"
+                                    android:layout_weight="1"
+                                    android:maxLines="1"
+                                    android:text="0"
+                                    android:textColor="@color/accentColor"
+                                    autofit:minTextSize="15sp" />
+
+
+                            </LinearLayout>
+
+                        </HorizontalScrollView>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/common_4_dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Incidencias" />
+
+                            <TextView
+                                android:id="@+id/ag_tv_horas"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="1(36 hrs)" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:padding="@dimen/common_4_dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Abiertas" />
+
+                            <TextView
+                                android:id="@+id/ag_tv_abiertas"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="0"
+                                android:textColor="@color/accentColor" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Cerradas" />
+
+                            <TextView
+                                android:id="@+id/ag_tv_cerrdas"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="0"
+                                android:textColor="@color/accentColor" />
+
+                            <TextView
+                                android:id="@+id/ag_tv_porcentaje"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="0%" />
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+                    <!--
+                    <com.odn.mpchartlib.charts.LineChart
+                        android:id="@+id/chart1"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp" />
+                    -->
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:id="@+id/ly_graph1"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+                    <Space
+                        android:layout_width="match_parent"
+                        android:layout_height="7dp" />
+                    <!--
+                 <com.odn.mpchartlib.charts.LineChart
+                     android:id="@+id/chart2"
+                     android:layout_width="match_parent"
+                     android:layout_height="100dp"
+                     android:layout_marginTop="10dp" />
+   -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:id="@+id/ly_graph2"
+                        android:orientation="horizontal">
+
+                    </LinearLayout>
+
+                 <LinearLayout
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical">
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:orientation="horizontal"
+                         android:layout_marginTop="15dp"
+                         android:padding="@dimen/common_4_dp">
+
+                         <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_weight="1"
+                             android:text="Máquinas no operativas" />
+
+                         <TextView
+                             android:id="@+id/ag_tv_horas_no"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_weight="1"
+                             android:text="2(24hrs)" />
+
+
+                     </LinearLayout>
+
+                     <LinearLayout
+
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:orientation="horizontal"
+                         android:paddingBottom="12dp"
+                         android:padding="@dimen/common_4_dp">
+
+                         <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_weight="1"
+                             android:text="Abiertas" />
+
+                         <TextView
+                             android:id="@+id/ag_tv_abiertas_no"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_weight="1"
+                             android:text="0"
+                             android:textColor="@color/accentColor" />
+
+                         <TextView
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_weight="1"
+                             android:text="Cerradas" />
+
+                         <TextView
+                             android:id="@+id/ag_tv_cerradas_no"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_weight="1"
+                             android:text="0"
+                             android:textColor="@color/accentColor" />
+
+                         <TextView
+                             android:id="@+id/ag_tv_porcentaje_no"
+                             android:layout_width="wrap_content"
+                             android:layout_height="wrap_content"
+                             android:layout_weight="1"
+                             android:text="0%" />
+
+
+                     </LinearLayout>
+                     <!--
+                     <com.odn.mpchartlib.charts.LineChart
+                         android:id="@+id/chart3"
+                         android:layout_width="match_parent"
+                         android:layout_height="100dp" />
+
+                     <com.odn.mpchartlib.charts.LineChart
+                         android:id="@+id/chart4"
+                         android:layout_width="match_parent"
+                         android:layout_height="100dp"
+                         android:layout_marginTop="10dp" />
+                        -->
+
+
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="130dp"
+                         android:id="@+id/ly_graph3"
+                         android:orientation="horizontal">
+
+                     </LinearLayout>
+                     <Space
+                         android:layout_width="match_parent"
+                         android:layout_height="7dp" />
+
+    -->
+                     <LinearLayout
+                         android:layout_width="match_parent"
+                         android:layout_height="130dp"
+                         android:id="@+id/ly_graph4"
+                         android:orientation="horizontal">
+
+                     </LinearLayout>
+
+
+
+                 </LinearLayout>
+
+
+             </LinearLayout>
+
+
+         </android.support.v7.widget.CardView>
+
+         <android.support.v7.widget.RecyclerView
+             android:id="@+id/ag_rv_graficos"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" />
+
+
+     </LinearLayout>
+ </ScrollView>
+
+
+</LinearLayout>

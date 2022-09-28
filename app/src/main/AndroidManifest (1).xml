@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.devolucionmaterial">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <protected-broadcast android:name="android.intent.action.MEDIA_MOUNTED" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:name=".Application"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/devolucion"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- receiver para saber cuando ya hay conexion -->
+        <receiver
+            android:name=".services.NetworkChangeReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".services.SendPeddidosGuardados"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.devolucionmaterial.services.SendPeddidosGuardados" />
+            </intent-filter>
+        </service>
+
+        <!-- servico de pedidos qr -->
+        <service
+            android:name=".services.SendPedidosQrSave"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.devolucionmaterial.services.SendPedidosQrSave" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".activitys.AnuncioDelDia"
+            android:label="@string/title_activity_anuncio_del_dia"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".activitys.materialesSeccion.Registro"
+            android:label="@string/title_activity_registro"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".activitys.materialesSeccion.Menu_Devolucion"
+            android:label="@string/title_activity_menu__devolucion"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".activitys.MenuInicial"
+            android:label="@string/title_menuInicial"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".MenuInicialComercial"
+            android:label="@string/title_menuInicial_com"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.materialesSeccion.Lista_Devolucion"
+            android:label="@string/title_activity_lista__devolucion"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".MenuInicialTecnico"
+            android:label="@string/title_activity_menu_inicial"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.materialesSeccion.ReporteDeDevoluciones1"
+            android:label="@string/title_lista_de_devoluciones"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".activitys.materialesSeccion.DevolucionesEnviadas"
+            android:label="@string/title_reporte_devoluciones"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".RegistroDeMemorias"
+            android:label="@string/title_registro_memorias"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".activitys.VistaMLeme"
+            android:label="@string/title_vista_leme"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".activitys.materialesSeccion.DevolucionesMemorias"
+            android:label="@string/title_devolucion_memorias"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".activitys.foliosPendientesSeccion.ReporteFolioPendiente"
+            android:label="@string/title_reporte_folio_pendiente"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".EstatusIncidencia"
+            android:label="@string/title_estatus_incidencia"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.foliosPendientesSeccion.SalasPorRegion"
+            android:label="@string/title_SalasPorRegion"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".activitys.foliosPendientesSeccion.FoliosPorSala"
+            android:label="@string/title_folios_por_sala"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".activitys.foliosPendientesSeccion.FoliosPendientes"
+            android:label="@string/title_Folios_Pendientes"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".ReporteFolioPendienteSala"
+            android:label="@string/title_folios_Por_sala_pend"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".activitys.pedidosSeccion.PedidosPorIncidencia"
+            android:label="@string/title_pedidos_por_incidencia"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".PedidosDeIncidencia"
+            android:label="@string/title_pedidos_de_incidencia"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".activitys.pedidosSeccion.ListaDeSalasPedidos"
+            android:label="@string/title_lista_De_Salas_Pedidos"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".IncidenciasDeSala"
+            android:label="@string/title_incidencias_de_sala"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".PedidosDeSala"
+            android:label="@string/title_pedidos_de_sala"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".activitys.pedidosSeccion.ListaDePiezasDePedido"
+            android:label="@string/title_lista_de_piezas_pedido"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".AdeudoDeMaterial"
+            android:label="@string/title_adeudo_de_material"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activitys.osSeccion.ListaOSAsignadas"
+            android:label="@string/title_os_asignadas"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".activitys.osSeccion.ReporteActividadOS"
+            android:label="@string/title_reporte_os"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".EdicionRegistroMaterial"
+            android:label="@string/title_dialogo_edicion_de_registro_material"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".dialogs.DialogoBusquedaTecnicoBaja"
+            android:label="@string/title_dialogo_busqueda_tecnico"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".dialogs.Estatus"
+            android:label="@string/title_estatus"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".dialogs.DialogoOpcionesEstEnServ"
+            android:label="@string/title_Opciones_est_en_serv"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog" />
+
+        <service
+            android:name=".services.FolioAsignadoService"
+            android:enabled="true"
+            android:exported="true"
+            android:permission=""
+            android:persistent="true">
+            <intent-filter>
+                <action android:name="com.example.devolucionmaterial.FolioAsignadoService" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".data_base.ControlTotalLocalxRemoto"
+            android:exported="false" />
+        <service
+            android:name=".data_base.ActualizaBDcrefacciones"
+            android:exported="false" />
+        <service
+            android:name=".data_base.ActualizaBDcsala"
+            android:exported="false" />
+        <service
+            android:name=".data_base.ActualizaBDcestatus"
+            android:exported="false" />
+
+        <activity
+            android:name=".MuestraSoloImagen"
+            android:screenOrientation="portrait"
+            android:theme="@style/CasiInvisible" />
+        <activity
+            android:name=".activitys.osSeccion.VerGaleriaOS"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".activitys.codigoqr.InfoCodigoQRActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbarInfoQR" />
+        <activity
+            android:name=".activitys.codigoqr.LectorQRActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbarInfoQR" />
+
+        <service
+            android:name=".data_base.ActualizaBDestatusDevMaterial"
+            android:exported="false" />
+        <!-- service android:name="com.example.devolucionmaterial.download.AppDownload" android:exported="false"/ -->
+
+        <receiver
+            android:name=".services.ServiceBoot"
+            android:enabled="true"
+            android:exported="true"
+            android:persistent="true">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".internet.MuestraAyuda" />
+        <activity
+            android:name=".activitys.SolicitudMaterialActivity"
+            android:screenOrientation="portrait" />
+
+        <service android:name=".firebase.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name=".firebase.MyFirebaseInstanceIdService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".firebase.SolicitudMaterialDetallesNotificacion"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".firebase.RastreoService"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.devolucionmaterial.firebase.RastreoService" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".chat.activitys.LoginChatActity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:hardwareAccelerated="true"
+            android:theme="@style/ChatNoActionbar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".chat.activitys.MenuChatActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:hardwareAccelerated="true"
+            android:theme="@style/ChatNoActionbar"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="INTENT_UPDATE_LIST_CHAT" />
+            </intent-filter>
+        </activity>
+
+        <!-- en esta actividad se agrega el filter y el nombre  para que pueda cachar la radiofusion -->
+        <activity
+            android:name=".chat.activitys.ChatActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:hardwareAccelerated="true"
+            android:theme="@style/ChatNoActionbar"
+            android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="INTENT_FILTER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="INTENT_FINISH_GROUP_CHAT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="INTENT_DELETE_MEMBER_GROUP_CHAT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activitys.CalendarActivity"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".chat.activitys.NewGroupActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:hardwareAccelerated="true"
+            android:theme="@style/ChatNoActionbar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".chat.activitys.ChatDetailsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:theme="@style/ChatNoActionbar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".chat.activitys.UpdateGroupActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:theme="@style/ChatNoActionbar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".chat.activitys.NewChatActivity"
+            android:theme="@style/ChatNoActionbar" />
+        <activity
+            android:name=".qreader.activities.QReaderActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".qreader.activities.QrDetailsActivity"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".chat.activitys.ImageSelectActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:theme="@style/ChatNoActionbar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".chat.activitys.ImageFullActivity"
+            android:theme="@style/ChatNoActionbar" />
+        <activity
+            android:name=".chat.activitys.GalleryChatActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:hardwareAccelerated="true"
+            android:theme="@style/ChatNoActionbar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <!-- activiades de camara -->
+
+        <activity
+            android:name="com.example.annca.internal.ui.camera.Camera1Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeFullscreen" />
+        <activity
+            android:name="com.example.annca.internal.ui.camera2.Camera2Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeFullscreen" />
+        <activity
+            android:name="com.example.annca.internal.ui.preview.PreviewActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeFullscreen" />
+        <activity
+            android:name="com.example.annca.internal.ui.BaseAnncaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeFullscreen" />
+        <activity
+            android:name=".activitys.CrearFolioActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name=".activitys.foliosPendientesSeccion.mediosfolios.SelectMediaActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".activitys.foliosPendientesSeccion.mediosfolios.ListMediosFolios"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".activitys.foliosPendientesSeccion.mediosfolios.MediosActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+
+        <!-- qr -->
+
+        <activity
+            android:name="com.odn.qr_manager.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.qr" />
+        <activity
+            android:name="com.odn.qr_manager.activities.QrDetailsActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.qr" />
+        <activity
+            android:name="com.odn.qr_manager.activities.QReaderActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.qr" />
+        <activity
+            android:name="com.odn.qr_manager.activities.RelateLabActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.qr" />
+        <activity
+            android:name="com.odn.qr_manager.activities.RelateProductionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.qr" />
+        <activity
+            android:name="com.odn.qr_manager.activities.LoginActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.qr" />
+        <activity
+            android:name="com.odn.qr_manager.activities.changeComponents.ChangeComponentA"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.qr" />
+        <activity
+            android:name="com.odn.qr_manager.activities.changeComponents.ChangeComponentB"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.qr" />
+        <activity
+            android:name="com.odn.qr_manager.activities.changeComponents.ChangeComponentC"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.qr" />
+        <activity android:name=".activities.CreateSerieActivity" />
+        <activity
+            android:name="com.odn.qr_manager.activities.CreateSerieActivity"
+            android:theme="@style/AppTheme.qr" />
+        <activity
+            android:name=".activitys.graficos.GrafciosActivity"
+            android:theme="@style/activityNoActionbarDark" />
+        <activity
+            android:name=".activitys.pedidosSeccion.CrearPedidoActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".activitys.LectorActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".activitys.foliosPendientesSeccion.ListPedidosGuardadosActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".activitys.foliosPendientesSeccion.peidosqr.MachineActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".activitys.foliosPendientesSeccion.peidosqr.ComponentActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <activity
+            android:name=".activitys.foliosPendientesSeccion.peidosqr.PedidosListQrActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <!-- multipickerf -->
+        <activity
+            android:name="com.odn.multiphotopicker.PhotoPickerActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name="com.odn.multiphotopicker.PhotoPagerActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="bbd9209fd01945c806261ba5f466d83bc4fd8224" />
+
+        <activity
+            android:name=".activitys.viaticos.Activity_Gastos"
+            android:label="@string/title_viaticos"
+            android:screenOrientation="portrait"
+            android:theme="@style/activityNoActionbar" />
+        <!-- android:theme="@style/viaticos_style" -->
+
+        <activity android:name=".activitys.viaticos.Activity_Lista"></activity>
+    </application>
+
+</manifest>

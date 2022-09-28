@@ -1,0 +1,1200 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:2:1-368:12
+	package
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:3:5-45
+		INJECTED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\4971ff04d9265d967271854d3d5670cedd5640dc\output\AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-analytics:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\16badc19e1a1372a67d0857a3d4bf7e9e90bb2d5\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\dbca5f2713bbb399eebb1a144340771fe27e32f2\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\1a7fbd195b7d8b7ad038176c99d722abf09d499e\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\5517b85d8bda6e23f97082879637b264cca34032\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\4011d67b8e0d0448319883d4bd4bf8673af9bac1\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\37ce17f27fb609b8c4f1dabcfe32bd2dad3c5d72\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\3cd81b43ecc07951dd61ec0d2168929b78d74d0f\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\960a43963d16e0854aeb1523477c81bf16c796a6\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c95c171c254b3021cdc83597e49b9138cf82371e\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\2a43a4b3a70af57e1e631957a2fc021429d3ac82\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\06c60c945af947d8fe8494d40be82699476e7527\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:6:22-63
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\4971ff04d9265d967271854d3d5670cedd5640dc\output\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-analytics:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\16badc19e1a1372a67d0857a3d4bf7e9e90bb2d5\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-nearby:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\1df0f17dc0466d939f63749541c2d810afa61174\output\AndroidManifest.xml:4:5-78
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\37ce17f27fb609b8c4f1dabcfe32bd2dad3c5d72\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\3cd81b43ecc07951dd61ec0d2168929b78d74d0f\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\960a43963d16e0854aeb1523477c81bf16c796a6\output\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c95c171c254b3021cdc83597e49b9138cf82371e\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\2a43a4b3a70af57e1e631957a2fc021429d3ac82\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\06c60c945af947d8fe8494d40be82699476e7527\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:8:5-75
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:8:22-72
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:9:5-71
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:9:22-68
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:10:5-69
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:10:22-66
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:11:5-65
+MERGED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\EDGAR ARANA\.android\build-cache\556fe8297e7c99d3fd00079a926261753b6f176a\output\AndroidManifest.xml:23:5-65
+MERGED from [AT-service:annca:unspecified] C:\Users\EDGAR ARANA\Documents\AT-service\annca\build\intermediates\bundles\default\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:11:22-62
+protected-broadcast
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:13:26-76
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:15:5-71
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:15:22-68
+uses-permission#android.permission.FLASHLIGHT
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:16:5-69
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:16:22-66
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:17:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:18:5-80
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:18:22-77
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:19:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:20:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:21:5-89
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:21:22-86
+uses-permission#android.permission.READ_LOGS
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:22:22-65
+uses-feature#android.hardware.camera
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:24:5-26:35
+MERGED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\EDGAR ARANA\.android\build-cache\556fe8297e7c99d3fd00079a926261753b6f176a\output\AndroidManifest.xml:26:5-28:36
+	android:required
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:26:9-32
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:25:9-47
+application
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:28:5-366:19
+MERGED from [com.google.android.gms:play-services:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\74d02b80fb3301f7bc44194768233ccd033f99af\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\4971ff04d9265d967271854d3d5670cedd5640dc\output\AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-analytics:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\16badc19e1a1372a67d0857a3d4bf7e9e90bb2d5\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\dbca5f2713bbb399eebb1a144340771fe27e32f2\output\AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.android.gms:play-services-cast-framework:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\1e56177350d53b4948982f8a5e43b802b102b8c1\output\AndroidManifest.xml:4:5-8:19
+MERGED from [com.google.android.gms:play-services-cast:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\3747f87acec4676bdaa4632e6f9388d2437fabd8\output\AndroidManifest.xml:18:5-19
+MERGED from [com.android.support:mediarouter-v7:24.0.0] C:\Users\EDGAR ARANA\.android\build-cache\d3a2fc9cea2a9b3653e5b1576978b81ddbad9a4b\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:palette-v7:24.0.0] C:\Users\EDGAR ARANA\.android\build-cache\5bd7f5927b3b6fb29d03e60e5756dbca5ebefd5e\output\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\fd8f1444a1f782edb68f9203602e379c56ddd242\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-config:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\17fd5046ae02ef8154030747c7f34f634b9194ea\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-awareness:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\1ea27c35436b925fc9d756d36bc730eda78b73ce\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-crash:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\1a7fbd195b7d8b7ad038176c99d722abf09d499e\output\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-fitness:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c58036dbcca6f61328d752b494f6abe645b2a646\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-games:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\00bee4bfe12f980c26fe36e5a4570e68800aa8ef\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-drive:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\19520f51669c08adb0ea55456fceb24c1bb1c77e\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\8f78978e7f80a7dbcefc51f3cbe73feb0b57b2bd\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-gcm:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\5517b85d8bda6e23f97082879637b264cca34032\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.firebase:firebase-appindexing:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\90b9adac51f057a173289ca7d9fcb3f725fea59f\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\4011d67b8e0d0448319883d4bd4bf8673af9bac1\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-location:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\a9b8626917eb5a2e7b0cd8e1e3208a96343ea4e2\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-nearby:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\1df0f17dc0466d939f63749541c2d810afa61174\output\AndroidManifest.xml:5:5-19
+MERGED from [com.google.android.gms:play-services-panorama:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\b3095cb251282076e4471fca581ae87acc2bf821\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-places:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\bbc91d4f48247062ad3fa6d9b3a502968eb904c1\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-plus:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\8fccf4c0ee4528f18f370736a1325a9148422872\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-safetynet:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\bb1ebfc53374213f791d026025010db2ef4a5f77\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\37ce17f27fb609b8c4f1dabcfe32bd2dad3c5d72\output\AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\5778b1dc66b6d33fce9ef2c2d789d6018c6ecd68\output\AndroidManifest.xml:19:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\3cd81b43ecc07951dd61ec0d2168929b78d74d0f\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-identity:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\42fae2dae371f9ba8927a7ae65de6ce22869c42a\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\960a43963d16e0854aeb1523477c81bf16c796a6\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-wearable:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\da6edcef2132aa86e9ec7665e156f94a4624efe4\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\628575d52e4c36d9e7cd91b5d770136bd82dbcf6\output\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-vision:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\5df9d2255dd1f7df677892e72904450ac6d683c8\output\AndroidManifest.xml:4:5-19
+MERGED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\EDGAR ARANA\.android\build-cache\556fe8297e7c99d3fd00079a926261753b6f176a\output\AndroidManifest.xml:47:5-55:19
+MERGED from [de.hdodenhof:circleimageview:1.3.0] C:\Users\EDGAR ARANA\.android\build-cache\9be1b832dab2d424c6b0220c205a0bc121b9ede3\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\046c30c4e921245d99030695cefb8d8c7f2e7033\output\AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-auth:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\855ed8895f8ee18dcd6d044242176ca525a4d90c\output\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\ec4d5913137e6760d21bf97d0670685da578f10a\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\1180915113c22be570d582e636ed72927be19031\output\AndroidManifest.xml:19:5-29:19
+MERGED from [me.himanshusoni.chatmessageview:chat-message-view:1.0.3] C:\Users\EDGAR ARANA\.android\build-cache\a093e602dd1942680376b2e32fe9e7b85a230724\output\AndroidManifest.xml:11:5-14:19
+MERGED from [com.afollestad.material-dialogs:core:0.9.3.0] C:\Users\EDGAR ARANA\.android\build-cache\516e4b6d4d1dd93f65600bfdd16d1263d1f80db9\output\AndroidManifest.xml:13:5-20
+MERGED from [com.android.support:support-v13:25.1.1] C:\Users\EDGAR ARANA\.android\build-cache\ee35b0163ff3971e160b98763eadbf233d125869\output\AndroidManifest.xml:25:5-20
+MERGED from [AT-service:calendar:unspecified] C:\Users\EDGAR ARANA\Documents\AT-service\calendar\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
+MERGED from [AT-service:menuswipe:unspecified] C:\Users\EDGAR ARANA\Documents\AT-service\menuswipe\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
+MERGED from [AT-service:menuchat:unspecified] C:\Users\EDGAR ARANA\Documents\AT-service\menuchat\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
+MERGED from [AT-service:annca:unspecified] C:\Users\EDGAR ARANA\Documents\AT-service\annca\build\intermediates\bundles\default\AndroidManifest.xml:13:5-16:19
+MERGED from [AT-service:libraryvideo:unspecified] C:\Users\EDGAR ARANA\Documents\AT-service\libraryvideo\build\intermediates\bundles\default\AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\1b81a2180dc542eae057e41cc4783a15abd7bca8\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\5800f6ea63e5a02a385079a1e7e302080d5c57ff\output\AndroidManifest.xml:26:5-20
+MERGED from [org.adw.library:discrete-seekbar:1.0.1] C:\Users\EDGAR ARANA\.android\build-cache\e0693712935af1a103ac120a10c1e1daec5c0fb1\output\AndroidManifest.xml:27:5-28:19
+MERGED from [com.devbrackets.android:exomedia:3.0.1] C:\Users\EDGAR ARANA\.android\build-cache\cd11084e635456252ea5bd57c5a519cebd786925\output\AndroidManifest.xml:12:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\312e53711bf7c9e77a3fabdf5222f9228e63f0db\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\18669494f67c6983575e0a4496b5ee1993ce57e7\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\49b913415eead01f9c3c606019c5165854ed0ac8\output\AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\13c048049cd7a576491c5048147253280fd622b4\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c95c171c254b3021cdc83597e49b9138cf82371e\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\2a43a4b3a70af57e1e631957a2fc021429d3ac82\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\06c60c945af947d8fe8494d40be82699476e7527\output\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\2752db92a3b33e344abd13feab4ef085f58cb483\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\15d079c2df44e8bbbdaf768408a95309d64b762a\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c61bc78e918afc4e2a73fd44434db83e03cc285d\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\04f1cb09e2afc6c6fb62c2213c5e25e1c1b34420\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\248213298c9a80de4ea730e592a7eee0bdf58661\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\669f77bc93aaebeeb629c1a048ff1c739a0f80b3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\1f866769035fe6c1f75d9d525582034932f36724\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\bfe01e2e576c36a9352f122afcc3519c9ed98f77\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\cbebc9c358316300e31897e251f6efef828603d6\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:33:9-41
+	android:supportsRtl
+		ADDED from [AT-service:calendar:unspecified] C:\Users\EDGAR ARANA\Documents\AT-service\calendar\build\intermediates\bundles\default\AndroidManifest.xml:14:9-35
+	android:hardwareAccelerated
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:31:9-43
+	android:allowBackup
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:30:9-35
+	android:icon
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:32:9-44
+	android:theme
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:34:9-40
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:29:9-68
+activity#com.example.devolucionmaterial.MainActivity
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:35:9-44:20
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:38:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:37:13-45
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:36:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:39:13-43:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:40:17-69
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:40:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:42:17-77
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:42:27-74
+activity#com.example.devolucionmaterial.activitys.AnuncioDelDia
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:45:9-49:48
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:48:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:47:13-67
+	android:theme
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:49:13-45
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:46:13-52
+activity#com.example.devolucionmaterial.activitys.materialesSeccion.Registro
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:50:9-53:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:53:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:52:13-60
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:51:13-37
+activity#com.example.devolucionmaterial.activitys.materialesSeccion.Menu_Devolucion
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:54:9-57:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:57:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:56:13-68
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:55:13-44
+activity#com.example.devolucionmaterial.activitys.MenuInicial
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:58:9-61:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:61:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:60:13-54
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:59:13-50
+activity#com.example.devolucionmaterial.MenuInicialComercial
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:62:9-65:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:65:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:64:13-58
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:63:13-49
+activity#com.example.devolucionmaterial.activitys.materialesSeccion.Lista_Devolucion
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:66:9-69:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:69:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:68:13-69
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:67:13-45
+activity#com.example.devolucionmaterial.MenuInicialTecnico
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:70:9-73:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:73:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:72:13-64
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:71:13-47
+activity#com.example.devolucionmaterial.activitys.materialesSeccion.ReporteDeDevoluciones1
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:74:9-77:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:77:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:76:13-64
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:75:13-51
+activity#com.example.devolucionmaterial.activitys.materialesSeccion.DevolucionesEnviadas
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:78:9-81:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:81:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:80:13-63
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:79:13-49
+activity#com.example.devolucionmaterial.RegistroDeMemorias
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:82:9-85:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:85:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:84:13-60
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:83:13-47
+activity#com.example.devolucionmaterial.activitys.VistaMLeme
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:86:9-89:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:89:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:88:13-53
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:87:13-49
+activity#com.example.devolucionmaterial.activitys.materialesSeccion.DevolucionesMemorias
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:90:9-93:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:93:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:92:13-62
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:91:13-49
+activity#com.example.devolucionmaterial.activitys.foliosPendientesSeccion.ReporteFolioPendiente
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:94:9-97:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:97:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:96:13-66
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:95:13-50
+activity#com.example.devolucionmaterial.EstatusIncidencia
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:98:9-101:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:101:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:100:13-61
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:99:13-46
+activity#com.example.devolucionmaterial.activitys.foliosPendientesSeccion.SalasPorRegion
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:102:9-105:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:105:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:104:13-57
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:103:13-43
+activity#com.example.devolucionmaterial.activitys.foliosPendientesSeccion.FoliosPorSala
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:106:9-109:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:109:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:108:13-58
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:107:13-42
+activity#com.example.devolucionmaterial.activitys.foliosPendientesSeccion.FoliosPendientes
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:110:9-113:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:113:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:112:13-60
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:111:13-45
+activity#com.example.devolucionmaterial.ReporteFolioPendienteSala
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:114:9-117:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:117:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:116:13-63
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:115:13-54
+activity#com.example.devolucionmaterial.activitys.pedidosSeccion.PedidosPorIncidencia
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:118:9-121:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:121:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:120:13-65
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:119:13-49
+activity#com.example.devolucionmaterial.PedidosDeIncidencia
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:122:9-125:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:125:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:124:13-64
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:123:13-48
+activity#com.example.devolucionmaterial.activitys.pedidosSeccion.ListaDeSalasPedidos
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:126:9-129:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:129:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:128:13-65
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:127:13-48
+activity#com.example.devolucionmaterial.IncidenciasDeSala
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:130:9-133:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:133:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:132:13-62
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:131:13-46
+activity#com.example.devolucionmaterial.PedidosDeSala
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:134:9-137:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:137:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:136:13-58
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:135:13-42
+activity#com.example.devolucionmaterial.activitys.pedidosSeccion.ListaDePiezasDePedido
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:138:9-141:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:141:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:140:13-65
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:139:13-50
+activity#com.example.devolucionmaterial.AdeudoDeMaterial
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:142:9-145:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:145:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:144:13-61
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:143:13-45
+activity#com.example.devolucionmaterial.activitys.osSeccion.ListaOSAsignadas
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:146:9-149:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:149:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:148:13-55
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:147:13-45
+activity#com.example.devolucionmaterial.activitys.osSeccion.ReporteActividadOS
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:150:9-153:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:153:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:152:13-53
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:151:13-47
+activity#com.example.devolucionmaterial.EdicionRegistroMaterial
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:154:9-158:59
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:157:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:156:13-79
+	android:theme
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:158:13-56
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:155:13-52
+activity#com.example.devolucionmaterial.dialogs.DialogoBusquedaTecnicoBaja
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:159:9-163:59
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:162:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:161:13-67
+	android:theme
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:163:13-56
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:160:13-63
+activity#com.example.devolucionmaterial.dialogs.Estatus
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:164:9-168:59
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:167:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:166:13-50
+	android:theme
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:168:13-56
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:165:13-44
+activity#com.example.devolucionmaterial.dialogs.DialogoOpcionesEstEnServ
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:169:9-173:59
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:172:13-49
+	android:label
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:171:13-63
+	android:theme
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:173:13-56
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:170:13-61
+service#com.example.devolucionmaterial.services.FolioAsignadoService
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:175:9-184:19
+	android:enabled
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:177:13-35
+	android:exported
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:178:13-36
+	android:permission
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:179:13-34
+	android:persistent
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:180:13-38
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:176:13-58
+intent-filter#com.example.devolucionmaterial.FolioAsignadoService
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:181:13-183:29
+action#com.example.devolucionmaterial.FolioAsignadoService
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:182:17-94
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:182:25-91
+service#com.example.devolucionmaterial.data_base.ControlTotalLocalxRemoto
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:185:9-187:40
+	android:exported
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:187:13-37
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:186:13-63
+service#com.example.devolucionmaterial.data_base.ActualizaBDcrefacciones
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:188:9-190:40
+	android:exported
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:190:13-37
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:189:13-62
+service#com.example.devolucionmaterial.data_base.ActualizaBDcsala
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:191:9-193:40
+	android:exported
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:193:13-37
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:192:13-55
+service#com.example.devolucionmaterial.data_base.ActualizaBDcestatus
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:194:9-196:40
+	android:exported
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:196:13-37
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:195:13-58
+activity#com.example.devolucionmaterial.MuestraSoloImagen
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:198:9-201:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:200:13-49
+	android:theme
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:201:13-49
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:199:13-46
+activity#com.example.devolucionmaterial.activitys.osSeccion.VerGaleriaOS
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:202:9-204:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:204:13-49
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:203:13-51
+service#com.example.devolucionmaterial.data_base.ActualizaBDestatusDevMaterial
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:206:9-208:40
+	android:exported
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:208:13-37
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:207:13-68
+receiver#com.example.devolucionmaterial.services.ServiceBoot
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:211:9-221:20
+	android:enabled
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:213:13-35
+	android:exported
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:214:13-36
+	android:persistent
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:215:13-38
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:212:13-49
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.category.HOME
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:216:13-220:29
+	android:priority
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:216:28-51
+action#android.intent.action.BOOT_COMPLETED
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:217:17-79
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:217:25-76
+category#android.intent.category.HOME
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:219:17-73
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:219:27-70
+activity#com.example.devolucionmaterial.internet.MuestraAyuda
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:223:9-59
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:223:19-56
+activity#com.example.devolucionmaterial.activitys.SolicitudMaterialActivity
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:224:9-226:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:226:13-49
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:225:13-64
+service#com.example.devolucionmaterial.firebase.MyFirebaseMessagingService
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:228:9-232:19
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:228:18-69
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:229:13-231:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:230:17-78
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:230:25-75
+service#com.example.devolucionmaterial.firebase.MyFirebaseInstanceIdService
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:233:9-239:19
+	android:exported
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:235:13-36
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:234:13-65
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:236:13-238:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:237:17-80
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:237:25-77
+activity#com.example.devolucionmaterial.firebase.SolicitudMaterialDetallesNotificacion
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:241:9-243:52
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:243:13-49
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:242:13-75
+service#com.example.devolucionmaterial.firebase.RastreoService
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:245:9-252:19
+	android:enabled
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:247:13-35
+	android:exported
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:248:13-36
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:246:13-52
+intent-filter#com.example.devolucionmaterial.firebase.RastreoService
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:249:13-251:29
+action#com.example.devolucionmaterial.firebase.RastreoService
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:250:17-97
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:250:25-94
+activity#com.example.devolucionmaterial.chat.activitys.LoginChatActity
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:254:9-259:62
+	android:hardwareAccelerated
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:257:13-47
+	android:windowSoftInputMode
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:259:13-60
+	android:configChanges
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:256:13-81
+	android:theme
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:258:13-51
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:255:13-59
+activity#com.example.devolucionmaterial.chat.activitys.MenuChatActivity
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:260:9-269:20
+	android:hardwareAccelerated
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:263:13-47
+	android:windowSoftInputMode
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:265:13-60
+	android:configChanges
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:262:13-81
+	android:theme
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:264:13-51
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:261:13-60
+intent-filter#INTENT_UPDATE_LIST_CHAT
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:266:13-268:29
+action#INTENT_UPDATE_LIST_CHAT
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:267:17-66
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:267:25-63
+activity#com.example.devolucionmaterial.chat.activitys.ChatActivity
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:272:9-289:20
+	android:hardwareAccelerated
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:275:13-47
+	android:windowSoftInputMode
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:277:13-60
+	android:configChanges
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:274:13-81
+	android:theme
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:276:13-51
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:273:13-56
+intent-filter#INTENT_FILTER
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:278:13-280:29
+action#INTENT_FILTER
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:279:17-56
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:279:25-53
+intent-filter#INTENT_FINISH_GROUP_CHAT
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:282:13-284:29
+action#INTENT_FINISH_GROUP_CHAT
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:283:17-67
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:283:25-64
+intent-filter#INTENT_DELETE_MEMBER_GROUP_CHAT
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:286:13-288:29
+action#INTENT_DELETE_MEMBER_GROUP_CHAT
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:287:17-74
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:287:25-71
+activity#com.example.devolucionmaterial.activitys.CalendarActivity
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:291:9-293:58
+	android:theme
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:293:13-55
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:292:13-55
+activity#com.example.devolucionmaterial.chat.activitys.NewGroupActivity
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:294:9-299:54
+	android:hardwareAccelerated
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:297:13-47
+	android:windowSoftInputMode
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:298:13-60
+	android:configChanges
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:296:13-81
+	android:theme
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:299:13-51
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:295:13-60
+activity#com.example.devolucionmaterial.chat.activitys.ChatDetailsActivity
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:300:9-304:63
+	android:windowSoftInputMode
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:304:13-60
+	android:configChanges
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:302:13-81
+	android:theme
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:303:13-51
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:301:13-63
+activity#com.example.devolucionmaterial.chat.activitys.UpdateGroupActivity
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:305:9-309:63
+	android:windowSoftInputMode
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:309:13-60
+	android:configChanges
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:307:13-81
+	android:theme
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:308:13-51
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:306:13-63
+activity#com.example.devolucionmaterial.chat.activitys.NewChatActivity
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:310:9-312:54
+	android:theme
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:312:13-51
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:311:13-59
+activity#com.example.devolucionmaterial.qreader.activities.QReaderActivity
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:313:9-318:63
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:316:13-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:318:13-60
+	android:configChanges
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:315:13-81
+	android:theme
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:317:13-55
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:314:13-63
+activity#com.example.devolucionmaterial.qreader.activities.QrDetailsActivity
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:319:9-321:58
+	android:theme
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:321:13-55
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:320:13-65
+activity#com.example.devolucionmaterial.chat.activitys.ImageSelectActivity
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:322:9-326:63
+	android:windowSoftInputMode
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:326:13-60
+	android:configChanges
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:324:13-81
+	android:theme
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:325:13-51
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:323:13-63
+activity#com.example.devolucionmaterial.chat.activitys.ImageFullActivity
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:327:9-329:54
+	android:theme
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:329:13-51
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:328:13-61
+activity#com.example.annca.internal.ui.camera.Camera1Activity
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:333:9-336:54
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:335:13-49
+	android:theme
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:336:13-51
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:334:13-80
+activity#com.example.annca.internal.ui.camera2.Camera2Activity
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:337:9-340:54
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:339:13-49
+	android:theme
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:340:13-51
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:338:13-81
+activity#com.example.annca.internal.ui.preview.PreviewActivity
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:341:9-344:54
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:343:13-49
+	android:theme
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:344:13-51
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:342:13-81
+activity#com.example.annca.internal.ui.BaseAnncaActivity
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:345:9-348:54
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:347:13-49
+	android:theme
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:348:13-51
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:346:13-75
+activity#com.example.devolucionmaterial.activitys.CrearFolioActivity
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:349:9-352:58
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:351:13-49
+	android:theme
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:352:13-55
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:350:13-57
+activity#com.example.devolucionmaterial.activitys.foliosPendientesSeccion.mediosfolios.SelectMediaActivity
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:353:9-356:58
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:355:13-49
+	android:theme
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:356:13-55
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:354:13-71
+activity#com.example.devolucionmaterial.activitys.foliosPendientesSeccion.mediosfolios.ListMediosFolios
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:357:9-360:58
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:359:13-49
+	android:theme
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:360:13-55
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:358:13-68
+activity#com.example.devolucionmaterial.activitys.foliosPendientesSeccion.mediosfolios.MediosActivity
+ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:361:9-364:58
+	android:screenOrientation
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:363:13-49
+	android:theme
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:364:13-55
+	android:name
+		ADDED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml:362:13-66
+uses-sdk
+INJECTED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\EDGAR ARANA\.android\build-cache\bc2a0be720429bc73aac39b7a1b0ff672c1e7828\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\74d02b80fb3301f7bc44194768233ccd033f99af\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-ads:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\24281ff12a50d1e1e9ecfc74c3118c9e14b642f4\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\4971ff04d9265d967271854d3d5670cedd5640dc\output\AndroidManifest.xml:22:5-43
+MERGED from [com.google.android.gms:play-services-analytics:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\16badc19e1a1372a67d0857a3d4bf7e9e90bb2d5\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-appinvite:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\dbca5f2713bbb399eebb1a144340771fe27e32f2\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-cast-framework:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\1e56177350d53b4948982f8a5e43b802b102b8c1\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-cast:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\3747f87acec4676bdaa4632e6f9388d2437fabd8\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:mediarouter-v7:24.0.0] C:\Users\EDGAR ARANA\.android\build-cache\d3a2fc9cea2a9b3653e5b1576978b81ddbad9a4b\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:palette-v7:24.0.0] C:\Users\EDGAR ARANA\.android\build-cache\5bd7f5927b3b6fb29d03e60e5756dbca5ebefd5e\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-clearcut:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\fd8f1444a1f782edb68f9203602e379c56ddd242\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-config:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\17fd5046ae02ef8154030747c7f34f634b9194ea\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-awareness:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\1ea27c35436b925fc9d756d36bc730eda78b73ce\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-crash:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\1a7fbd195b7d8b7ad038176c99d722abf09d499e\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-database:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c35975118c9ad7db3081b8aea90e2f50966f6481\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\6f349f8cf9f925d75e70bdf6034e4c90b93ed29b\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\3c7d70f245de95d5332092b7c93d5c4dc6526df4\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\ccf608af93c8546c480897479990a1a4b6bb3926\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-fitness:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c58036dbcca6f61328d752b494f6abe645b2a646\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-games:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\00bee4bfe12f980c26fe36e5a4570e68800aa8ef\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-drive:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\19520f51669c08adb0ea55456fceb24c1bb1c77e\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-gass:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\8f78978e7f80a7dbcefc51f3cbe73feb0b57b2bd\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-gcm:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\5517b85d8bda6e23f97082879637b264cca34032\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-appindexing:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\90b9adac51f057a173289ca7d9fcb3f725fea59f\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\4011d67b8e0d0448319883d4bd4bf8673af9bac1\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-instantapps:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\144447af03c4d03f8a3cf1fcb98d5ee7a0054668\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-location:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\a9b8626917eb5a2e7b0cd8e1e3208a96343ea4e2\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-nearby:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\1df0f17dc0466d939f63749541c2d810afa61174\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-panorama:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\b3095cb251282076e4471fca581ae87acc2bf821\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-places:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\bbc91d4f48247062ad3fa6d9b3a502968eb904c1\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-plus:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\8fccf4c0ee4528f18f370736a1325a9148422872\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-safetynet:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\bb1ebfc53374213f791d026025010db2ef4a5f77\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\6ff06670064aa1e26defc5a85a27f5ec3147db76\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\37ce17f27fb609b8c4f1dabcfe32bd2dad3c5d72\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tagmanager-v4-impl:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\5778b1dc66b6d33fce9ef2c2d789d6018c6ecd68\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\3cd81b43ecc07951dd61ec0d2168929b78d74d0f\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-wallet:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\3f05ce64a81b8cb5e9169c019d619cbddce30d0f\output\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-identity:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\42fae2dae371f9ba8927a7ae65de6ce22869c42a\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\960a43963d16e0854aeb1523477c81bf16c796a6\output\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-wearable:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\da6edcef2132aa86e9ec7665e156f94a4624efe4\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\628575d52e4c36d9e7cd91b5d770136bd82dbcf6\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-auth-base:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\8d159a523bcd340282997a102496cf0de2987449\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\5df9d2255dd1f7df677892e72904450ac6d683c8\output\AndroidManifest.xml:3:5-43
+MERGED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\EDGAR ARANA\.android\build-cache\d4a5ee280483df9060a6394f7d07d61aa70612e9\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\EDGAR ARANA\.android\build-cache\556fe8297e7c99d3fd00079a926261753b6f176a\output\AndroidManifest.xml:19:5-21:41
+MERGED from [de.hdodenhof:circleimageview:1.3.0] C:\Users\EDGAR ARANA\.android\build-cache\9be1b832dab2d424c6b0220c205a0bc121b9ede3\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\046c30c4e921245d99030695cefb8d8c7f2e7033\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-auth:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\855ed8895f8ee18dcd6d044242176ca525a4d90c\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\ec4d5913137e6760d21bf97d0670685da578f10a\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\1180915113c22be570d582e636ed72927be19031\output\AndroidManifest.xml:17:5-43
+MERGED from [hani.momanii.supernova_emoji_library:supernova-emoji-library:0.0.2] C:\Users\EDGAR ARANA\.android\build-cache\62e3970f4a45d689a0731fb0a4ac3c4339036428\output\AndroidManifest.xml:6:5-8:41
+MERGED from [me.himanshusoni.chatmessageview:chat-message-view:1.0.3] C:\Users\EDGAR ARANA\.android\build-cache\a093e602dd1942680376b2e32fe9e7b85a230724\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.afollestad.material-dialogs:core:0.9.3.0] C:\Users\EDGAR ARANA\.android\build-cache\516e4b6d4d1dd93f65600bfdd16d1263d1f80db9\output\AndroidManifest.xml:8:5-11:75
+MERGED from [com.android.support:support-v13:25.1.1] C:\Users\EDGAR ARANA\.android\build-cache\ee35b0163ff3971e160b98763eadbf233d125869\output\AndroidManifest.xml:21:5-23:55
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.3.0] C:\Users\EDGAR ARANA\.android\build-cache\9d32ab99eb6d964167f602bff77fbb957496a91d\output\AndroidManifest.xml:12:5-14:41
+MERGED from [AT-service:calendar:unspecified] C:\Users\EDGAR ARANA\Documents\AT-service\calendar\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [AT-service:menuswipe:unspecified] C:\Users\EDGAR ARANA\Documents\AT-service\menuswipe\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [AT-service:menuchat:unspecified] C:\Users\EDGAR ARANA\Documents\AT-service\menuchat\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [AT-service:annca:unspecified] C:\Users\EDGAR ARANA\Documents\AT-service\annca\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [AT-service:libraryvideo:unspecified] C:\Users\EDGAR ARANA\Documents\AT-service\libraryvideo\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\1b81a2180dc542eae057e41cc4783a15abd7bca8\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\7a803688aec94602fafc36119db156a8ea69bad4\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\5800f6ea63e5a02a385079a1e7e302080d5c57ff\output\AndroidManifest.xml:20:5-44
+MERGED from [org.adw.library:discrete-seekbar:1.0.1] C:\Users\EDGAR ARANA\.android\build-cache\e0693712935af1a103ac120a10c1e1daec5c0fb1\output\AndroidManifest.xml:23:5-25:41
+MERGED from [com.devbrackets.android:exomedia:3.0.1] C:\Users\EDGAR ARANA\.android\build-cache\cd11084e635456252ea5bd57c5a519cebd786925\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\312e53711bf7c9e77a3fabdf5222f9228e63f0db\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\18669494f67c6983575e0a4496b5ee1993ce57e7\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\49b913415eead01f9c3c606019c5165854ed0ac8\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.exoplayer:exoplayer:r1.5.9] C:\Users\EDGAR ARANA\.android\build-cache\fa14522a86f3062c8c648ed3cdd82eb386e1f188\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.google.firebase:firebase-core:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\13c048049cd7a576491c5048147253280fd622b4\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c95c171c254b3021cdc83597e49b9138cf82371e\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\2a43a4b3a70af57e1e631957a2fc021429d3ac82\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\06c60c945af947d8fe8494d40be82699476e7527\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\2752db92a3b33e344abd13feab4ef085f58cb483\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\15d079c2df44e8bbbdaf768408a95309d64b762a\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c61bc78e918afc4e2a73fd44434db83e03cc285d\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\04f1cb09e2afc6c6fb62c2213c5e25e1c1b34420\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\248213298c9a80de4ea730e592a7eee0bdf58661\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\669f77bc93aaebeeb629c1a048ff1c739a0f80b3\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\1f866769035fe6c1f75d9d525582034932f36724\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\bfe01e2e576c36a9352f122afcc3519c9ed98f77\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\cbebc9c358316300e31897e251f6efef828603d6\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.afollestad.material-dialogs:core:0.9.3.0] C:\Users\EDGAR ARANA\.android\build-cache\516e4b6d4d1dd93f65600bfdd16d1263d1f80db9\output\AndroidManifest.xml:11:9-72
+	android:targetSdkVersion
+		INJECTED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\EDGAR ARANA\Documents\AT-service\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\4971ff04d9265d967271854d3d5670cedd5640dc\output\AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\4971ff04d9265d967271854d3d5670cedd5640dc\output\AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\4971ff04d9265d967271854d3d5670cedd5640dc\output\AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\4971ff04d9265d967271854d3d5670cedd5640dc\output\AndroidManifest.xml:25:19-71
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\4971ff04d9265d967271854d3d5670cedd5640dc\output\AndroidManifest.xml:26:9-131
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\4971ff04d9265d967271854d3d5670cedd5640dc\output\AndroidManifest.xml:26:92-129
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\4971ff04d9265d967271854d3d5670cedd5640dc\output\AndroidManifest.xml:26:19-91
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-analytics:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\16badc19e1a1372a67d0857a3d4bf7e9e90bb2d5\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\3cd81b43ecc07951dd61ec0d2168929b78d74d0f\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c95c171c254b3021cdc83597e49b9138cf82371e\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\2a43a4b3a70af57e1e631957a2fc021429d3ac82\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\06c60c945af947d8fe8494d40be82699476e7527\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-analytics:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\16badc19e1a1372a67d0857a3d4bf7e9e90bb2d5\output\AndroidManifest.xml:24:22-65
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\dbca5f2713bbb399eebb1a144340771fe27e32f2\output\AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\dbca5f2713bbb399eebb1a144340771fe27e32f2\output\AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\dbca5f2713bbb399eebb1a144340771fe27e32f2\output\AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\dbca5f2713bbb399eebb1a144340771fe27e32f2\output\AndroidManifest.xml:20:19-50
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\dbca5f2713bbb399eebb1a144340771fe27e32f2\output\AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\dbca5f2713bbb399eebb1a144340771fe27e32f2\output\AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\dbca5f2713bbb399eebb1a144340771fe27e32f2\output\AndroidManifest.xml:22:25-87
+category#android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\dbca5f2713bbb399eebb1a144340771fe27e32f2\output\AndroidManifest.xml:23:17-75
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\dbca5f2713bbb399eebb1a144340771fe27e32f2\output\AndroidManifest.xml:23:27-73
+receiver#com.google.android.gms.cast.framework.media.MediaIntentReceiver
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\1e56177350d53b4948982f8a5e43b802b102b8c1\output\AndroidManifest.xml:5:9-99
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\1e56177350d53b4948982f8a5e43b802b102b8c1\output\AndroidManifest.xml:5:19-97
+service#com.google.android.gms.cast.framework.media.MediaNotificationService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\1e56177350d53b4948982f8a5e43b802b102b8c1\output\AndroidManifest.xml:6:9-103
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\1e56177350d53b4948982f8a5e43b802b102b8c1\output\AndroidManifest.xml:6:18-101
+service#com.google.android.gms.cast.framework.ReconnectionService
+ADDED from [com.google.android.gms:play-services-cast-framework:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\1e56177350d53b4948982f8a5e43b802b102b8c1\output\AndroidManifest.xml:7:9-92
+	android:name
+		ADDED from [com.google.android.gms:play-services-cast-framework:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\1e56177350d53b4948982f8a5e43b802b102b8c1\output\AndroidManifest.xml:7:18-90
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.android.gms:play-services-gcm:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\5517b85d8bda6e23f97082879637b264cca34032\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\4011d67b8e0d0448319883d4bd4bf8673af9bac1\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\06c60c945af947d8fe8494d40be82699476e7527\output\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.android.gms:play-services-gcm:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\5517b85d8bda6e23f97082879637b264cca34032\output\AndroidManifest.xml:20:22-79
+service#com.google.android.gms.tagmanager.TagManagerService
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\37ce17f27fb609b8c4f1dabcfe32bd2dad3c5d72\output\AndroidManifest.xml:24:9-134
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\37ce17f27fb609b8c4f1dabcfe32bd2dad3c5d72\output\AndroidManifest.xml:24:110-132
+	android:exported
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\37ce17f27fb609b8c4f1dabcfe32bd2dad3c5d72\output\AndroidManifest.xml:24:85-109
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\37ce17f27fb609b8c4f1dabcfe32bd2dad3c5d72\output\AndroidManifest.xml:24:18-84
+activity#com.google.android.gms.tagmanager.TagManagerPreviewActivity
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\37ce17f27fb609b8c4f1dabcfe32bd2dad3c5d72\output\AndroidManifest.xml:25:9-32:20
+	android:noHistory
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\37ce17f27fb609b8c4f1dabcfe32bd2dad3c5d72\output\AndroidManifest.xml:25:94-118
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\37ce17f27fb609b8c4f1dabcfe32bd2dad3c5d72\output\AndroidManifest.xml:25:19-93
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\37ce17f27fb609b8c4f1dabcfe32bd2dad3c5d72\output\AndroidManifest.xml:26:13-31:29
+data
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\37ce17f27fb609b8c4f1dabcfe32bd2dad3c5d72\output\AndroidManifest.xml:27:17-71
+	android:scheme
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\37ce17f27fb609b8c4f1dabcfe32bd2dad3c5d72\output\AndroidManifest.xml:27:23-69
+action#android.intent.action.VIEW
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\37ce17f27fb609b8c4f1dabcfe32bd2dad3c5d72\output\AndroidManifest.xml:28:17-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\37ce17f27fb609b8c4f1dabcfe32bd2dad3c5d72\output\AndroidManifest.xml:28:25-66
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\37ce17f27fb609b8c4f1dabcfe32bd2dad3c5d72\output\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-tagmanager-api:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\37ce17f27fb609b8c4f1dabcfe32bd2dad3c5d72\output\AndroidManifest.xml:30:27-75
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\960a43963d16e0854aeb1523477c81bf16c796a6\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\960a43963d16e0854aeb1523477c81bf16c796a6\output\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\960a43963d16e0854aeb1523477c81bf16c796a6\output\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\628575d52e4c36d9e7cd91b5d770136bd82dbcf6\output\AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\628575d52e4c36d9e7cd91b5d770136bd82dbcf6\output\AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\628575d52e4c36d9e7cd91b5d770136bd82dbcf6\output\AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\628575d52e4c36d9e7cd91b5d770136bd82dbcf6\output\AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\628575d52e4c36d9e7cd91b5d770136bd82dbcf6\output\AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\628575d52e4c36d9e7cd91b5d770136bd82dbcf6\output\AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\628575d52e4c36d9e7cd91b5d770136bd82dbcf6\output\AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\628575d52e4c36d9e7cd91b5d770136bd82dbcf6\output\AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\628575d52e4c36d9e7cd91b5d770136bd82dbcf6\output\AndroidManifest.xml:24:18-63
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\EDGAR ARANA\.android\build-cache\d4a5ee280483df9060a6394f7d07d61aa70612e9\output\AndroidManifest.xml:19:5-86
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\EDGAR ARANA\.android\build-cache\d4a5ee280483df9060a6394f7d07d61aa70612e9\output\AndroidManifest.xml:19:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\EDGAR ARANA\.android\build-cache\d4a5ee280483df9060a6394f7d07d61aa70612e9\output\AndroidManifest.xml:20:5-87
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\EDGAR ARANA\.android\build-cache\d4a5ee280483df9060a6394f7d07d61aa70612e9\output\AndroidManifest.xml:20:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\EDGAR ARANA\.android\build-cache\d4a5ee280483df9060a6394f7d07d61aa70612e9\output\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\EDGAR ARANA\.android\build-cache\d4a5ee280483df9060a6394f7d07d61aa70612e9\output\AndroidManifest.xml:23:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\EDGAR ARANA\.android\build-cache\d4a5ee280483df9060a6394f7d07d61aa70612e9\output\AndroidManifest.xml:24:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\EDGAR ARANA\.android\build-cache\d4a5ee280483df9060a6394f7d07d61aa70612e9\output\AndroidManifest.xml:24:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\EDGAR ARANA\.android\build-cache\d4a5ee280483df9060a6394f7d07d61aa70612e9\output\AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\EDGAR ARANA\.android\build-cache\d4a5ee280483df9060a6394f7d07d61aa70612e9\output\AndroidManifest.xml:27:22-85
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\EDGAR ARANA\.android\build-cache\d4a5ee280483df9060a6394f7d07d61aa70612e9\output\AndroidManifest.xml:30:5-84
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\EDGAR ARANA\.android\build-cache\d4a5ee280483df9060a6394f7d07d61aa70612e9\output\AndroidManifest.xml:30:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\EDGAR ARANA\.android\build-cache\d4a5ee280483df9060a6394f7d07d61aa70612e9\output\AndroidManifest.xml:33:5-83
+	android:name
+		ADDED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\EDGAR ARANA\.android\build-cache\d4a5ee280483df9060a6394f7d07d61aa70612e9\output\AndroidManifest.xml:33:22-80
+uses-feature#android.hardware.camera.front
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\EDGAR ARANA\.android\build-cache\556fe8297e7c99d3fd00079a926261753b6f176a\output\AndroidManifest.xml:29:5-31:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\EDGAR ARANA\.android\build-cache\556fe8297e7c99d3fd00079a926261753b6f176a\output\AndroidManifest.xml:31:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\EDGAR ARANA\.android\build-cache\556fe8297e7c99d3fd00079a926261753b6f176a\output\AndroidManifest.xml:30:9-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\EDGAR ARANA\.android\build-cache\556fe8297e7c99d3fd00079a926261753b6f176a\output\AndroidManifest.xml:34:5-36:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\EDGAR ARANA\.android\build-cache\556fe8297e7c99d3fd00079a926261753b6f176a\output\AndroidManifest.xml:36:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\EDGAR ARANA\.android\build-cache\556fe8297e7c99d3fd00079a926261753b6f176a\output\AndroidManifest.xml:35:9-57
+uses-feature#android.hardware.camera.flash
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\EDGAR ARANA\.android\build-cache\556fe8297e7c99d3fd00079a926261753b6f176a\output\AndroidManifest.xml:37:5-39:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\EDGAR ARANA\.android\build-cache\556fe8297e7c99d3fd00079a926261753b6f176a\output\AndroidManifest.xml:39:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\EDGAR ARANA\.android\build-cache\556fe8297e7c99d3fd00079a926261753b6f176a\output\AndroidManifest.xml:38:9-53
+uses-feature#android.hardware.screen.landscape
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\EDGAR ARANA\.android\build-cache\556fe8297e7c99d3fd00079a926261753b6f176a\output\AndroidManifest.xml:40:5-42:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\EDGAR ARANA\.android\build-cache\556fe8297e7c99d3fd00079a926261753b6f176a\output\AndroidManifest.xml:42:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\EDGAR ARANA\.android\build-cache\556fe8297e7c99d3fd00079a926261753b6f176a\output\AndroidManifest.xml:41:9-57
+uses-feature#android.hardware.wifi
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\EDGAR ARANA\.android\build-cache\556fe8297e7c99d3fd00079a926261753b6f176a\output\AndroidManifest.xml:43:5-45:36
+	android:required
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\EDGAR ARANA\.android\build-cache\556fe8297e7c99d3fd00079a926261753b6f176a\output\AndroidManifest.xml:45:9-33
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\EDGAR ARANA\.android\build-cache\556fe8297e7c99d3fd00079a926261753b6f176a\output\AndroidManifest.xml:44:9-45
+activity#com.journeyapps.barcodescanner.CaptureActivity
+ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\EDGAR ARANA\.android\build-cache\556fe8297e7c99d3fd00079a926261753b6f176a\output\AndroidManifest.xml:48:9-54:63
+	android:clearTaskOnLaunch
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\EDGAR ARANA\.android\build-cache\556fe8297e7c99d3fd00079a926261753b6f176a\output\AndroidManifest.xml:50:13-45
+	android:screenOrientation
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\EDGAR ARANA\.android\build-cache\556fe8297e7c99d3fd00079a926261753b6f176a\output\AndroidManifest.xml:51:13-56
+	android:stateNotNeeded
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\EDGAR ARANA\.android\build-cache\556fe8297e7c99d3fd00079a926261753b6f176a\output\AndroidManifest.xml:52:13-42
+	android:windowSoftInputMode
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\EDGAR ARANA\.android\build-cache\556fe8297e7c99d3fd00079a926261753b6f176a\output\AndroidManifest.xml:54:13-60
+	android:theme
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\EDGAR ARANA\.android\build-cache\556fe8297e7c99d3fd00079a926261753b6f176a\output\AndroidManifest.xml:53:13-54
+	android:name
+		ADDED from [com.journeyapps:zxing-android-embedded:3.0.2] C:\Users\EDGAR ARANA\.android\build-cache\556fe8297e7c99d3fd00079a926261753b6f176a\output\AndroidManifest.xml:49:13-74
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\046c30c4e921245d99030695cefb8d8c7f2e7033\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:design:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\1b81a2180dc542eae057e41cc4783a15abd7bca8\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\7a803688aec94602fafc36119db156a8ea69bad4\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\5800f6ea63e5a02a385079a1e7e302080d5c57ff\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\312e53711bf7c9e77a3fabdf5222f9228e63f0db\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\18669494f67c6983575e0a4496b5ee1993ce57e7\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\49b913415eead01f9c3c606019c5165854ed0ac8\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\04f1cb09e2afc6c6fb62c2213c5e25e1c1b34420\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\248213298c9a80de4ea730e592a7eee0bdf58661\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\669f77bc93aaebeeb629c1a048ff1c739a0f80b3\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\1f866769035fe6c1f75d9d525582034932f36724\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\bfe01e2e576c36a9352f122afcc3519c9ed98f77\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\cbebc9c358316300e31897e251f6efef828603d6\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\046c30c4e921245d99030695cefb8d8c7f2e7033\output\AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:cardview-v7:25.3.1] C:\Users\EDGAR ARANA\.android\build-cache\046c30c4e921245d99030695cefb8d8c7f2e7033\output\AndroidManifest.xml:23:9-47
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\ec4d5913137e6760d21bf97d0670685da578f10a\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\ec4d5913137e6760d21bf97d0670685da578f10a\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\ec4d5913137e6760d21bf97d0670685da578f10a\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\ec4d5913137e6760d21bf97d0670685da578f10a\output\AndroidManifest.xml:19:19-85
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\1180915113c22be570d582e636ed72927be19031\output\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\1180915113c22be570d582e636ed72927be19031\output\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\1180915113c22be570d582e636ed72927be19031\output\AndroidManifest.xml:23:18-87
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c95c171c254b3021cdc83597e49b9138cf82371e\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\2a43a4b3a70af57e1e631957a2fc021429d3ac82\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c95c171c254b3021cdc83597e49b9138cf82371e\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c95c171c254b3021cdc83597e49b9138cf82371e\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c95c171c254b3021cdc83597e49b9138cf82371e\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c95c171c254b3021cdc83597e49b9138cf82371e\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c95c171c254b3021cdc83597e49b9138cf82371e\output\AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c95c171c254b3021cdc83597e49b9138cf82371e\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c95c171c254b3021cdc83597e49b9138cf82371e\output\AndroidManifest.xml:27:17-104
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c95c171c254b3021cdc83597e49b9138cf82371e\output\AndroidManifest.xml:28:11-30:27
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c95c171c254b3021cdc83597e49b9138cf82371e\output\AndroidManifest.xml:29:15-76
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c95c171c254b3021cdc83597e49b9138cf82371e\output\AndroidManifest.xml:29:23-74
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c95c171c254b3021cdc83597e49b9138cf82371e\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\2a43a4b3a70af57e1e631957a2fc021429d3ac82\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c95c171c254b3021cdc83597e49b9138cf82371e\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c95c171c254b3021cdc83597e49b9138cf82371e\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c95c171c254b3021cdc83597e49b9138cf82371e\output\AndroidManifest.xml:32:16-87
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\06c60c945af947d8fe8494d40be82699476e7527\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\06c60c945af947d8fe8494d40be82699476e7527\output\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\06c60c945af947d8fe8494d40be82699476e7527\output\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\06c60c945af947d8fe8494d40be82699476e7527\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\06c60c945af947d8fe8494d40be82699476e7527\output\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\06c60c945af947d8fe8494d40be82699476e7527\output\AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\06c60c945af947d8fe8494d40be82699476e7527\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\06c60c945af947d8fe8494d40be82699476e7527\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\06c60c945af947d8fe8494d40be82699476e7527\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\06c60c945af947d8fe8494d40be82699476e7527\output\AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\06c60c945af947d8fe8494d40be82699476e7527\output\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\06c60c945af947d8fe8494d40be82699476e7527\output\AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\06c60c945af947d8fe8494d40be82699476e7527\output\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\06c60c945af947d8fe8494d40be82699476e7527\output\AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\06c60c945af947d8fe8494d40be82699476e7527\output\AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\06c60c945af947d8fe8494d40be82699476e7527\output\AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\06c60c945af947d8fe8494d40be82699476e7527\output\AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\06c60c945af947d8fe8494d40be82699476e7527\output\AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\06c60c945af947d8fe8494d40be82699476e7527\output\AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\06c60c945af947d8fe8494d40be82699476e7527\output\AndroidManifest.xml:43:18-82
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\2752db92a3b33e344abd13feab4ef085f58cb483\output\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\2752db92a3b33e344abd13feab4ef085f58cb483\output\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\2752db92a3b33e344abd13feab4ef085f58cb483\output\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\2752db92a3b33e344abd13feab4ef085f58cb483\output\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\2752db92a3b33e344abd13feab4ef085f58cb483\output\AndroidManifest.xml:6:79-143
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c61bc78e918afc4e2a73fd44434db83e03cc285d\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c61bc78e918afc4e2a73fd44434db83e03cc285d\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\EDGAR ARANA\.android\build-cache\c61bc78e918afc4e2a73fd44434db83e03cc285d\output\AndroidManifest.xml:20:20-65

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/fcl_cv_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        app:cardPreventCornerOverlap="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        card_view:cardBackgroundColor="@color/white"
+        card_view:cardCornerRadius="0dp"
+        card_view:cardElevation="0dp"
+        card_view:cardUseCompatPadding="true">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/fcl_rv_chat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            app:cardPreventCornerOverlap="false" />
+
+        <TextView
+            android:id="@+id/fcl_txt_empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:lines="1"
+            android:text="No hay chats que mostrar"
+            android:textColor="@color/accentColor"
+            android:textSize="20dp"
+            android:visibility="gone" />
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fcl_fab_chat"
+        android:layout_width="@dimen/size_fab"
+        android:layout_height="@dimen/size_fab"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_action_chat_white"
+        app:elevation="@dimen/headerbar_elevation"
+        android:layout_gravity="bottom|right|end"
+        app:layout_anchor="@id/fcl_cv_content"
+        app:layout_anchorGravity="bottom|right|end"
+        app:layout_behavior="com.example.devolucionmaterial.customview.behavior.Float" />
+
+
+    <!--   app:layout_behavior="@string/appbar_scrolling_view_behavior"-->
+</android.support.design.widget.CoordinatorLayout>

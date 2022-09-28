@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/icc_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="@drawable/main_background">
+    <LinearLayout
+        android:id="@+id/chip_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="5dp"
+        android:background="@drawable/shape_chip_drawable"
+        android:paddingBottom="@dimen/padding_top"
+        android:paddingTop="@dimen/padding_top">
+
+        <TextView
+            android:id="@+id/icc_tv_name"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:paddingLeft="@dimen/chip_padding"
+            android:paddingRight="@dimen/chip_padding"
+            android:text="Example chip"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="@dimen/remove_icon_dimen"
+            android:layout_height="@dimen/remove_icon_dimen"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/text"
+            android:contentDescription="@null"
+            android:padding="@dimen/remove_icon_margin"
+            android:visibility="gone"
+            android:layout_marginRight="@dimen/remove_icon_margin"
+            android:src="@drawable/delete" />
+    </LinearLayout>
+
+
+</FrameLayout>

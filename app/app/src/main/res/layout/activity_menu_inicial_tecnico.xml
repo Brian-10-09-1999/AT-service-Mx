@@ -1,0 +1,145 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+    
+    <LinearLayout
+        android:id="@+id/llEncabezado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvSalida"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/logozitro" />
+
+            <TextView
+                android:id="@+id/tvUsuariomi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="Hola"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </LinearLayout>
+    
+            
+    <ScrollView 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+ >
+        
+          <LinearLayout
+        android:id="@+id/frag_body_id_ly_cont_btns"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btnFoliosPendientes"
+                    style="@style/ButtonStyleGris"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/foliopend"
+                    android:textStyle="bold"
+                    android:text="@string/foliosPendientes" />
+
+                <Button
+                    android:id="@+id/btnServAlmacen"
+                    style="@style/ButtonStyleGris"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:paddingLeft="35dp"
+                    android:paddingRight="35dp"
+                    android:textStyle="bold"
+                    android:drawableLeft="@drawable/devmaterial"
+                    android:text="@string/materiales" />
+                
+
+
+        <Button
+            android:id="@+id/btnPedidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            style="@style/ButtonStyleGris"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/pedido"
+            android:text="@string/pedidos" />
+        
+                <Button
+            android:id="@+id/btnOSAsignadas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            style="@style/ButtonStyleGris"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/reportedev"
+            android:text="@string/osAsignadas" />
+                
+
+        
+		</LinearLayout>
+		</ScrollView>
+		
+            <LinearLayout
+        android:id="@+id/frag_foot_id_ly_menu_opc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:background="#999999"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imgCorreomi"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/email1" />
+
+        <ImageView
+            android:id="@+id/imgLlamarmi"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/cc" />
+
+        <ImageView
+            android:id="@+id/imgInfomi"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/info" />
+
+    </LinearLayout>
+
+            <View
+                android:id="@+id/view1"
+                style="@style/SeparatorLayout"
+                android:layout_above="@+id/frag_foot_id_ly_menu_opc"
+                android:layout_alignParentLeft="true"
+                android:paddingRight="10dp" />
+
+
+</RelativeLayout>

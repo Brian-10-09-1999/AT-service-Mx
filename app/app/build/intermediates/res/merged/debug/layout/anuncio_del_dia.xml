@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    style="@style/Invisible"
+    android:gravity="center_vertical|center">
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="485dp"
+        android:id="@+id/imgFondo" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="350dp"
+        android:layout_height="485dp"
+        android:id="@+id/lladsday"
+        style="@style/Invisible">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:id="@+id/separador8" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:id="@+id/separador9" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imgadsdayCerrar"
+                    android:src="@drawable/error"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nombre apellido"
+                android:id="@+id/tvadsdayNombreUsuario"
+                android:layout_alignBottom="@+id/imgadsdayFotoUsuario"
+                android:layout_toRightOf="@+id/imgadsdayCerrar"
+                android:layout_gravity="center_vertical"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:textColor="#00ffff" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:id="@+id/separado1" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgadsdayFotoUsuario"
+                android:src="@drawable/est_en_servicio"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:id="@+id/separador2" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/separador6" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="match_parent"
+                android:id="@+id/separador3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="168dp"
+                android:text="mensaje muestra"
+                android:id="@+id/tvadsdayMensaje"
+                android:layout_below="@+id/tvadsdayNombreUsuario"
+                android:layout_marginTop="49dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignRight="@+id/imgadsdaybackground"
+                android:textStyle="normal|italic"
+                android:textSize="20dp"
+                android:textColor="#00ffdd"
+                android:gravity="center" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="match_parent"
+                android:id="@+id/separador4" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:id="@+id/separador7" />
+
+    </LinearLayout>
+
+    <WebView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/visorWebOculto"
+        android:visibility="gone" />
+
+</RelativeLayout>
+
+<!-- ANTERIOR
+ <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lladsday"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/tvtxtadsday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_launcher"
+        android:drawablePadding="2dp"
+        android:gravity="center_vertical"
+        android:text="@null"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>
+ -->

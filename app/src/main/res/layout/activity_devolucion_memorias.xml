@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C0C0C0"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvSalidaMemorias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="1dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Salida: 0" />
+    
+            <View
+            android:id="@+id/view1"
+            style="@style/Separator"
+            android:layout_marginLeft="10dp" 
+            android:layout_marginRight="10dp"/>
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="10dp"
+	    android:orientation="horizontal">
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:textColor="#3385F0"
+			    android:textSize="17sp"
+        		android:textStyle="bold"
+                android:text="Modelo" />
+
+            <Spinner
+                android:id="@+id/spnMemorias"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"/>
+            
+     </LinearLayout>
+     
+		<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="10dp"
+	    android:orientation="horizontal">
+
+			<TextView
+			    android:id="@+id/textView3"
+			    android:layout_width="0dp"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1"
+			    android:textColor="#3385F0"
+			    android:textSize="17sp"
+        		android:textStyle="bold"
+			    android:text="Folio:" />
+
+		<EditText
+			    android:id="@+id/etFolioMemorias"
+			    android:layout_width="0dp"
+			    android:layout_height="wrap_content"
+			    style="@style/EditTextStyle"
+			    android:layout_weight="2.5"
+			    android:ems="3"
+			    android:inputType="number" >
+			</EditText>
+            
+     </LinearLayout>
+     
+		<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="10dp"
+	    android:orientation="horizontal">
+
+			<TextView
+			    android:id="@+id/textView5"
+			    android:layout_width="0dp"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1"
+			    android:textColor="#3385F0"
+			    android:textSize="17sp"
+        		android:textStyle="bold"
+			    android:text="OS:" />
+
+		<EditText
+			    android:id="@+id/etOS"
+			    android:layout_width="0dp"
+			    android:layout_height="wrap_content"
+			    style="@style/EditTextStyle"
+			    android:layout_weight="2.5"
+			    android:ems="3"
+			    android:inputType="number" >
+			</EditText>
+            
+     </LinearLayout>
+     
+				<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="10dp"
+	    android:orientation="horizontal">
+
+			<TextView
+			    android:id="@+id/textView4"
+			    android:layout_width="0dp"
+			    android:layout_height="wrap_content"
+			    android:layout_weight="1"
+			    android:textColor="#3385F0"
+			    android:textSize="17sp"
+        		android:textStyle="bold"
+			    android:text="Cantidad:" />
+
+			<EditText
+			    android:id="@+id/etCantidadMemorias"
+			    android:layout_width="0dp"
+			    android:layout_height="wrap_content"
+			    style="@style/EditTextStyle"
+			    android:layout_weight="2.5"
+			    android:ems="1"
+			    android:inputType="number" >
+			</EditText>
+            
+     </LinearLayout>
+     
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:padding="10dp"
+	    android:orientation="horizontal">
+
+		<Button
+		    android:id="@+id/btnIngresarMemoria"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="Ingresar" />
+
+		<Button
+		    android:id="@+id/btnEnviarMemoria"
+		    android:layout_width="0dp"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="Enviar" />
+            
+     </LinearLayout>
+     
+        <LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    style="@style/LayoutStyle"
+	    android:layout_margin="10dp"
+	    android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/lvDevolucionesMemorias"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="#00FFFF"
+         		android:dividerHeight="2dp" >
+            </ListView>
+            
+     </LinearLayout>
+
+</LinearLayout>
+ </ScrollView>

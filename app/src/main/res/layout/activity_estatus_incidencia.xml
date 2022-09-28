@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+    
+            <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tvSalida"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/logozitro" />
+
+            <TextView
+                android:id="@+id/tvUsuarioestatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:text="Hola"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/linearLayout7"
+        android:layout_above="@id/view1"
+        android:orientation="vertical">
+                <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            
+                        <Button
+        android:id="@+id/btnRefaccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnCodigosDeError"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/btnCodigosDeError"
+        android:layout_marginTop="10dp"
+        style="@style/ButtonStyleGris"
+        android:text="@string/aei_refaccion" />
+
+    <Button
+        android:id="@+id/btnCodigosDeError"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnCodigosdeActivacion"
+        android:layout_alignRight="@+id/btnCodigosdeActivacion"
+        android:layout_below="@+id/btnRefaccion"
+        android:layout_marginTop="20dp"
+        style="@style/ButtonStyleGris"
+        android:text="@string/aei_codigosDeError" />
+
+    <Button
+        android:id="@+id/btnCodigosdeActivacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCodigosDeError"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        style="@style/ButtonStyleGris"
+        android:text="@string/aei_CodigosdeActivacion" />
+
+    <Button
+        android:id="@+id/btnSistemaDeCaja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnCodigosdeActivacion"
+        android:layout_alignRight="@+id/btnCodigosdeActivacion"
+        android:layout_below="@+id/btnCodigosdeActivacion"
+        android:layout_marginTop="20dp"
+        style="@style/ButtonStyleGris"
+        android:text="@string/aei_SistemadeCaja" />
+
+    <Button
+        android:id="@+id/btnSoluciondeSala"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnSistemaDeCaja"
+        android:layout_alignRight="@+id/btnSistemaDeCaja"
+        android:layout_below="@+id/btnSistemaDeCaja"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        style="@style/ButtonStyleGris"
+        android:text="@string/aei_SolucionDeSala" />
+                    
+                    </RelativeLayout>
+    </LinearLayout>
+    
+                <LinearLayout
+        android:id="@+id/frag_foot_id_ly_menu_opc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:background="#999999"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imgCorreoei"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/email1" />
+
+        <ImageView
+            android:id="@+id/imgLlamarei"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/cc" />
+
+        <ImageView
+            android:id="@+id/imgInfoei"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:src="@drawable/info" />
+
+    </LinearLayout>
+    
+                            <View
+                android:id="@+id/view1"
+                style="@style/SeparatorLayout"
+                android:layout_above="@+id/frag_foot_id_ly_menu_opc"
+                android:layout_alignParentLeft="true"
+                android:paddingRight="10dp" />
+
+
+</RelativeLayout>
